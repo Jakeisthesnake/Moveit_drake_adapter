@@ -11,3 +11,22 @@ The big move of today is making an issue on the moveit2_tutorials page. While I 
 With that said, right now I am trying to modify the motion planning pipeline tutorial to use a pendulum that includes moveit_drake's toppra trajectory adapter. The issue I am currently facing seems to be some sort of mutex deadon in current_state_monitor during the constructor for the moveit_cpp node.
 
 Ok, the side quest issue of the day is getting a traceback at the spot where the deadlock seems to be happening. I have bumped into this while trying to get a traceback so you all could see where my issue is.
+
+Side quest postponed. Moveit doesn't want to build with `--cmake-args -DCMAKE_BUILD_TYPE=Debug`. (To be fair, I have hardly any experience with gdb, let alone gdb and large projects.)
+
+Anyways, the line where things hang is:
+In moveit_cpp.cpp, 
+bool MoveItCpp::loadPlanningSceneMonitor(const PlanningSceneMonitorOptions& options)
+{
+...
+return planning_scene_monitor_->getStateMonitor()->waitForCurrentState(node_->now(),
+                                                                           options.wait_for_initial_state_timeout);
+...
+}
+
+waitForCurrentState() is in current_state_monitor.cpp. I have tried adding logging statements whenever the lock gets grabbed, but it seems that nothing grabs the lock before this is line runs. So I have no idea why it hangs.
+
+I found the following issue, but I haven't figured out how to use the answer.
+
+
+
