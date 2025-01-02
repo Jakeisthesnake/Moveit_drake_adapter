@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: moveit_resources_jakes_pendulum_description
+    relative_path: urdf/jakes_pendulum.urdf
+  srdf:
+    relative_path: config/jakes_pendulum.srdf
+  package_settings:
+    author_name: Jake P
+    author_email: jakeisthesnake@gmail.com
+    generated_timestamp: 1735769773
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

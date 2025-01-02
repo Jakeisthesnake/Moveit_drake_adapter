@@ -1,0 +1,24 @@
+-- Found ament_cmake: 2.0.6 (/home/jake/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jake/moveit2_ws_main/build/moveit_common
+-- Install configuration: "Release"
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/environment/path.sh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/environment/path.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/local_setup.bash
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/local_setup.sh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/local_setup.zsh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/local_setup.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/package.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/package.xml
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake

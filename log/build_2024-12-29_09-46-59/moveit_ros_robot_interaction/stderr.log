@@ -1,0 +1,12 @@
+during IPA pass: inline
+[01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/robot_interaction/src/robot_interaction.cpp:[m[K In member function ‘[01m[Kvoid robot_interaction::RobotInteraction::toggleMoveInteractiveMarkerTopic(bool)[m[K’:
+[01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/robot_interaction/src/robot_interaction.cpp:592:6:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  592 | void [01;31m[KRobotInteraction[m[K::toggleMoveInteractiveMarkerTopic(bool enable)
+      |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/moveit_robot_interaction.dir/build.make:146: CMakeFiles/moveit_robot_interaction.dir/src/robot_interaction.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/moveit_robot_interaction.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

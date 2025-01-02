@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.0.6 (/home/jake/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found generate_parameter_library: 0.3.7 (/home/jake/moveit2_ws_main/install/generate_parameter_library/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.3.7 (/home/jake/moveit2_ws_main/install/parameter_traits/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/home/jake/ros2_iron/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/home/jake/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/home/jake/ros2_iron/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/home/jake/ros2_iron/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /home/jake/ros2_iron/install/fastrtps/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 21.0.7 (/home/jake/ros2_iron/install/rclcpp_lifecycle/share/rclcpp_lifecycle/cmake)
+-- Found moveit_core: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_cmake_gtest: 2.0.6 (/home/jake/ros2_iron/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/home/jake/ros2_iron/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jake/moveit2_ws_main/build/moveit_planners_stomp
+[  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 25%] [34m[1mRunning `/opt/ros/iron/bin/generate_parameter_library_cpp /home/jake/moveit2_ws_main/build/moveit_planners_stomp/stomp_moveit_parameters/include//stomp_moveit_parameters.hpp /home/jake/moveit2_ws_main/src/moveit2/moveit_planners/stomp/res/stomp_moveit.yaml `[0m
+[ 25%] Built target stomp_moveit_parameters
+[ 33%] [32mBuilding CXX object CMakeFiles/stomp_moveit_plugin.dir/src/stomp_moveit_planning_context.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/stomp_moveit_plugin.dir/src/stomp_moveit_planner_plugin.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 50%] Built target gtest_main
+In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_planners/stomp/src/stomp_moveit_planning_context.cpp:40[m[K:
+/usr/include/c++/11/chrono: In substitution of ‘[01m[Ktemplate<class _Rep2, class> constexpr std::chrono::duration<long int, std::ratio<1, 1000000000> >::duration(const _Rep2&) [with _Rep2 = long int; <template-parameter-1-2> = <missing>][m[K’:
+[01m[K/usr/include/c++/11/chrono:666:9:[m[K   required from ‘[01m[Kconstexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator-(const std::chrono::duration<_Rep1, _Period1>&, const std::chrono::duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1, 1000000000>; _Rep2 = long int; _Period2 = std::ratio<1, 1000000000>; typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type = std::chrono::duration<long int, std::ratio<1, 1000000000> >][m[K’
+[01m[K/usr/include/c++/11/chrono:1044:41:[m[K   required from ‘[01m[Kconstexpr typename std::common_type<_Duration1, _Duration2>::type std::chrono::operator-(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::time_point<_Clock, _Duration2>&) [with _Clock = std::chrono::_V2::steady_clock; _Dur1 = std::chrono::duration<long int, std::ratio<1, 1000000000> >; _Dur2 = std::chrono::duration<long int, std::ratio<1, 1000000000> >; typename std::common_type<_Duration1, _Duration2>::type = std::chrono::duration<long int, std::ratio<1, 1000000000> >][m[K’
+[01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:59:90:[m[K   required from here
+[01m[K/usr/include/c++/11/chrono:518:34:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  518 |         template<typename _Rep2, [01;31m[Ktypename[m[K = _Require<
+      |                                  [01;31m[K^~~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/stomp_moveit_plugin.dir/build.make:90: CMakeFiles/stomp_moveit_plugin.dir/src/stomp_moveit_planning_context.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[ 58%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 58%] Built target gtest
+gmake[1]: *** [CMakeFiles/Makefile2:202: CMakeFiles/stomp_moveit_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,97 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.0.6 (/home/jake/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found class_loader: 2.5.0 (/home/jake/ros2_iron/install/class_loader/share/class_loader/cmake)
+-- Found generate_parameter_library: 0.3.7 (/home/jake/moveit2_ws_main/install/generate_parameter_library/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.3.7 (/home/jake/moveit2_ws_main/install/parameter_traits/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/home/jake/ros2_iron/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/home/jake/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/home/jake/ros2_iron/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/home/jake/ros2_iron/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /home/jake/ros2_iron/install/fastrtps/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 21.0.7 (/home/jake/ros2_iron/install/rclcpp_lifecycle/share/rclcpp_lifecycle/cmake)
+-- Found kdl_parser: 2.9.0 (/home/jake/ros2_iron/install/kdl_parser/share/kdl_parser/cmake)
+-- Found eigen3_cmake_module: 0.2.2 (/home/jake/ros2_iron/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_core: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found moveit_ros_planning: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options system 
+-- Found ament_cmake_gtest: 2.0.6 (/home/jake/ros2_iron/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found ros_testing: 0.5.2 (/home/jake/ros2_iron/install/ros_testing/share/ros_testing/cmake)
+-- Found launch_testing_ament_cmake: 2.0.4 (/home/jake/ros2_iron/install/launch_testing_ament_cmake/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.2 (/home/jake/ros2_iron/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found moveit_resources_fanuc_description: 3.0.0 (/home/jake/moveit2_ws_main/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/cmake)
+-- Found moveit_resources_fanuc_moveit_config: 3.0.0 (/home/jake/moveit2_ws_main/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/cmake)
+-- Found moveit_resources_panda_description: 3.0.0 (/home/jake/moveit2_ws_main/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake)
+-- Found moveit_resources_panda_moveit_config: 3.0.0 (/home/jake/moveit2_ws_main/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake)
+-- Found gtest sources under '/home/jake/ros2_iron/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jake/moveit2_ws_main/build/moveit_kinematics
+[  5%] [34m[1mRunning `/opt/ros/iron/bin/generate_parameter_library_cpp /home/jake/moveit2_ws_main/build/moveit_kinematics/kdl_kinematics_plugin/kdl_kinematics_parameters/include//kdl_kinematics_parameters.hpp /home/jake/moveit2_ws_main/src/moveit2/moveit_kinematics/kdl_kinematics_plugin/src/kdl_kinematics_parameters.yaml `[0m
+[ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 15%] [34m[1mRunning `/opt/ros/iron/bin/generate_parameter_library_cpp /home/jake/moveit2_ws_main/build/moveit_kinematics/srv_kinematics_plugin/srv_kinematics_parameters/include//srv_kinematics_parameters.hpp /home/jake/moveit2_ws_main/src/moveit2/moveit_kinematics/srv_kinematics_plugin/src/srv_kinematics_parameters.yaml `[0m
+[ 20%] [32mBuilding CXX object test/CMakeFiles/benchmark_ik.dir/benchmark_ik.cpp.o[0m
+[ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 30%] [34m[1mRunning `/opt/ros/iron/bin/generate_parameter_library_cpp /home/jake/moveit2_ws_main/build/moveit_kinematics/cached_ik_kinematics_plugin/cached_ik_kinematics_parameters/include//cached_ik_kinematics_parameters.hpp /home/jake/moveit2_ws_main/src/moveit2/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_parameters.yaml `[0m
+[ 30%] Built target srv_kinematics_parameters
+[ 30%] Built target cached_ik_kinematics_parameters
+[ 35%] [32mBuilding CXX object srv_kinematics_plugin/CMakeFiles/moveit_srv_kinematics_plugin.dir/src/srv_kinematics_plugin.cpp.o[0m
+[ 35%] Built target kdl_kinematics_parameters
+[ 40%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/kdl_kinematics_plugin.cpp.o[0m
+[ 45%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/chainiksolver_vel_mimic_svd.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 50%] Built target gtest_main
+[ 55%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 55%] Built target gtest
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:317[m[K,
+                 from [01m[K/usr/include/kdl/jacobian.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/jntarray.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/chainfksolver.hpp:28[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h:53[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_kinematics/kdl_kinematics_plugin/src/kdl_kinematics_plugin.cpp:37[m[K:
+/usr/include/eigen3/Eigen/src/Core/Redux.h: In instantiation of ‘[01m[Kstatic Eigen::internal::redux_novec_unroller<Func, Evaluator, Start, Length>::Scalar Eigen::internal::redux_novec_unroller<Func, Evaluator, Start, Length>::run(const Evaluator&, const Func&) [with Func = Eigen::internal::scalar_sum_op<double, double>; Evaluator = Eigen::internal::redux_evaluator<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 1, 3, false> >, const Eigen::Block<const Eigen::Matrix<double, 3, 1>, 3, 1, true> > >; int Start = 0; int Length = 3][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Redux.h:108:37:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  108 |   static EIGEN_STRONG_INLINE Scalar [01;31m[Krun[m[K(const Evaluator &eval, const Func& func)
+      |                                     [01;31m[K^~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/build.make:76: kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/kdl_kinematics_plugin.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:363: kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 60%] [32m[1mLinking CXX shared library libmoveit_srv_kinematics_plugin.so[0m
+[ 60%] Built target moveit_srv_kinematics_plugin
+[ 65%] [32m[1mLinking CXX executable benchmark_ik[0m
+[ 65%] Built target benchmark_ik
+gmake: *** [Makefile:146: all] Error 2

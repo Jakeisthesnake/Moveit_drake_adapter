@@ -1,0 +1,20 @@
+In file included from [01m[K/usr/include/boost/random/detail/seed_impl.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/random/mersenne_twister.hpp:30[m[K,
+                 from [01m[K/opt/ros/iron/include/random_numbers/random_numbers.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model.h:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/planning_scene/planning_scene.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:43[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/benchmarks/include/moveit/benchmarks/BenchmarkExecutor.h:41[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/benchmarks/src/BenchmarkExecutor.cpp:37[m[K:
+[01m[K/usr/include/boost/throw_exception.hpp:103:47:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  103 | template<class E> struct BOOST_SYMBOL_VISIBLE [01;31m[Kwrapexcept[m[K:
+      |                                               [01;31m[K^~~~~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/moveit_ros_benchmarks.dir/build.make:90: CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkExecutor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/moveit_ros_benchmarks.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

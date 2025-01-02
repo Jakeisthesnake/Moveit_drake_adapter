@@ -1,0 +1,98 @@
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:333[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/tf2_eigen/include/tf2_eigen/tf2_eigen/tf2_eigen.hpp:32[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/moveit_servo/include/moveit_servo/utils/datatypes.hpp:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/moveit_servo/include/moveit_servo/utils/common.hpp:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/moveit_servo/src/utils/common.cpp:40[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:310:32:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  310 |   typedef typename HalfTraits::[01;31m[KLhsPacket[m[K LhsPacketHalf;
+      |                                [01;31m[K^~~~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/moveit_servo_lib_cpp.dir/build.make:104: CMakeFiles/moveit_servo_lib_cpp.dir/src/utils/common.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+                 from [01m[K/usr/include/boost/mpl/bind.hpp:50[m[K,
+                 from [01m[K/usr/include/boost/mpl/lambda.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/mpl/apply.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_facade.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_adaptor.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/iterator/reverse_iterator.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/signals2/detail/auto_buffer.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/signals2/connection.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/signals2/signal.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/signals2.hpp:19[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/current_state_monitor.h:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:46[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/moveit_servo/include/moveit_servo/utils/common.hpp:46[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/moveit_servo/include/moveit_servo/utils/command.hpp:44[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/moveit_servo/src/utils/command.cpp:40[m[K:
+/usr/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp: In instantiation of ‘[01m[Kstruct boost::mpl::bind2<boost::mpl::quote2<boost::detail::variant::is_constructible_ext, mpl_::void_>, mpl_::arg<1>, boost::shared_ptr<void>&&>::apply<boost::weak_ptr<boost::signals2::detail::trackable_pointee> >[m[K’:
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:36:8:[m[K   required from ‘[01m[Kstruct boost::mpl::apply_wrap1<boost::mpl::protect<boost::mpl::bind2<boost::mpl::quote2<boost::detail::variant::is_constructible_ext, mpl_::void_>, mpl_::arg<1>, boost::shared_ptr<void>&&>, 0>, boost::weak_ptr<boost::signals2::detail::trackable_pointee> >[m[K’
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:42:8:[m[K   required from ‘[01m[Kstruct boost::mpl::apply1<boost::detail::variant::is_constructible_ext<mpl_::arg<1>, boost::shared_ptr<void>&&>, boost::weak_ptr<boost::signals2::detail::trackable_pointee> >[m[K’
+[01m[K/usr/include/boost/mpl/aux_/iter_apply.hpp:26:8:[m[K   required from ‘[01m[Kstruct boost::mpl::aux::iter_apply1<boost::detail::variant::is_constructible_ext<mpl_::arg<1>, boost::shared_ptr<void>&&>, boost::mpl::l_iter<boost::mpl::l_item<mpl_::long_<3>, boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::mpl::l_item<mpl_::long_<2>, boost::weak_ptr<void>, boost::mpl::l_item<mpl_::long_<1>, boost::signals2::detail::foreign_void_weak_ptr, boost::mpl::l_end> > > > >[m[K’
+[01m[K/usr/include/boost/mpl/aux_/nested_type_wknd.hpp:26:31:[m[K   required from ‘[01m[Kstruct boost::mpl::aux::nested_type_wknd<boost::mpl::aux::iter_apply1<boost::detail::variant::is_constructible_ext<mpl_::arg<1>, boost::shared_ptr<void>&&>, boost::mpl::l_iter<boost::mpl::l_item<mpl_::long_<3>, boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::mpl::l_item<mpl_::long_<2>, boost::weak_ptr<void>, boost::mpl::l_item<mpl_::long_<1>, boost::signals2::detail::foreign_void_weak_ptr, boost::mpl::l_end> > > > > >[m[K’
+[01m[K/usr/include/boost/mpl/not.hpp:39:8:[m[K   required from ‘[01m[Kstruct boost::mpl::not_<boost::mpl::aux::iter_apply1<boost::detail::variant::is_constructible_ext<mpl_::arg<1>, boost::shared_ptr<void>&&>, boost::mpl::l_iter<boost::mpl::l_item<mpl_::long_<3>, boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::mpl::l_item<mpl_::long_<2>, boost::weak_ptr<void>, boost::mpl::l_item<mpl_::long_<1>, boost::signals2::detail::foreign_void_weak_ptr, boost::mpl::l_end> > > > > >[m[K’
+[01m[K/usr/include/boost/mpl/aux_/nested_type_wknd.hpp:26:31:[m[K   [ skipping 14 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:23:8:[m[K   recursively required from ‘[01m[Kstruct boost::mpl::aux::and_impl<true, boost::mpl::not_<boost::is_same<boost::shared_ptr<void>, boost::variant<boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::weak_ptr<void>, boost::signals2::detail::foreign_void_weak_ptr> > >, boost::detail::variant::is_variant_constructible_from<boost::shared_ptr<void>&&, boost::mpl::l_item<mpl_::long_<3>, boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::mpl::l_item<mpl_::long_<2>, boost::weak_ptr<void>, boost::mpl::l_item<mpl_::long_<1>, boost::signals2::detail::foreign_void_weak_ptr, boost::mpl::l_end> > > >, mpl_::bool_<true>, mpl_::bool_<true> >[m[K’
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:23:8:[m[K   required from ‘[01m[Kstruct boost::mpl::aux::and_impl<true, boost::mpl::not_<boost::is_const<boost::shared_ptr<void> > >, boost::mpl::not_<boost::is_same<boost::shared_ptr<void>, boost::variant<boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::weak_ptr<void>, boost::signals2::detail::foreign_void_weak_ptr> > >, boost::detail::variant::is_variant_constructible_from<boost::shared_ptr<void>&&, boost::mpl::l_item<mpl_::long_<3>, boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::mpl::l_item<mpl_::long_<2>, boost::weak_ptr<void>, boost::mpl::l_item<mpl_::long_<1>, boost::signals2::detail::foreign_void_weak_ptr, boost::mpl::l_end> > > >, mpl_::bool_<true> >[m[K’
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:48:8:[m[K   required from ‘[01m[Kstruct boost::mpl::and_<boost::is_rvalue_reference<boost::shared_ptr<void>&&>, boost::mpl::not_<boost::is_const<boost::shared_ptr<void> > >, boost::mpl::not_<boost::is_same<boost::shared_ptr<void>, boost::variant<boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::weak_ptr<void>, boost::signals2::detail::foreign_void_weak_ptr> > >, boost::detail::variant::is_variant_constructible_from<boost::shared_ptr<void>&&, boost::mpl::l_item<mpl_::long_<3>, boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::mpl::l_item<mpl_::long_<2>, boost::weak_ptr<void>, boost::mpl::l_item<mpl_::long_<1>, boost::signals2::detail::foreign_void_weak_ptr, boost::mpl::l_end> > > >, mpl_::bool_<true> >[m[K’
+[01m[K/usr/include/boost/mpl/aux_/nested_type_wknd.hpp:26:31:[m[K   required from ‘[01m[Kstruct boost::mpl::aux::nested_type_wknd<boost::mpl::and_<boost::is_rvalue_reference<boost::shared_ptr<void>&&>, boost::mpl::not_<boost::is_const<boost::shared_ptr<void> > >, boost::mpl::not_<boost::is_same<boost::shared_ptr<void>, boost::variant<boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::weak_ptr<void>, boost::signals2::detail::foreign_void_weak_ptr> > >, boost::detail::variant::is_variant_constructible_from<boost::shared_ptr<void>&&, boost::mpl::l_item<mpl_::long_<3>, boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::mpl::l_item<mpl_::long_<2>, boost::weak_ptr<void>, boost::mpl::l_item<mpl_::long_<1>, boost::signals2::detail::foreign_void_weak_ptr, boost::mpl::l_end> > > >, mpl_::bool_<true> > >[m[K’
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:48:8:[m[K   required from ‘[01m[Kstruct boost::mpl::or_<boost::mpl::and_<boost::is_rvalue_reference<boost::shared_ptr<void>&&>, boost::mpl::not_<boost::is_const<boost::shared_ptr<void> > >, boost::mpl::not_<boost::is_same<boost::shared_ptr<void>, boost::variant<boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::weak_ptr<void>, boost::signals2::detail::foreign_void_weak_ptr> > >, boost::detail::variant::is_variant_constructible_from<boost::shared_ptr<void>&&, boost::mpl::l_item<mpl_::long_<3>, boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::mpl::l_item<mpl_::long_<2>, boost::weak_ptr<void>, boost::mpl::l_item<mpl_::long_<1>, boost::signals2::detail::foreign_void_weak_ptr, boost::mpl::l_end> > > >, mpl_::bool_<true> >, boost::is_same<boost::shared_ptr<void>, boost::recursive_variant_>, mpl_::bool_<false>, mpl_::bool_<false>, mpl_::bool_<false> >[m[K’
+[01m[K/usr/include/boost/core/enable_if.hpp:41:10:[m[K   required from ‘[01m[Kstruct boost::enable_if<boost::mpl::or_<boost::mpl::and_<boost::is_rvalue_reference<boost::shared_ptr<void>&&>, boost::mpl::not_<boost::is_const<boost::shared_ptr<void> > >, boost::mpl::not_<boost::is_same<boost::shared_ptr<void>, boost::variant<boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::weak_ptr<void>, boost::signals2::detail::foreign_void_weak_ptr> > >, boost::detail::variant::is_variant_constructible_from<boost::shared_ptr<void>&&, boost::mpl::l_item<mpl_::long_<3>, boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::mpl::l_item<mpl_::long_<2>, boost::weak_ptr<void>, boost::mpl::l_item<mpl_::long_<1>, boost::signals2::detail::foreign_void_weak_ptr, boost::mpl::l_end> > > >, mpl_::bool_<true> >, boost::is_same<boost::shared_ptr<void>, boost::recursive_variant_>, mpl_::bool_<false>, mpl_::bool_<false>, mpl_::bool_<false> >, bool>[m[K’
+[01m[K/usr/include/boost/variant/variant.hpp:1741:5:[m[K   required by substitution of ‘[01m[Ktemplate<class T> boost::variant<boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::weak_ptr<void>, boost::signals2::detail::foreign_void_weak_ptr>::variant(T&&, typename boost::enable_if<boost::mpl::or_<boost::mpl::and_<boost::is_rvalue_reference<T&&>, boost::mpl::not_<boost::is_const<T> >, boost::mpl::not_<boost::is_same<T, boost::variant<boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::weak_ptr<void>, boost::signals2::detail::foreign_void_weak_ptr> > >, boost::detail::variant::is_variant_constructible_from<T&&, boost::mpl::l_item<mpl_::long_<3>, boost::weak_ptr<boost::signals2::detail::trackable_pointee>, boost::mpl::l_item<mpl_::long_<2>, boost::weak_ptr<void>, boost::mpl::l_item<mpl_::long_<1>, boost::signals2::detail::foreign_void_weak_ptr, boost::mpl::l_end> > > >, mpl_::bool_<true> >, boost::is_same<T, boost::recursive_variant_>, mpl_::bool_<false>, mpl_::bool_<false>, mpl_::bool_<false> >, bool>::type) [with T = boost::shared_ptr<void>][m[K’
+[01m[K/usr/include/boost/signals2/slot_base.hpp:99:35:[m[K   required from here
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp:198:51:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  198 |         typedef aux::replace_unnamed_arg< T2,n2 > [01;31m[Kr2[m[K;
+      |                                                   [01;31m[K^~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/moveit_servo_lib_cpp.dir/build.make:118: CMakeFiles/moveit_servo_lib_cpp.dir/src/utils/command.cpp.o] Error 1
+In file included from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/client.hpp:29[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/tf2_ros/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/tf2_eigen/include/tf2_eigen/tf2_eigen/tf2_eigen.hpp:42[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/moveit_servo/include/moveit_servo/utils/datatypes.hpp:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/moveit_servo/tests/servo_ros_fixture.hpp:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/moveit_servo/tests/test_ros_integration.cpp:42[m[K:
+/usr/include/c++/11/variant: In substitution of ‘[01m[Ktemplate<class ... _Types> using _Copy_ctor_alias = std::__detail::__variant::_Copy_ctor_base<std::__detail::__variant::_Traits<_Types>::_S_trivial_copy_ctor, _Types ...> [with _Types = {_Types ...}][m[K’:
+[01m[K/usr/include/c++/11/variant:572:73:[m[K   required from here
+[01m[K/usr/include/c++/11/variant:572:73:[m[K [01;31m[Kinternal compiler error: [m[KBus error
+  572 |     struct _Move_ctor_base<true, _Types...> : _Copy_ctor_alias<_Types...[01;31m[K>[m[K
+      |                                                                         [01;31m[K^[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/moveit_servo_ros_integration_test.dir/build.make:76: CMakeFiles/moveit_servo_ros_integration_test.dir/tests/test_ros_integration.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:446: CMakeFiles/moveit_servo_ros_integration_test.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.h:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/planning_scene/planning_scene.h:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:43[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/moveit_servo/include/moveit_servo/collision_monitor.hpp:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/moveit_servo/include/moveit_servo/servo.hpp:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/moveit_servo/src/servo.cpp:40[m[K:
+[01m[K/opt/ros/iron/include/geometric_shapes/bodies.h:411:3:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  411 |   [01;31m[K~[m[KBox() override = default;
+      |   [01;31m[K^[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/moveit_servo_lib_cpp.dir/build.make:90: CMakeFiles/moveit_servo_lib_cpp.dir/src/servo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/moveit_servo_lib_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

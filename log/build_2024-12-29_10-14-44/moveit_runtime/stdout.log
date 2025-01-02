@@ -1,0 +1,21 @@
+-- Found ament_cmake: 2.0.6 (/home/jake/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jake/moveit2_ws_main/build/moveit_runtime
+-- Install configuration: "Release"
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_runtime/share/ament_index/resource_index/package_run_dependencies/moveit_runtime
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_runtime/share/ament_index/resource_index/parent_prefix_path/moveit_runtime
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_runtime/share/moveit_runtime/environment/ament_prefix_path.sh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_runtime/share/moveit_runtime/environment/ament_prefix_path.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_runtime/share/moveit_runtime/environment/path.sh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_runtime/share/moveit_runtime/environment/path.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_runtime/share/moveit_runtime/local_setup.bash
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_runtime/share/moveit_runtime/local_setup.sh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_runtime/share/moveit_runtime/local_setup.zsh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_runtime/share/moveit_runtime/local_setup.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_runtime/share/moveit_runtime/package.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_runtime/share/ament_index/resource_index/packages/moveit_runtime
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_runtime/share/moveit_runtime/cmake/moveit_runtimeConfig.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_runtime/share/moveit_runtime/cmake/moveit_runtimeConfig-version.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_runtime/share/moveit_runtime/package.xml

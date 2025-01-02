@@ -1,0 +1,197 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.6 (/home/jake/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 21.0.7 (/home/jake/ros2_iron/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/home/jake/ros2_iron/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/home/jake/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/home/jake/ros2_iron/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/home/jake/ros2_iron/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /home/jake/ros2_iron/install/fastrtps/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 4.1.6 (/home/jake/ros2_iron/install/rclpy/share/rclpy/cmake)
+-- Found geometry_msgs: 5.0.1 (/home/jake/ros2_iron/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found moveit_ros_planning: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found parameter_traits: 0.3.7 (/home/jake/moveit2_ws_main/install/parameter_traits/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 21.0.7 (/home/jake/ros2_iron/install/rclcpp_lifecycle/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning_interface: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+-- Found pybind11_vendor: 3.0.3 (/home/jake/ros2_iron/install/pybind11_vendor/share/pybind11_vendor/cmake)
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- Found pybind11: /usr/include (found version "2.9.1")
+-- Found ament_cmake_pytest: 2.0.6 (/home/jake/ros2_iron/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jake/moveit2_ws_main/build/moveit_py
+[  4%] [32mBuilding CXX object src/moveit/moveit_py_utils/CMakeFiles/moveit_py_utils.dir/src/copy_ros_msg.cpp.o[0m
+[  8%] [32mBuilding CXX object src/moveit/moveit_py_utils/CMakeFiles/moveit_py_utils.dir/src/ros_msg_typecasters.cpp.o[0m
+[  8%] Built target ament_cmake_python_copy_moveit
+running egg_info
+creating moveit.egg-info
+writing moveit.egg-info/PKG-INFO
+writing dependency_links to moveit.egg-info/dependency_links.txt
+writing top-level names to moveit.egg-info/top_level.txt
+writing manifest file 'moveit.egg-info/SOURCES.txt'
+reading manifest file 'moveit.egg-info/SOURCES.txt'
+writing manifest file 'moveit.egg-info/SOURCES.txt'
+[  8%] Built target ament_cmake_python_build_moveit_egg
+[ 12%] [32m[1mLinking CXX shared library libmoveit_py_utils.so[0m
+[ 12%] Built target moveit_py_utils
+[ 16%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/planning_interface/planning_response.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/core.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/collision_detection/world.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/kinematic_constraints/utils.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/collision_detection/collision_matrix.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/collision_detection/collision_common.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/controller_manager/controller_manager.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/planning.cpp.o[0m
+In file included from [01m[K/usr/include/c++/11/future:39[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_py/src/moveit/moveit_core/kinematic_constraints/utils.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_py/src/moveit/moveit_core/kinematic_constraints/utils.cpp:37[m[K:
+[01m[K/usr/include/c++/11/condition_variable:256:72:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  256 |         explicit _Unlock(_Lock& __lk) : _M_lock(__lk) { __lk.unlock(); [01;31m[K}[m[K
+      |                                                                        [01;31m[K^[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/core.dir/build.make:146: CMakeFiles/core.dir/src/moveit/moveit_core/kinematic_constraints/utils.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[ 50%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/moveit_ros/moveit_cpp/moveit_cpp.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/moveit_ros/moveit_cpp/planning_component.cpp.o[0m
+In file included from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_py/src/moveit/moveit_py_utils/include/moveit_py/moveit_py_utils/ros_msg_typecasters.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_py/src/moveit/moveit_ros/moveit_cpp/moveit_cpp.h:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_py/src/moveit/moveit_ros/moveit_cpp/moveit_cpp.cpp:37[m[K:
+[01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/client.hpp:[m[K In constructor ‘[01m[Krclcpp::Client<ServiceT>::Client(rclcpp::node_interfaces::NodeBaseInterface*, rclcpp::node_interfaces::NodeGraphInterface::SharedPtr, const string&, rcl_client_options_t&)[m[K’:
+[01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/client.hpp:481:8:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  481 |       &[01;31m[Kclient_options[m[K);
+      |        [01;31m[K^~~~~~~~~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/planning.dir/build.make:90: CMakeFiles/planning.dir/src/moveit/moveit_ros/moveit_cpp/moveit_cpp.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:359[m[K,
+                 from [01m[K/usr/include/pybind11/eigen.h:30[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_py/src/moveit/moveit_core/collision_detection/collision_common.h:38[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_py/src/moveit/core.cpp:37[m[K:
+/usr/include/eigen3/Eigen/src/Core/Random.h: In instantiation of ‘[01m[Kclass Eigen::DenseBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true> >[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MapBase.h:37:34:[m[K   required from ‘[01m[Kclass Eigen::MapBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>, 0>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:329:7:[m[K   required from ‘[01m[Kclass Eigen::internal::BlockImpl_dense<const Eigen::Matrix<double, 4, 4>, 3, 1, true, true>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:154:7:[m[K   required from ‘[01m[Kclass Eigen::BlockImpl<const Eigen::Matrix<double, 4, 4>, 3, 1, true, Eigen::Dense>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:103:81:[m[K   required from ‘[01m[Kclass Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>[m[K’
+[01m[K/home/jake/ros2_iron/install/tf2_eigen/include/tf2_eigen/tf2_eigen/tf2_eigen.hpp:78:44:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/Random.h:56:1:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+   56 | [01;31m[KDenseBase<Derived>[m[K::Random(Index rows, Index cols)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/core.dir/build.make:76: CMakeFiles/core.dir/src/moveit/core.cpp.o] Error 1
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:278[m[K,
+                 from [01m[K/usr/include/pybind11/eigen.h:30[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_py/src/moveit/moveit_core/planning_interface/planning_response.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_py/src/moveit/moveit_core/planning_interface/planning_response.cpp:37[m[K:
+/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kvoid Eigen::internal::call_dense_assignment_loop(DstXprType&, const SrcXprType&, const Functor&) [with DstXprType = Eigen::Matrix<double, 1, 3>; SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Transpose<Eigen::Diagonal<Eigen::Matrix<double, 3, 3>, 0> >, const Eigen::Transpose<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 3, 1> > > >; Functor = Eigen::internal::assign_op<double, double>][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:954:31:[m[K   required from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, SrcXprType, Functor, Eigen::internal::Dense2Dense, Weak>::run(DstXprType&, const SrcXprType&, const Functor&) [with DstXprType = Eigen::Matrix<double, 1, 3>; SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Transpose<Eigen::Diagonal<Eigen::Matrix<double, 3, 3>, 0> >, const Eigen::Transpose<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 3, 1> > > >; Functor = Eigen::internal::assign_op<double, double>; Weak = void][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 1, 3>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Transpose<Eigen::Diagonal<Eigen::Matrix<double, 3, 3>, 0> >, const Eigen::Transpose<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 3, 1> > > >; Func = Eigen::internal::assign_op<double, double>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:797:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Transpose<Eigen::Diagonal<Eigen::Matrix<double, 3, 3>, 0> >, const Eigen::Transpose<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 3, 1> > > >; Derived = Eigen::Matrix<double, 1, 3>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:883:25:[m[K   required from ‘[01m[Kvoid Eigen::PlainObjectBase<Derived>::_init1(const Eigen::DenseBase<ElseDerived>&) [with T = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Transpose<Eigen::Diagonal<Eigen::Matrix<double, 3, 3>, 0> >, const Eigen::Transpose<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 3, 1> > > >; OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Transpose<Eigen::Diagonal<Eigen::Matrix<double, 3, 3>, 0> >, const Eigen::Transpose<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 3, 1> > > >; Derived = Eigen::Matrix<double, 1, 3>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:332:31:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Transpose<Eigen::Diagonal<Eigen::Matrix<double, 3, 3>, 0> >, const Eigen::Transpose<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 3, 1> > > >; _Scalar = double; int _Rows = 1; int _Cols = 3; int _Options = 1; int _MaxRows = 1; int _MaxCols = 3][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:412:48:[m[K   required from ‘[01m[KEigen::DenseBase<Derived>::EvalReturnType Eigen::DenseBase<Derived>::eval() const [with Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Transpose<Eigen::Diagonal<Eigen::Matrix<double, 3, 3>, 0> >, const Eigen::Transpose<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 3, 1> > > >; Eigen::DenseBase<Derived>::EvalReturnType = const Eigen::Matrix<double, 1, 3>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/IO.h:253:42:[m[K   required from ‘[01m[Kstd::ostream& Eigen::operator<<(std::ostream&, const Eigen::DenseBase<Derived>&) [with Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Transpose<Eigen::Diagonal<Eigen::Matrix<double, 3, 3>, 0> >, const Eigen::Transpose<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 3, 1> > > >; std::ostream = std::basic_ostream<char>][m[K’
+[01m[K/opt/ros/iron/include/geometric_shapes/check_isometry.h:86:87:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:786:1:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  786 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/core.dir/build.make:160: CMakeFiles/core.dir/src/moveit/moveit_core/planning_interface/planning_response.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/core.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/usr/include/c++/11/map:60[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/SparseCore:16[m[K,
+                 from [01m[K/usr/include/pybind11/eigen.h:31[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_py/src/moveit/moveit_ros/moveit_cpp/moveit_cpp.h:41[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_py/src/moveit/planning.cpp:37[m[K:
+/usr/include/c++/11/bits/stl_tree.h: In instantiation of ‘[01m[Kstd::_Rb_tree_node<_Val>* std::_Rb_tree<_Key2, _Value2, _KeyOfValue, _Compare, _ValueAlloc>::_M_create_node(_Args&& ...) [with _Args = {const std::piecewise_construct_t&, std::tuple<const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>, std::tuple<>}; _Key = std::__cxx11::basic_string<char>; _Val = std::pair<const std::__cxx11::basic_string<char>, collision_detection::World::Action>; _KeyOfValue = std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, collision_detection::World::Action> >; _Compare = std::less<std::__cxx11::basic_string<char> >; _Alloc = std::allocator<std::pair<const std::__cxx11::basic_string<char>, collision_detection::World::Action> >; std::_Rb_tree<_Key2, _Value2, _KeyOfValue, _Compare, _ValueAlloc>::_Link_type = std::_Rb_tree_node<std::pair<const std::__cxx11::basic_string<char>, collision_detection::World::Action> >*][m[K’:
+[01m[K/usr/include/c++/11/bits/stl_tree.h:2431:33:[m[K   required from ‘[01m[Kstd::_Rb_tree<_Key2, _Value2, _KeyOfValue, _Compare, _ValueAlloc>::iterator std::_Rb_tree<_Key2, _Value2, _KeyOfValue, _Compare, _ValueAlloc>::_M_emplace_hint_unique(std::_Rb_tree<_Key2, _Value2, _KeyOfValue, _Compare, _ValueAlloc>::const_iterator, _Args&& ...) [with _Args = {const std::piecewise_construct_t&, std::tuple<const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>, std::tuple<>}; _Key = std::__cxx11::basic_string<char>; _Val = std::pair<const std::__cxx11::basic_string<char>, collision_detection::World::Action>; _KeyOfValue = std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, collision_detection::World::Action> >; _Compare = std::less<std::__cxx11::basic_string<char> >; _Alloc = std::allocator<std::pair<const std::__cxx11::basic_string<char>, collision_detection::World::Action> >; std::_Rb_tree<_Key2, _Value2, _KeyOfValue, _Compare, _ValueAlloc>::iterator = std::_Rb_tree<std::__cxx11::basic_string<char>, std::pair<const std::__cxx11::basic_string<char>, collision_detection::World::Action>, std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, collision_detection::World::Action> >, std::less<std::__cxx11::basic_string<char> >, std::allocator<std::pair<const std::__cxx11::basic_string<char>, collision_detection::World::Action> > >::iterator; std::_Rb_tree<_Key2, _Value2, _KeyOfValue, _Compare, _ValueAlloc>::const_iterator = std::_Rb_tree<std::__cxx11::basic_string<char>, std::pair<const std::__cxx11::basic_string<char>, collision_detection::World::Action>, std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, collision_detection::World::Action> >, std::less<std::__cxx11::basic_string<char> >, std::allocator<std::pair<const std::__cxx11::basic_string<char>, collision_detection::World::Action> > >::const_iterator][m[K’
+[01m[K/usr/include/c++/11/bits/stl_map.h:501:37:[m[K   required from ‘[01m[Kstd::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](const key_type&) [with _Key = std::__cxx11::basic_string<char>; _Tp = collision_detection::World::Action; _Compare = std::less<std::__cxx11::basic_string<char> >; _Alloc = std::allocator<std::pair<const std::__cxx11::basic_string<char>, collision_detection::World::Action> >; std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type = collision_detection::World::Action; std::map<_Key, _Tp, _Compare, _Alloc>::key_type = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/collision_detection/world_diff.h:105:18:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/stl_tree.h:611:30:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  611 |           _Link_type __tmp = [01;31m[K_M_get_node[m[K();
+      |                              [01;31m[K^~~~~~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/planning.dir/build.make:76: CMakeFiles/planning.dir/src/moveit/planning.cpp.o] Error 1
+In file included from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+                 from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/usr/include/c++/11/math.h:36[m[K,
+                 from [01m[K/usr/include/python3.10/pyport.h:210[m[K,
+                 from [01m[K/usr/include/python3.10/Python.h:50[m[K,
+                 from [01m[K/usr/include/pybind11/detail/common.h:215[m[K,
+                 from [01m[K/usr/include/pybind11/pytypes.h:12[m[K,
+                 from [01m[K/usr/include/pybind11/cast.h:13[m[K,
+                 from [01m[K/usr/include/pybind11/attr.h:13[m[K,
+                 from [01m[K/usr/include/pybind11/pybind11.h:13[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_py/src/moveit/moveit_ros/moveit_cpp/planning_component.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_py/src/moveit/moveit_ros/moveit_cpp/planning_component.cpp:37[m[K:
+/usr/include/c++/11/bits/move.h: In substitution of ‘[01m[Ktemplate<class _Tp> constexpr _Tp&& std::forward(typename std::remove_reference<_Tp>::type&&) [with _Tp = std::shared_ptr<moveit::core::RobotState>][m[K’:
+[01m[K/usr/include/c++/11/bits/deque.tcc:147:29:[m[K   required from ‘[01m[Kstd::deque<_Tp, _Alloc>::reference std::deque<_Tp, _Alloc>::emplace_front(_Args&& ...) [with _Args = {std::shared_ptr<moveit::core::RobotState>}; _Tp = std::shared_ptr<moveit::core::RobotState>; _Alloc = std::allocator<std::shared_ptr<moveit::core::RobotState> >; std::deque<_Tp, _Alloc>::reference = std::shared_ptr<moveit::core::RobotState>&][m[K’
+[01m[K/usr/include/c++/11/bits/stl_deque.h:1475:22:[m[K   required from ‘[01m[Kvoid std::deque<_Tp, _Alloc>::push_front(std::deque<_Tp, _Alloc>::value_type&&) [with _Tp = std::shared_ptr<moveit::core::RobotState>; _Alloc = std::allocator<std::shared_ptr<moveit::core::RobotState> >; std::deque<_Tp, _Alloc>::value_type = std::shared_ptr<moveit::core::RobotState>][m[K’
+[01m[K/usr/include/c++/11/bits/deque.tcc:659:16:[m[K   required from ‘[01m[Kstd::deque<_Tp, _Alloc>::iterator std::deque<_Tp, _Alloc>::_M_insert_aux(std::deque<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const std::shared_ptr<moveit::core::RobotState>&}; _Tp = std::shared_ptr<moveit::core::RobotState>; _Alloc = std::allocator<std::shared_ptr<moveit::core::RobotState> >; std::deque<_Tp, _Alloc>::iterator = std::_Deque_base<std::shared_ptr<moveit::core::RobotState>, std::allocator<std::shared_ptr<moveit::core::RobotState> > >::iterator][m[K’
+[01m[K/usr/include/c++/11/bits/deque.tcc:230:22:[m[K   required from ‘[01m[Kstd::deque<_Tp, _Alloc>::iterator std::deque<_Tp, _Alloc>::insert(std::deque<_Tp, _Alloc>::const_iterator, const value_type&) [with _Tp = std::shared_ptr<moveit::core::RobotState>; _Alloc = std::allocator<std::shared_ptr<moveit::core::RobotState> >; std::deque<_Tp, _Alloc>::iterator = std::_Deque_base<std::shared_ptr<moveit::core::RobotState>, std::allocator<std::shared_ptr<moveit::core::RobotState> > >::iterator; std::deque<_Tp, _Alloc>::const_iterator = std::_Deque_base<std::shared_ptr<moveit::core::RobotState>, std::allocator<std::shared_ptr<moveit::core::RobotState> > >::const_iterator; std::deque<_Tp, _Alloc>::value_type = std::shared_ptr<moveit::core::RobotState>][m[K’
+[01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_trajectory/robot_trajectory.h:227:22:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/move.h:89:5:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+   89 |     [01;31m[Kforward[m[K(typename std::remove_reference<_Tp>::type&& __t) noexcept
+      |     [01;31m[K^~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/planning.dir/build.make:104: CMakeFiles/planning.dir/src/moveit/moveit_ros/moveit_cpp/planning_component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:237: CMakeFiles/planning.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

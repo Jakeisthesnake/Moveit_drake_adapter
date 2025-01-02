@@ -1,0 +1,12 @@
+during IPA pass: inline
+[01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/trajectory_cache/src/trajectory_cache.cpp:[m[K In function ‘[01m[Kvoid moveit_ros::trajectory_cache::sortConstraints(std::vector<moveit_msgs::msg::JointConstraint_<std::allocator<void> >, std::allocator<moveit_msgs::msg::JointConstraint_<std::allocator<void> > > >&, std::vector<moveit_msgs::msg::PositionConstraint_<std::allocator<void> >, std::allocator<moveit_msgs::msg::PositionConstraint_<std::allocator<void> > > >&, std::vector<moveit_msgs::msg::OrientationConstraint_<std::allocator<void> >, std::allocator<moveit_msgs::msg::OrientationConstraint_<std::allocator<void> > > >&)[m[K’:
+[01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/trajectory_cache/src/trajectory_cache.cpp:85:6:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+   85 | void [01;31m[KsortConstraints[m[K(std::vector<moveit_msgs::msg::JointConstraint>& joint_constraints,
+      |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/moveit_ros_trajectory_cache_lib.dir/build.make:76: CMakeFiles/moveit_ros_trajectory_cache_lib.dir/src/trajectory_cache.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/moveit_ros_trajectory_cache_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

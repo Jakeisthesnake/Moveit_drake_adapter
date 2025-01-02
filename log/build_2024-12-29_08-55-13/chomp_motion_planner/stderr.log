@@ -1,0 +1,47 @@
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:298[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model.h:46[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/planning_scene/planning_scene.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include/chomp_motion_planner/chomp_utils.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include/chomp_motion_planner/chomp_trajectory.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include/chomp_motion_planner/chomp_cost.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include/chomp_motion_planner/chomp_optimizer.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_planners/chomp/chomp_motion_planner/src/chomp_planner.cpp:37[m[K:
+/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h: In instantiation of ‘[01m[KEigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::CwiseBinaryOp(const Lhs&, const Rhs&, const BinaryOp&) [with BinaryOp = Eigen::internal::scalar_conj_product_op<double, double>; LhsType = const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true>; RhsType = const Eigen::Product<Eigen::Matrix<double, -1, -1>, Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true>, 0>; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Lhs = Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true>; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Rhs = Eigen::Product<Eigen::Matrix<double, -1, -1>, Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true>, 0>][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:45:10:[m[K   required from ‘[01m[Kconst Eigen::CwiseBinaryOp<CustomBinaryOp, const Derived, const OtherDerived> Eigen::MatrixBase<Derived>::binaryExpr(const Eigen::MatrixBase<OtherDerived>&, const CustomBinaryOp&) const [with CustomBinaryOp = Eigen::internal::scalar_conj_product_op<double, double>; OtherDerived = Eigen::Product<Eigen::Matrix<double, -1, -1>, Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true>, 0>; Derived = Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Dot.h:37:44:[m[K   required from ‘[01m[Kstatic Eigen::internal::dot_nocheck<T, U, NeedToTranspose>::ResScalar Eigen::internal::dot_nocheck<T, U, NeedToTranspose>::run(const Eigen::MatrixBase<Derived>&, const Eigen::MatrixBase<U>&) [with T = Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true>; U = Eigen::Product<Eigen::Matrix<double, -1, -1>, Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true>, 0>; bool NeedToTranspose = false; Eigen::internal::dot_nocheck<T, U, NeedToTranspose>::ResScalar = double][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Dot.h:84:58:[m[K   required from ‘[01m[Ktypename Eigen::ScalarBinaryOpTraits<typename Eigen::internal::traits<T>::Scalar, typename Eigen::internal::traits<OtherDerived>::Scalar>::ReturnType Eigen::MatrixBase<Derived>::dot(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Product<Eigen::Matrix<double, -1, -1>, Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true>, 0>; Derived = Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true>; typename Eigen::ScalarBinaryOpTraits<typename Eigen::internal::traits<T>::Scalar, typename Eigen::internal::traits<OtherDerived>::Scalar>::ReturnType = double; typename Eigen::internal::traits<OtherDerived>::Scalar = double; typename Eigen::internal::traits<T>::Scalar = double][m[K’
+[01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include/chomp_motion_planner/chomp_cost.h:97:30:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:110:5:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  110 |     [01;31m[KCwiseBinaryOp[m[K(const Lhs& aLhs, const Rhs& aRhs, const BinaryOp& func = BinaryOp())
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/chomp_motion_planner.dir/build.make:132: CMakeFiles/chomp_motion_planner.dir/src/chomp_planner.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:271[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model.h:46[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/planning_scene/planning_scene.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include/chomp_motion_planner/chomp_utils.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include/chomp_motion_planner/chomp_trajectory.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include/chomp_motion_planner/chomp_cost.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include/chomp_motion_planner/chomp_optimizer.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_planners/chomp/chomp_motion_planner/src/chomp_optimizer.cpp:37[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:[m[K In member function ‘[01m[Kconstexpr Eigen::Index Eigen::DenseCoeffsBase<Derived, 3>::rowStride() const [with Derived = Eigen::Block<Eigen::Matrix<double, -1, -1>, 1, -1, false>][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:601:18:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  601 |     inline Index [01;31m[KrowStride[m[K() const EIGEN_NOEXCEPT
+      |                  [01;31m[K^~~~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/chomp_motion_planner.dir/build.make:118: CMakeFiles/chomp_motion_planner.dir/src/chomp_optimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/chomp_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

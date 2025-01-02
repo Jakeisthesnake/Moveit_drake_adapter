@@ -1,0 +1,18 @@
+In file included from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/context.hpp:35[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/perception/depth_image_octomap_updater/include/moveit/depth_image_octomap_updater/depth_image_octomap_updater.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/perception/depth_image_octomap_updater/src/depth_image_octomap_updater.cpp:37[m[K:
+[01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:69:3:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+   69 |   [01;31m[KRCLCPP_SMART_PTR_DEFINITIONS_NOT_COPYABLE[m[K(Executor)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [depth_image_octomap_updater/CMakeFiles/moveit_depth_image_octomap_updater_core.dir/build.make:76: depth_image_octomap_updater/CMakeFiles/moveit_depth_image_octomap_updater_core.dir/src/depth_image_octomap_updater.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:378: depth_image_octomap_updater/CMakeFiles/moveit_depth_image_octomap_updater_core.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

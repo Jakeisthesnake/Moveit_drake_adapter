@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[  8%] Built target stomp_moveit_parameters
+[ 25%] Built target gtest_main
+[ 41%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target stomp_moveit_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/stomp_moveit_plugin.dir/src/stomp_moveit_planning_context.cpp.o[0m
+[ 58%] [32mBuilding CXX object test/CMakeFiles/test_noise_generator.dir/test_noise_generator.cpp.o[0m
+[ 66%] [32mBuilding CXX object test/CMakeFiles/test_cost_functions.dir/test_cost_functions.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable test_noise_generator[0m
+[ 75%] Built target test_noise_generator
+[ 83%] [32m[1mLinking CXX executable test_cost_functions[0m
+[ 83%] Built target test_cost_functions
+[ 91%] [32m[1mLinking CXX shared library libstomp_moveit_plugin.so[0m
+[100%] Built target stomp_moveit_plugin
+-- Install configuration: "Release"
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/include/stomp_moveit_parameters
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/include/stomp_moveit_parameters/stomp_moveit_parameters.hpp
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/stomp_moveit_plugin_description.xml
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/lib/libstomp_moveit_plugin.so
+-- Set runtime path of "/home/jake/moveit2_ws_main/install/moveit_planners_stomp/lib/libstomp_moveit_plugin.so" to ""
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/environment/library_path.sh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/environment/library_path.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/ament_index/resource_index/package_run_dependencies/moveit_planners_stomp
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/ament_index/resource_index/parent_prefix_path/moveit_planners_stomp
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/environment/ament_prefix_path.sh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/environment/ament_prefix_path.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/environment/path.sh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/environment/path.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/local_setup.bash
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/local_setup.sh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/local_setup.zsh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/local_setup.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/package.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/ament_index/resource_index/packages/moveit_planners_stomp
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_planners_stomp
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/cmake/moveit_planners_stompTargetsExport.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/cmake/moveit_planners_stompTargetsExport-release.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/cmake/moveit_planners_stompConfig.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/cmake/moveit_planners_stompConfig-version.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_planners_stomp/share/moveit_planners_stomp/package.xml

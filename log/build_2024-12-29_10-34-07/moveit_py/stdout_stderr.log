@@ -1,0 +1,125 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_py_utils[0m
+[ 12%] Built target moveit_py_utils
+[ 12%] Built target ament_cmake_python_copy_moveit
+[35m[1mConsolidate compiler generated dependencies of target core[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/planning.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/moveit_ros/moveit_cpp/moveit_cpp.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/moveit_ros/moveit_cpp/planning_component.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/moveit_ros/trajectory_execution_manager/trajectory_execution_manager.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/moveit_ros/planning_scene_monitor/planning_scene_monitor.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/kinematic_constraints/utils.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/core.cpp.o[0m
+running egg_info
+writing moveit.egg-info/PKG-INFO
+writing dependency_links to moveit.egg-info/dependency_links.txt
+writing top-level names to moveit.egg-info/top_level.txt
+reading manifest file 'moveit.egg-info/SOURCES.txt'
+writing manifest file 'moveit.egg-info/SOURCES.txt'
+[ 41%] Built target ament_cmake_python_build_moveit_egg
+[ 45%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/planning_interface/planning_response.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/planning_scene/planning_scene.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/transforms/transforms.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/robot_model/joint_model.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/robot_model/joint_model_group.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/robot_model/robot_model.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/robot_state/robot_state.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/robot_trajectory/robot_trajectory.cpp.o[0m
+[ 79%] [32m[1mLinking CXX shared module test_moveit/planning.cpython-310-x86_64-linux-gnu.so[0m
+[01m[K/usr/include/pybind11/stl.h:172:49:[m[K [01;36m[Knote: [m[Ktype ‘[01m[Kstruct type_caster[m[K’ itself violates the C++ One Definition Rule
+  172 | template <typename Type, typename Alloc> struct type_caster<std::vector<Type, Alloc>>
+      |                                                 [01;36m[K^[m[K
+[01m[K/usr/include/pybind11/cast.h:33:56:[m[K [01;36m[Knote: [m[Kthe incompatible type is defined here
+   33 | template <typename type, typename SFINAE = void> class type_caster : public type_caster_base<type> { };
+      |                                                        [01;36m[K^[m[K
+lto-wrapper: warning: using serial compilation of 7 LTRANS jobs
+[ 83%] [32m[1mLinking CXX shared module test_moveit/core.cpython-310-x86_64-linux-gnu.so[0m
+[ 83%] Built target planning
+lto-wrapper: warning: using serial compilation of 9 LTRANS jobs
+[100%] Built target core
+-- Install configuration: "Release"
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/environment/pythonpath.sh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/environment/pythonpath.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit-2.11.0-py3.10.egg-info
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit-2.11.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit-2.11.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit-2.11.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit-2.11.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/core
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/core/planning_interface.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/core/__init__.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/core/robot_trajectory.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/core/robot_state.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/core/controller_manager.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/core/collision_detection.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/core/robot_model.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/core/kinematic_constraints.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/core/planning_scene.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/README.md
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/__init__.py
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/py.typed
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/utils.py
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/planning.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/policies
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/policies/policy.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/policies/__init__.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/policies/__init__.py
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/policies/policy.py
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/utils.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/__init__.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/teleop.py
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/README.md
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/__init__.py
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/teleop.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/devices
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/devices/ps4_dualshock.py
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/devices/ps4_dualshock.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/devices/__init__.pyi
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/devices/__init__.py
+Listing '/home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit'...
+Compiling '/home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/__init__.py'...
+Listing '/home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/core'...
+Listing '/home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/policies'...
+Compiling '/home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/policies/__init__.py'...
+Compiling '/home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/policies/policy.py'...
+Listing '/home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client'...
+Compiling '/home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/__init__.py'...
+Listing '/home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/devices'...
+Compiling '/home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/devices/__init__.py'...
+Compiling '/home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/devices/ps4_dualshock.py'...
+Compiling '/home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/teleop.py'...
+Compiling '/home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/utils.py'...
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/core.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/core.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/planning.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/jake/moveit2_ws_main/install/moveit_py/lib/python3.10/site-packages/moveit/planning.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/environment/library_path.sh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/environment/library_path.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/ament_index/resource_index/package_run_dependencies/moveit_py
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/ament_index/resource_index/parent_prefix_path/moveit_py
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/environment/ament_prefix_path.sh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/environment/ament_prefix_path.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/environment/path.sh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/environment/path.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/local_setup.bash
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/local_setup.sh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/local_setup.zsh
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/local_setup.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/package.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/ament_index/resource_index/packages/moveit_py
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/cmake/moveit_py_utilsTargetsExport.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/cmake/moveit_py_utilsTargetsExport-release.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/cmake/moveit_pyConfig.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/cmake/moveit_pyConfig-version.cmake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/share/moveit_py/package.xml
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/libmoveit_py_utils.so.
+-- Set runtime path of "/home/jake/moveit2_ws_main/install/moveit_py/lib/libmoveit_py_utils.so." to ""
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/lib/libmoveit_py_utils.so
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/include/moveit_py
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/include/moveit_py/moveit_py
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/include/moveit_py/moveit_py/moveit_py_utils
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/include/moveit_py/moveit_py/moveit_py_utils/ros_msg_typecasters.h
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_py/include/moveit_py/moveit_py/moveit_py_utils/copy_ros_msg.h

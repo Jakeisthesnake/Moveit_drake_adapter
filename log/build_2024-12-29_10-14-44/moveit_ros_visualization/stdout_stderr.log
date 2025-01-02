@@ -1,0 +1,162 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.0.6 (/home/jake/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found class_loader: 2.5.0 (/home/jake/ros2_iron/install/class_loader/share/class_loader/cmake)
+-- Found geometric_shapes: 2.2.1 (/home/jake/moveit2_ws_main/install/geometric_shapes/share/geometric_shapes/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- Found rosidl_generator_c: 4.0.1 (/home/jake/ros2_iron/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/home/jake/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/home/jake/ros2_iron/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/home/jake/ros2_iron/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /home/jake/ros2_iron/install/fastrtps/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found interactive_markers: 2.4.0 (/home/jake/ros2_iron/install/interactive_markers/share/interactive_markers/cmake)
+-- Found moveit_ros_planning: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found parameter_traits: 0.3.7 (/home/jake/moveit2_ws_main/install/parameter_traits/share/parameter_traits/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Found rclcpp_lifecycle: 21.0.7 (/home/jake/ros2_iron/install/rclcpp_lifecycle/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning_interface: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found moveit_ros_robot_interaction: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake)
+-- Found rclpy: 4.1.6 (/home/jake/ros2_iron/install/rclpy/share/rclpy/cmake)
+-- Found rviz2: 12.4.8 (/home/jake/ros2_iron/install/rviz2/share/rviz2/cmake)
+-- Found rviz_common: 12.4.8 (/home/jake/ros2_iron/install/rviz_common/share/rviz_common/cmake)
+-- Setting assimp_DIR to: '/home/jake/ros2_iron/install/rviz_assimp_vendor/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+-- Setting OGRE_DIR to: '/home/jake/ros2_iron/install/rviz_ogre_vendor/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+--   media      : /home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+-- OGRE_PLUGIN_DIR: /home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Could not find freeimage library
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found rviz_default_plugins: 12.4.8 (/home/jake/ros2_iron/install/rviz_default_plugins/share/rviz_default_plugins/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread date_time system filesystem 
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jake/moveit2_ws_main/build/moveit_ros_visualization
+[  1%] [34m[1mAutomatic MOC for target moveit_rviz_plugin_render_tools[0m
+[  1%] Built target moveit_rviz_plugin_render_tools_autogen
+[  3%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/planning_scene_render.cpp.o[0m
+[  5%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/moveit_rviz_plugin_render_tools_autogen/mocs_compilation.cpp.o[0m
+[  6%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/render_shapes.cpp.o[0m
+[ 12%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/robot_state_visualization.cpp.o[0m
+[ 12%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/planning_link_updater.cpp.o[0m
+[ 12%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/octomap_render.cpp.o[0m
+[ 13%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/trajectory_visualization.cpp.o[0m
+[ 15%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/trajectory_panel.cpp.o[0m
+[ 17%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/mesh_shape.cpp.o[0m
+[ 18%] [32m[1mLinking CXX shared library libmoveit_rviz_plugin_render_tools.so[0m
+[ 18%] Built target moveit_rviz_plugin_render_tools
+[ 22%] [34m[1mAutomatic MOC for target moveit_planning_scene_rviz_plugin_core[0m
+[ 22%] [34m[1mAutomatic MOC for target moveit_robot_state_rviz_plugin_core[0m
+[ 22%] Built target moveit_robot_state_rviz_plugin_core_autogen
+[ 25%] [32mBuilding CXX object robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/moveit_robot_state_rviz_plugin_core_autogen/mocs_compilation.cpp.o[0m
+[ 25%] [32mBuilding CXX object robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/src/robot_state_display.cpp.o[0m
+[ 25%] Built target moveit_planning_scene_rviz_plugin_core_autogen
+[ 27%] [32mBuilding CXX object planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/moveit_planning_scene_rviz_plugin_core_autogen/mocs_compilation.cpp.o[0m
+[ 31%] [32mBuilding CXX object planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/src/planning_scene_display.cpp.o[0m
+[ 31%] [32mBuilding CXX object planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/src/background_processing.cpp.o[0m
+In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+                 from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/common_planning_interface_objects/common_objects.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/visualization/planning_scene_rviz_plugin/src/planning_scene_display.cpp:38[m[K:
+/usr/include/c++/11/bits/shared_ptr_base.h: In instantiation of ‘[01m[Kclass std::__shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<tf2_msgs::msg::TFMessage_<std::allocator<void> > >, __gnu_cxx::_S_atomic>[m[K’:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:122:11:[m[K   required from ‘[01m[Kclass std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<tf2_msgs::msg::TFMessage_<std::allocator<void> > > >[m[K’
+[01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/subscription.hpp:456:40:[m[K   required from ‘[01m[Kclass rclcpp::Subscription<tf2_msgs::msg::TFMessage_<std::allocator<void> > >[m[K’
+[01m[K/home/jake/ros2_iron/install/tf2_ros/include/tf2_ros/tf2_ros/transform_listener.h:237:49:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1076:15:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+ 1076 |         using [01;31m[K_UniqCompatible[m[K = __enable_if_t<__and_<
+      |               [01;31m[K^~~~~~~~~~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/build.make:90: planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/src/planning_scene_display.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/usr/include/c++/11/bits/specfun.h:52[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/include/OGRE/OgreStdHeaders.h:10[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/include/OGRE/OgrePrerequisites.h:318[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:37[m[K,
+                 from [01m[K/home/jake/ros2_iron/src/ros2/rviz/rviz_default_plugins/include/rviz_default_plugins/robot/robot.hpp:37[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/build/moveit_ros_visualization/planning_scene_rviz_plugin/moveit_planning_scene_rviz_plugin_core_autogen/6A5LAUBN64/../../../../../src/moveit2/moveit_ros/visualization/planning_scene_rviz_plugin/include/moveit/planning_scene_rviz_plugin/planning_scene_display.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/build/moveit_ros_visualization/planning_scene_rviz_plugin/moveit_planning_scene_rviz_plugin_core_autogen/6A5LAUBN64/moc_planning_scene_display.cpp:10[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/build/moveit_ros_visualization/planning_scene_rviz_plugin/moveit_planning_scene_rviz_plugin_core_autogen/mocs_compilation.cpp:2[m[K:
+/usr/include/c++/11/tr1/ell_integral.tcc: In instantiation of ‘[01m[K_Tp std::__detail::__ellint_rj(_Tp, _Tp, _Tp, _Tp) [with _Tp = long double][m[K’:
+[01m[K/usr/include/c++/11/tr1/ell_integral.tcc:678:29:[m[K   required from ‘[01m[K_Tp std::__detail::__comp_ellint_3(_Tp, _Tp) [with _Tp = long double][m[K’
+[01m[K/usr/include/c++/11/bits/specfun.h:464:50:[m[K   required from here
+[01m[K/usr/include/c++/11/tr1/ell_integral.tcc:563:5:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  563 |     [01;31m[K__ellint_rj[m[K(_Tp __x, _Tp __y, _Tp __z, _Tp __p)
+      |     [01;31m[K^~~~~~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/build.make:76: planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/moveit_planning_scene_rviz_plugin_core_autogen/mocs_compilation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:401: planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/usr/include/c++/11/functional:54[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QIcon:1[m[K,
+                 from [01m[K/home/jake/ros2_iron/src/ros2/rviz/rviz_common/include/rviz_common/display.hpp:36[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/visualization/robot_state_rviz_plugin/include/moveit/robot_state_rviz_plugin/robot_state_display.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/visualization/robot_state_rviz_plugin/src/robot_state_display.cpp:37[m[K:
+/usr/include/c++/11/tuple: In instantiation of ‘[01m[Kconstexpr std::tuple<_T1, _T2>::tuple() [with bool _Dummy = true; typename std::enable_if<std::_TupleConstraints<_Dummy, _T1, _T2>::__is_implicitly_default_constructible(), bool>::type <anonymous> = true; _T1 = rclcpp::experimental::buffers::IntraProcessBuffer<moveit_msgs::msg::DisplayRobotState_<std::allocator<void> >, std::allocator<moveit_msgs::msg::DisplayRobotState_<std::allocator<void> > >, std::default_delete<moveit_msgs::msg::DisplayRobotState_<std::allocator<void> > > >*; _T2 = std::default_delete<rclcpp::experimental::buffers::IntraProcessBuffer<moveit_msgs::msg::DisplayRobotState_<std::allocator<void> >, std::allocator<moveit_msgs::msg::DisplayRobotState_<std::allocator<void> > >, std::default_delete<moveit_msgs::msg::DisplayRobotState_<std::allocator<void> > > > >][m[K’:
+[01m[K/usr/include/c++/11/tuple:1049:9:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+ 1049 |         [01;31m[Ktuple[m[K()
+      |         [01;31m[K^~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build.make:90: robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/src/robot_state_display.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:294: robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

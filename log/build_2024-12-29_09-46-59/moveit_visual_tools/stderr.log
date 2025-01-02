@@ -1,0 +1,31 @@
+In file included from [01m[K/home/jake/moveit2_ws_main/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp:19[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__traits.hpp:23[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp:9[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_state/conversions.h:41[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit_visual_tools/src/imarker_robot_state.cpp:34[m[K:
+[01m[K/home/jake/moveit2_ws_main/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp:224:1:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  224 | [01;31m[K}[m[K  // NOLINT(readability/fn_size)
+      | [01;31m[K^[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/moveit_visual_tools.dir/build.make:90: CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/signals2/signal_type.hpp:27[m[K,
+                 from [01m[K/usr/include/boost/signals2.hpp:20[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/current_state_monitor.h:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:46[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:41[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit_visual_tools/src/moveit_visual_tools.cpp:32[m[K:
+[01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:80:9:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+   80 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/moveit_visual_tools.dir/build.make:76: CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/moveit_visual_tools.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

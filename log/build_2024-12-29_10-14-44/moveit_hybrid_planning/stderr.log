@@ -1,0 +1,38 @@
+In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+                 from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/hybrid_planning/local_planner/local_planner_component/include/moveit/local_planner/local_planner_component.h:42[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/hybrid_planning/local_planner/local_planner_component/src/local_planner_component.cpp:35[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:[m[K In constructor ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<std::allocator<rclcpp::SerializedMessage> >; _Args = {std::allocator<void>&}; _Tp = std::allocator<rclcpp::SerializedMessage>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’:
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1341:9:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+ 1341 |         [01;31m[K__shared_ptr[m[K(_Sp_alloc_shared_tag<_Alloc> __tag, _Args&&... __args)
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.dir/build.make:76: local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.dir/src/local_planner_component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:514: local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+during IPA pass: inline
+In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/hybrid_planning/hybrid_planning_manager/hybrid_planning_manager_component/include/moveit/hybrid_planning_manager/hybrid_planning_manager.h:41[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/hybrid_planning/hybrid_planning_manager/hybrid_planning_manager_component/src/hybrid_planning_manager.cpp:35[m[K:
+[01m[K/usr/include/c++/11/bits/vector.tcc:[m[K In member function ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >}; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >][m[K’:
+[01m[K/usr/include/c++/11/bits/vector.tcc:436:21:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  436 |         [01;31m[K_M_check_len(size_type(1), "vector::_M_realloc_insert")[m[K;
+      |         [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [hybrid_planning_manager/hybrid_planning_manager_component/CMakeFiles/moveit_hybrid_planning_manager.dir/build.make:76: hybrid_planning_manager/hybrid_planning_manager_component/CMakeFiles/moveit_hybrid_planning_manager.dir/src/hybrid_planning_manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:355: hybrid_planning_manager/hybrid_planning_manager_component/CMakeFiles/moveit_hybrid_planning_manager.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

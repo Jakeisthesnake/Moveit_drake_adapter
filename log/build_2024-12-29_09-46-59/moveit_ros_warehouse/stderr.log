@@ -1,0 +1,27 @@
+In file included from [01m[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:210[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:660[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:272[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model.h:46[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/planning_scene/planning_scene.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:43[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/warehouse/src/save_as_text.cpp:44[m[K:
+/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of ‘[01m[Kclass Eigen::DenseBase<Eigen::Matrix<double, 1, 4> >[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Matrix<double, 1, 4> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:98:7:[m[K   required from ‘[01m[Kclass Eigen::PlainObjectBase<Eigen::Matrix<double, 1, 4> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:178:7:[m[K   required from ‘[01m[Kclass Eigen::Matrix<double, 1, 4>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/IO.h:253:42:[m[K   required from ‘[01m[Kstd::ostream& Eigen::operator<<(std::ostream&, const Eigen::DenseBase<Derived>&) [with Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Block<const Eigen::Matrix<double, 4, 4>, 1, 4, false>, const Eigen::Transpose<const Eigen::Block<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 4, 4> >, 4, 1, false> > >; std::ostream = std::basic_ostream<char>][m[K’
+[01m[K/opt/ros/iron/include/geometric_shapes/check_isometry.h:72:85:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:103:1:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  103 | [01;31m[Koperator[m[K()(const RowIndices& rowIndices, const ColIndices& colIndices) EIGEN_INDEXED_VIEW_METHOD_CONST
+      | [01;31m[K^~~~~~~~[m[K
+DW_FORM_strp out of range in .debug_info at 17
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/moveit_warehouse_save_as_text.dir/build.make:76: CMakeFiles/moveit_warehouse_save_as_text.dir/src/save_as_text.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:253: CMakeFiles/moveit_warehouse_save_as_text.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

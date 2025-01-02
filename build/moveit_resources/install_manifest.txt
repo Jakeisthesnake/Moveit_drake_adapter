@@ -1,0 +1,13 @@
+/home/jake/moveit2_ws_main/install/moveit_resources/share/ament_index/resource_index/package_run_dependencies/moveit_resources
+/home/jake/moveit2_ws_main/install/moveit_resources/share/ament_index/resource_index/parent_prefix_path/moveit_resources
+/home/jake/moveit2_ws_main/install/moveit_resources/share/moveit_resources/environment/ament_prefix_path.dsv
+/home/jake/moveit2_ws_main/install/moveit_resources/share/moveit_resources/environment/path.dsv
+/home/jake/moveit2_ws_main/install/moveit_resources/share/moveit_resources/local_setup.bash
+/home/jake/moveit2_ws_main/install/moveit_resources/share/moveit_resources/local_setup.sh
+/home/jake/moveit2_ws_main/install/moveit_resources/share/moveit_resources/local_setup.zsh
+/home/jake/moveit2_ws_main/install/moveit_resources/share/moveit_resources/local_setup.dsv
+/home/jake/moveit2_ws_main/install/moveit_resources/share/moveit_resources/package.dsv
+/home/jake/moveit2_ws_main/install/moveit_resources/share/ament_index/resource_index/packages/moveit_resources
+/home/jake/moveit2_ws_main/install/moveit_resources/share/moveit_resources/cmake/moveit_resourcesConfig.cmake
+/home/jake/moveit2_ws_main/install/moveit_resources/share/moveit_resources/cmake/moveit_resourcesConfig-version.cmake
+/home/jake/moveit2_ws_main/install/moveit_resources/share/moveit_resources/package.xml
