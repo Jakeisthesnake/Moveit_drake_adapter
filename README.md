@@ -27,6 +27,7 @@ return planning_scene_monitor_->getStateMonitor()->waitForCurrentState(node_->no
 waitForCurrentState() is in current_state_monitor.cpp. I have tried adding logging statements whenever the lock gets grabbed, but it seems that nothing grabs the lock before this is line runs. So I have no idea why it hangs.
 
 I found the following issue, but I haven't figured out how to use the answer.
+https://github.com/moveit/moveit2/issues/496
 
 
 
