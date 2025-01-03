@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object motion_planning_pipeline/CMakeFiles/pendulum_motion_planning_pipeline_tutorial.dir/src/pendulum_motion_planning_pipeline_tutorial.cpp.o[0m
+[ 50%] Built target motion_planning_pipeline_tutorial
+[ 83%] Built target move_group_interface_tutorial

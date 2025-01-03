@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target srdf_publisher[0m
+[  2%] Built target srdf_publisher
+[  3%] [32mBuilding CXX object collision_plugin_loader/CMakeFiles/moveit_collision_plugin_loader.dir/src/collision_plugin_loader.cpp.o[0m
+[  4%] [32m[1mLinking CXX shared library libmoveit_collision_plugin_loader.so[0m
+[  4%] Built target moveit_collision_plugin_loader
+[  6%] [32mBuilding CXX object rdf_loader/CMakeFiles/moveit_rdf_loader.dir/src/rdf_loader.cpp.o[0m

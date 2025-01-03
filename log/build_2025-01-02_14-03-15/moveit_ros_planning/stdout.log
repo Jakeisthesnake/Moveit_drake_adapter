@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_rdf_loader[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_pipeline_test_plugins[0m
+[  1%] Built target default_request_adapter_parameters
+[  3%] Built target planning_pipeline_parameters
+[  6%] Built target gtest
+[  3%] Built target default_response_adapter_parameters
+[  8%] Built target gtest_main
+[ 10%] Built target srdf_publisher
+[ 14%] Built target gmock
+[ 16%] Built target gmock_main
+[ 19%] Built target moveit_collision_plugin_loader
+[ 20%] Built target kinematics_parameters
+[ 24%] Built target moveit_rdf_loader
+[35m[1mConsolidate compiler generated dependencies of target moveit_planning_pipeline[0m
+[35m[1mConsolidate compiler generated dependencies of target srdf_publisher_node[0m
+[ 26%] Built target moveit_pipeline_test_plugins
+[35m[1mConsolidate compiler generated dependencies of target moveit_default_planning_response_adapter_plugins[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_default_planning_request_adapter_plugins[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_kinematics_plugin_loader[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_constraint_sampler_manager_loader[0m
+[ 28%] Built target srdf_publisher_node
+[ 31%] Built target moveit_planning_pipeline
+[ 33%] Built target moveit_kinematics_plugin_loader
+[ 39%] Built target moveit_default_planning_response_adapter_plugins
+[ 42%] Built target moveit_constraint_sampler_manager_loader
+[ 49%] Built target moveit_default_planning_request_adapter_plugins
+[35m[1mConsolidate compiler generated dependencies of target moveit_planning_pipeline_test[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_robot_model_loader[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_planning_pipeline_interfaces[0m
+[ 51%] Built target moveit_planning_pipeline_test
+[ 54%] Built target moveit_robot_model_loader
+[ 60%] Built target moveit_planning_pipeline_interfaces
+[35m[1mConsolidate compiler generated dependencies of target moveit_print_planning_model_info[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_planning_scene_monitor[0m
+[ 62%] Built target moveit_print_planning_model_info
+[ 63%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_state_monitor.cpp.o[0m

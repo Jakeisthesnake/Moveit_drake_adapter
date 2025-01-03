@@ -5,6 +5,7 @@
 . "/home/jake/moveit2_ws_main/install/moveit_configs_utils/share/moveit_configs_utils/package.sh"
 . "/home/jake/moveit2_ws_main/install/moveit_msgs/share/moveit_msgs/package.sh"
 . "/home/jake/moveit2_ws_main/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.sh"
+. "/home/jake/moveit2_ws_main/install/moveit_resources_jakes_pendulum_description/share/moveit_resources_jakes_pendulum_description/package.sh"
 . "/home/jake/moveit2_ws_main/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.sh"
 . "/home/jake/moveit2_ws_main/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.sh"
 . "/home/jake/moveit2_ws_main/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.sh"
@@ -42,4 +43,5 @@
 . "/home/jake/moveit2_ws_main/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/package.sh"
 . "/home/jake/moveit2_ws_main/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/package.sh"
 . "/home/jake/moveit2_ws_main/install/moveit_setup_assistant/share/moveit_setup_assistant/package.sh"
+. "/home/jake/moveit2_ws_main/install/jakes_pendulum_moveit_config/share/jakes_pendulum_moveit_config/package.sh"
 . "/home/jake/moveit2_ws_main/install/moveit/share/moveit/package.sh"

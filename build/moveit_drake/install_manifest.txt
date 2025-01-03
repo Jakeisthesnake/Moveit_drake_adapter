@@ -13,9 +13,7 @@
 /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/config/testbench_moveit_cpp.yaml
 /home/jake/moveit2_ws_main/install/moveit_drake/share/ament_index/resource_index/package_run_dependencies/moveit_drake
 /home/jake/moveit2_ws_main/install/moveit_drake/share/ament_index/resource_index/parent_prefix_path/moveit_drake
-/home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/environment/ament_prefix_path.sh
 /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/environment/ament_prefix_path.dsv
-/home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/environment/path.sh
 /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/environment/path.dsv
 /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/local_setup.bash
 /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/local_setup.sh

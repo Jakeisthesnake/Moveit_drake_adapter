@@ -1,0 +1,76 @@
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/planning_scene_monitor/include/moveit/planning_scene_monitor/planning_scene_monitor.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/planning_components_tools/src/visualize_robot_collision_volume.cpp:37[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:[m[K In constructor ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_Alloc_hider::_Alloc_hider(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::pointer, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’:
+[01m[K/usr/include/c++/11/bits/basic_string.h:164:9:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  164 |         [01;31m[K_Alloc_hider[m[K(pointer __dat, const _Alloc& __a)
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/ext/alloc_traits.h:34[m[K,
+                 from [01m[K/usr/include/c++/11/bits/stl_uninitialized.h:64[m[K,
+                 from [01m[K/usr/include/c++/11/memory:66[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/planning_scene_monitor/include/moveit/planning_scene_monitor/planning_scene_monitor.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/planning_scene_monitor/demos/demo_scene.cpp:37[m[K:
+/usr/include/c++/11/bits/alloc_traits.h: In instantiation of ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = std::allocator<void>; _Args = {}; _Tp = std::allocator<void>; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<std::allocator<void> >][m[K’:
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = std::allocator<void>; _Alloc = std::allocator<std::allocator<void> >; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = std::allocator<void>; _Alloc = std::allocator<std::allocator<void> >; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<std::allocator<void> >; _Args = {}; _Tp = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<std::allocator<void> >; _Args = {}; _Tp = std::allocator<void>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = std::allocator<void>; _Alloc = std::allocator<std::allocator<void> >; _Args = {}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   [ skipping 10 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = rclcpp::Publisher<moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >, std::allocator<void> >; _Args = {rclcpp::node_interfaces::NodeBaseInterface*&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >&}][m[K’
+[01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/publisher_factory.hpp:76:52:[m[K   required from ‘[01m[Krclcpp::PublisherFactory rclcpp::create_publisher_factory(const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with MessageT = moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >, std::allocator<void> >][m[K’
+[01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/create_publisher.hpp:67:71:[m[K   required from ‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::detail::create_publisher(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with MessageT = moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/create_publisher.hpp:103:68:[m[K   required from ‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::create_publisher(NodeT&&, const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with MessageT = moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node&; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/node_impl.hpp:78:68:[m[K   required from ‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with MessageT = moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/planning_scene_monitor/demos/demo_scene.cpp:58:83:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:24:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  516 |           [01;31m[K__a.construct(__p, std::forward<_Args>(__args)...)[m[K;
+      |           [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [planning_components_tools/CMakeFiles/moveit_visualize_robot_collision_volume.dir/build.make:76: planning_components_tools/CMakeFiles/moveit_visualize_robot_collision_volume.dir/src/visualize_robot_collision_volume.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:768: planning_components_tools/CMakeFiles/moveit_visualize_robot_collision_volume.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [planning_scene_monitor/CMakeFiles/demo_scene.dir/build.make:76: planning_scene_monitor/CMakeFiles/demo_scene.dir/demos/demo_scene.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1181: planning_scene_monitor/CMakeFiles/demo_scene.dir/all] Error 2
+In file included from [01m[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:210[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:660[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:272[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model.h:46[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/trajectory_execution_manager/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/trajectory_execution_manager/src/trajectory_execution_manager.cpp:37[m[K:
+/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of ‘[01m[Kclass Eigen::DenseBase<Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true> >[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MapBase.h:37:34:[m[K   required from ‘[01m[Kclass Eigen::MapBase<Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>, 0>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:329:7:[m[K   required from ‘[01m[Kclass Eigen::internal::BlockImpl_dense<const Eigen::Matrix<double, 3, 3>, 3, 1, true, true>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:154:7:[m[K   required from ‘[01m[Kclass Eigen::BlockImpl<const Eigen::Matrix<double, 3, 3>, 3, 1, true, Eigen::Dense>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:103:81:[m[K   required from ‘[01m[Kclass Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:606:63:[m[K   [ skipping 10 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 3, 3>; Src = Eigen::Product<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, Eigen::Matrix<double, 3, 3>, 0>; Func = Eigen::internal::assign_op<double, double>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:797:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, Eigen::Matrix<double, 3, 3>, 0>; Derived = Eigen::Matrix<double, 3, 3>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:594:19:[m[K   required from ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, Eigen::Matrix<double, 3, 3>, 0>; Derived = Eigen::Matrix<double, 3, 3>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:423:29:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, Eigen::Matrix<double, 3, 3>, 0>; _Scalar = double; int _Rows = 3; int _Cols = 3; int _Options = 0; int _MaxRows = 3; int _MaxCols = 3][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:77:47:[m[K   required from ‘[01m[KEigen::RotationBase<Derived, _Dim>::RotationMatrixType Eigen::operator*(const Eigen::EigenBase<OtherDerived>&, const Derived&) [with OtherDerived = Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>; Derived = Eigen::Quaternion<double>; int _Dim = 3; Eigen::RotationBase<Derived, _Dim>::RotationMatrixType = Eigen::Matrix<double, 3, 3>][m[K’
+[01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/transforms/transforms.h:163:49:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:186:1:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  186 | [01;31m[Koperator[m[K()(const IndicesT (&indices)[IndicesN]) EIGEN_INDEXED_VIEW_METHOD_CONST
+      | [01;31m[K^~~~~~~~[m[K
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [trajectory_execution_manager/CMakeFiles/moveit_trajectory_execution_manager.dir/build.make:76: trajectory_execution_manager/CMakeFiles/moveit_trajectory_execution_manager.dir/src/trajectory_execution_manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1443: trajectory_execution_manager/CMakeFiles/moveit_trajectory_execution_manager.dir/all] Error 2

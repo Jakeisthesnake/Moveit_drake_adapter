@@ -1,0 +1,91 @@
+-- Found ament_cmake: 2.0.6 (/home/jake/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+-- Found moveit_common: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/cmake)
+-- Found class_loader: 2.5.0 (/home/jake/ros2_iron/install/class_loader/share/class_loader/cmake)
+-- Found generate_parameter_library: 0.3.7 (/home/jake/moveit2_ws_main/install/generate_parameter_library/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.3.7 (/home/jake/moveit2_ws_main/install/parameter_traits/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/home/jake/ros2_iron/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/home/jake/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/home/jake/ros2_iron/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/home/jake/ros2_iron/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 21.0.7 (/home/jake/ros2_iron/install/rclcpp_lifecycle/share/rclcpp_lifecycle/cmake)
+-- Found moveit_core: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found moveit_ros_planning_interface: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found moveit_visual_tools: 4.1.0 (/home/jake/moveit2_ws_main/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+-- Setting assimp_DIR to: '/home/jake/ros2_iron/install/rviz_assimp_vendor/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+-- Setting OGRE_DIR to: '/home/jake/ros2_iron/install/rviz_ogre_vendor/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+--   media      : /home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+-- OGRE_PLUGIN_DIR: /home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Could not find freeimage library
+-- Found warehouse_ros_sqlite: 1.0.5 (/opt/ros/iron/share/warehouse_ros_sqlite/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jake/moveit2_ws_main/build/moveit_drake
+[35m[1mConsolidate compiler generated dependencies of target pipeline_testbench_example[0m
+[35m[1mConsolidate compiler generated dependencies of target pendulum_testbench_example[0m
+[ 10%] Built target ktopt_moveit_parameters
+[ 30%] [32m[1mLinking CXX executable pipeline_testbench_example[0m
+[ 30%] [32m[1mLinking CXX executable pendulum_testbench_example[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_drake[0m
+[ 80%] Built target moveit_drake
+[ 90%] Built target pipeline_testbench_example
+[100%] Built target pendulum_testbench_example
+-- Install configuration: "Release"
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/include/ktopt_moveit_parameters
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/include/ktopt_moveit_parameters/ktopt_moveit_parameters.hpp
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/plugin_descriptions.xml
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/lib/libmoveit_drake.so
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/environment/library_path.sh
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/environment/library_path.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_drake/lib/moveit_drake/pipeline_testbench_example
+-- Set runtime path of "/home/jake/moveit2_ws_main/install/moveit_drake/lib/moveit_drake/pipeline_testbench_example" to ""
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_drake/lib/moveit_drake/pendulum_testbench_example
+-- Set runtime path of "/home/jake/moveit2_ws_main/install/moveit_drake/lib/moveit_drake/pendulum_testbench_example" to ""
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/launch
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/launch/pendulum_test.launch.py
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/launch/pipeline_testbench.launch.py
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/config
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/config/testbench_config.rviz
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/config/pendulum_moveit.rviz
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/config/panda_benchmarks.sqlite
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/config/testbench_moveit_cpp.yaml
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/ament_index/resource_index/package_run_dependencies/moveit_drake
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_drake/share/ament_index/resource_index/parent_prefix_path/moveit_drake
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/environment/path.dsv
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/local_setup.bash
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/local_setup.sh
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/local_setup.zsh
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/local_setup.dsv
+-- Installing: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/package.dsv
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/ament_index/resource_index/packages/moveit_drake
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_drake
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/cmake/moveit_drakeTargetsExport.cmake
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/cmake/moveit_drakeTargetsExport-release.cmake
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/cmake/moveit_drakeConfig.cmake
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/cmake/moveit_drakeConfig-version.cmake
+-- Up-to-date: /home/jake/moveit2_ws_main/install/moveit_drake/share/moveit_drake/package.xml

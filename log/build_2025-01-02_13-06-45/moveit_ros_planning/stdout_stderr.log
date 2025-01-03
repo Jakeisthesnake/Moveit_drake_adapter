@@ -1,0 +1,314 @@
+-- Found moveit_common: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.0.6 (/home/jake/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+-- Found ament_index_cpp: 1.5.2 (/home/jake/ros2_iron/install/ament_index_cpp/share/ament_index_cpp/cmake)
+-- Found generate_parameter_library: 0.3.7 (/home/jake/moveit2_ws_main/install/generate_parameter_library/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.3.7 (/home/jake/moveit2_ws_main/install/parameter_traits/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/home/jake/ros2_iron/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/home/jake/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/home/jake/ros2_iron/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/home/jake/ros2_iron/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 21.0.7 (/home/jake/ros2_iron/install/rclcpp_lifecycle/share/rclcpp_lifecycle/cmake)
+-- Found message_filters: 4.7.1 (/home/jake/ros2_iron/install/message_filters/share/message_filters/cmake)
+-- Found moveit_core: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_occupancy_map_monitor: 2.11.0 (/home/jake/moveit2_ws_main/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found ament_cmake_gtest: 2.0.6 (/home/jake/ros2_iron/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/home/jake/ros2_iron/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found ament_cmake_gtest: 2.0.6 (/home/jake/ros2_iron/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found ament_cmake_gmock: 2.0.6 (/home/jake/ros2_iron/install/ament_cmake_gmock/share/ament_cmake_gmock/cmake)
+-- Found ros_testing: 0.5.2 (/home/jake/ros2_iron/install/ros_testing/share/ros_testing/cmake)
+-- Found launch_testing_ament_cmake: 2.0.4 (/home/jake/ros2_iron/install/launch_testing_ament_cmake/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.2 (/home/jake/ros2_iron/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found gmock sources under '/home/jake/ros2_iron/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/home/jake/ros2_iron/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found launch_testing_ament_cmake: 2.0.4 (/home/jake/ros2_iron/install/launch_testing_ament_cmake/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.2 (/home/jake/ros2_iron/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jake/moveit2_ws_main/build/moveit_ros_planning
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target srdf_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_collision_plugin_loader[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_rdf_loader[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_pipeline_test_plugins[0m
+[  1%] Built target kinematics_parameters
+[  2%] Built target default_response_adapter_parameters
+[  3%] Built target planning_pipeline_parameters
+[  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/home/jake/ros2_iron/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc.o[0m
+[  9%] [32mBuilding CXX object rdf_loader/CMakeFiles/moveit_rdf_loader.dir/src/rdf_loader.cpp.o[0m
+[ 10%] Built target default_request_adapter_parameters
+[ 12%] [32mBuilding CXX object rdf_loader/CMakeFiles/moveit_rdf_loader.dir/src/synchronized_string_parameter.cpp.o[0m
+[ 13%] [32mBuilding CXX object collision_plugin_loader/CMakeFiles/moveit_collision_plugin_loader.dir/src/collision_plugin_loader.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/srdf_publisher.dir/rclcpp_components/node_main_srdf_publisher.cpp.o[0m
+[ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 16%] [32mBuilding CXX object planning_pipeline/CMakeFiles/moveit_pipeline_test_plugins.dir/test/planning_pipeline_test_plugins.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target srdf_publisher_node[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_planning_pipeline[0m
+[ 18%] [32mBuilding CXX object srdf_publisher_node/CMakeFiles/srdf_publisher_node.dir/src/srdf_publisher_node.cpp.o[0m
+[ 19%] [32mBuilding CXX object planning_pipeline/CMakeFiles/moveit_planning_pipeline.dir/src/planning_pipeline.cpp.o[0m
+In file included from [01m[K/usr/include/c++/11/bits/basic_ios.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/ios:44[m[K,
+                 from [01m[K/usr/include/c++/11/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/srdf_publisher_node/src/srdf_publisher_node.cpp:50[m[K:
+/usr/include/c++/11/bits/locale_facets.h: In instantiation of ‘[01m[Kclass std::num_get<char>[m[K’:
+[01m[K/usr/include/c++/11/bits/locale_facets.tcc:1324:49:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/locale_facets.h:2186:67:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+ 2186 |         _M_find(const _CharT2* __zero, size_t __len, _CharT2 __c) [01;31m[Kconst[m[K
+      |                                                                   [01;31m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/build/moveit_ros_planning/rclcpp_components/node_main_srdf_publisher.cpp:15[m[K:
+/usr/include/c++/11/bits/shared_ptr.h: In instantiation of ‘[01m[Kclass std::shared_ptr<std::__future_base::_State_baseV2>[m[K’:
+[01m[K/usr/include/c++/11/future:680:22:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:125:15:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  125 |         using [01;31m[K_Constructible[m[K = typename enable_if<
+      |               [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/ios_base.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/ios:42[m[K,
+                 from [01m[K/usr/include/c++/11/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/gmock_vendor/src/gmock_vendor/src/gmock_main.cc:31[m[K:
+/usr/include/c++/11/system_error: In substitution of ‘[01m[Ktemplate<class _ErrorCodeEnum, class> std::error_code::error_code(_ErrorCodeEnum) [with _ErrorCodeEnum = const char*; <template-parameter-1-2> = <missing>][m[K’:
+[01m[K/home/jake/ros2_iron/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-matchers.h:930:14:[m[K   required from here
+[01m[K/usr/include/c++/11/system_error:205:39:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  205 |     template<typename _ErrorCodeEnum, [01;31m[Ktypename[m[K = typename
+      |                                       [01;31m[K^~~~~~~~[m[K
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [srdf_publisher_node/CMakeFiles/srdf_publisher_node.dir/build.make:76: srdf_publisher_node/CMakeFiles/srdf_publisher_node.dir/src/srdf_publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1412: srdf_publisher_node/CMakeFiles/srdf_publisher_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [CMakeFiles/srdf_publisher.dir/build.make:76: CMakeFiles/srdf_publisher.dir/rclcpp_components/node_main_srdf_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:472: CMakeFiles/srdf_publisher.dir/all] Error 2
+In file included from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/collision_plugin_loader/include/moveit/collision_plugin_loader/collision_plugin_loader.h:37[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/collision_plugin_loader/src/collision_plugin_loader.cpp:35[m[K:
+[01m[K/usr/include/c++/11/system_error:269:63:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  269 |   operator<(const error_code& __lhs, const error_code& __rhs) [01;31m[Knoexcept[m[K
+      |                                                               [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [gmock/CMakeFiles/gmock_main.dir/build.make:76: gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1332: gmock/CMakeFiles/gmock_main.dir/all] Error 2
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest.h:57[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/gtest_vendor/src/gtest_vendor/src/gtest_main.cc:31[m[K:
+/usr/include/c++/11/tuple: In instantiation of ‘[01m[Kclass std::tuple<testing::internal::GTestFlagSaver*, std::default_delete<testing::internal::GTestFlagSaver> >[m[K’:
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:201:27:[m[K   required from ‘[01m[Kclass std::__uniq_ptr_impl<testing::internal::GTestFlagSaver, std::default_delete<testing::internal::GTestFlagSaver> >[m[K’
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:208:12:[m[K   required from ‘[01m[Kstruct std::__uniq_ptr_data<testing::internal::GTestFlagSaver, std::default_delete<testing::internal::GTestFlagSaver>, true, true>[m[K’
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:248:33:[m[K   required from ‘[01m[Kclass std::unique_ptr<testing::internal::GTestFlagSaver>[m[K’
+[01m[K/home/jake/ros2_iron/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest.h:494:44:[m[K   required from here
+[01m[K/usr/include/c++/11/tuple:1236:9:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+ 1236 |         [01;31m[Ktuple[m[K(allocator_arg_t __tag, const _Alloc& __a,
+      |         [01;31m[K^~~~~[m[K
+0x7652ed24251f ???
+	./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c:0
+0x7652ed229d8f __libc_start_call_main
+	../sysdeps/nptl/libc_start_call_main.h:58
+0x7652ed229e3f __libc_start_main_impl
+	../csu/libc-start.c:392
+Please submit a full bug report,
+with preprocessed source if appropriate.
+Please include the complete backtrace with any bug report.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest.h:57[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc:38[m[K:
+/usr/include/c++/11/tuple: In instantiation of ‘[01m[Kstatic constexpr bool std::_TupleConstraints<<anonymous>, _Types>::__is_implicitly_default_constructible() [with bool <anonymous> = true; _Types = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >}][m[K’:
+[01m[K/usr/include/c++/11/tuple:989:43:[m[K   required by substitution of ‘[01m[Ktemplate<bool _Dummy, typename std::enable_if<std::_TupleConstraints<_Dummy, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::__is_implicitly_default_constructible(), bool>::type <anonymous> > constexpr std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::tuple() [with bool _Dummy = true; typename std::enable_if<std::_TupleConstraints<_Dummy, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::__is_implicitly_default_constructible(), bool>::type <anonymous> = <missing>][m[K’
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:128:11:[m[K   required from ‘[01m[Kclass std::__uniq_ptr_impl<std::__cxx11::basic_string<char>, std::default_delete<std::__cxx11::basic_string<char> > >[m[K’
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:208:12:[m[K   required from ‘[01m[Kstruct std::__uniq_ptr_data<std::__cxx11::basic_string<char>, std::default_delete<std::__cxx11::basic_string<char> >, true, true>[m[K’
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:248:33:[m[K   required from ‘[01m[Kclass std::unique_ptr<std::__cxx11::basic_string<char> >[m[K’
+[01m[K/home/jake/ros2_iron/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest.h:357:35:[m[K   required from here
+[01m[K/usr/include/c++/11/tuple:581:26:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  581 |                       >::[01;31m[Kvalue[m[K;
+      |                          [01;31m[K^~~~~[m[K
+gmake[2]: *** [collision_plugin_loader/CMakeFiles/moveit_collision_plugin_loader.dir/build.make:76: collision_plugin_loader/CMakeFiles/moveit_collision_plugin_loader.dir/src/collision_plugin_loader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:498: collision_plugin_loader/CMakeFiles/moveit_collision_plugin_loader.dir/all] Error 2
+0x79fa8b64251f ???
+	./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c:0
+0x79fa8b629d8f __libc_start_call_main
+	../sysdeps/nptl/libc_start_call_main.h:58
+0x79fa8b629e3f __libc_start_main_impl
+	../csu/libc-start.c:392
+Please submit a full bug report,
+with preprocessed source if appropriate.
+Please include the complete backtrace with any bug report.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [gtest/CMakeFiles/gtest_main.dir/build.make:76: gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1016: gtest/CMakeFiles/gtest_main.dir/all] Error 2
+In file included from [01m[K/home/jake/ros2_iron/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc:41[m[K:
+[01m[K/home/jake/ros2_iron/install/gtest_vendor/src/gtest_vendor/src/gtest.cc:[m[K In member function ‘[01m[Kint testing::internal::UnitTestImpl::FilterTests(testing::internal::UnitTestImpl::ReactionToSharding)[m[K’:
+[01m[K/home/jake/ros2_iron/install/gtest_vendor/src/gtest_vendor/src/gtest.cc:5519:79:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+ 5519 |       const bool matches_filter = [01;31m[Kinternal::UnitTestOptions::FilterMatchesTest([m[K
+      |                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+ 5520 | [01;31m[K          test_suite_name, test_name)[m[K;
+      |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                          
+0x7162c144251f ???
+	./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c:0
+0x7162c1429d8f __libc_start_call_main
+	../sysdeps/nptl/libc_start_call_main.h:58
+0x7162c1429e3f __libc_start_main_impl
+	../csu/libc-start.c:392
+Please submit a full bug report,
+with preprocessed source if appropriate.
+Please include the complete backtrace with any bug report.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:990: gtest/CMakeFiles/gtest.dir/all] Error 2
+0x7049dd84251f ???
+	./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c:0
+0x7049dd829d8f __libc_start_call_main
+	../sysdeps/nptl/libc_start_call_main.h:58
+0x7049dd829e3f __libc_start_main_impl
+	../csu/libc-start.c:392
+Please submit a full bug report,
+with preprocessed source if appropriate.
+Please include the complete backtrace with any bug report.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [gmock/CMakeFiles/gmock.dir/build.make:76: gmock/CMakeFiles/gmock.dir/home/jake/ros2_iron/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/usr/include/c++/11/utility:68[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:60[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/std_msgs/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:8[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/std_msgs/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/rdf_loader/include/moveit/rdf_loader/synchronized_string_parameter.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/rdf_loader/src/synchronized_string_parameter.cpp:37[m[K:
+/usr/include/c++/11/bits/stl_list.h: In instantiation of ‘[01m[Kclass std::__cxx11::list<std::weak_ptr<rclcpp::node_interfaces::NodeBaseInterface> >[m[K’:
+[01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:697:3:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/stl_list.h:1143:20:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+ 1143 |       back() const [01;31m[K_GLIBCXX_NOEXCEPT[m[K
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+0x7f10e424251f ???
+	./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c:0
+0x7f10e4229d8f __libc_start_call_main
+	../sysdeps/nptl/libc_start_call_main.h:58
+0x7f10e4229e3f __libc_start_main_impl
+	../csu/libc-start.c:392
+Please submit a full bug report,
+with preprocessed source if appropriate.
+Please include the complete backtrace with any bug report.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [rdf_loader/CMakeFiles/moveit_rdf_loader.dir/build.make:90: rdf_loader/CMakeFiles/moveit_rdf_loader.dir/src/synchronized_string_parameter.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/usr/include/c++/11/map:60[m[K,
+                 from [01m[K/opt/ros/iron/include/srdfdom/model.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h:42[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_trajectory/robot_trajectory.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/planning_interface/planning_response.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/planning_interface/planning_interface.h:41[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/planning_pipeline/include/moveit/planning_pipeline/planning_pipeline.h:44[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/planning_pipeline/src/planning_pipeline.cpp:37[m[K:
+[01m[K/usr/include/c++/11/bits/stl_tree.h:2115:30:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+ 2115 |     _Rb_tree<_Key, _Val, _Key[01;31m[KOfValue,[m[K _Compare, _Alloc>::
+      |                              [01;31m[K^~~~~~~~[m[K
+0x7e8edca4251f ???
+	./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c:0
+0x7e8edca29d8f __libc_start_call_main
+	../sysdeps/nptl/libc_start_call_main.h:58
+0x7e8edca29e3f __libc_start_main_impl
+	../csu/libc-start.c:392
+Please submit a full bug report,
+with preprocessed source if appropriate.
+Please include the complete backtrace with any bug report.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [planning_pipeline/CMakeFiles/moveit_planning_pipeline.dir/build.make:76: planning_pipeline/CMakeFiles/moveit_planning_pipeline.dir/src/planning_pipeline.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:909: planning_pipeline/CMakeFiles/moveit_planning_pipeline.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:1306: gmock/CMakeFiles/gmock.dir/all] Error 2
+In file included from [01m[K/usr/include/c++/11/set:60[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/rdf_loader/include/moveit/rdf_loader/synchronized_string_parameter.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/rdf_loader/include/moveit/rdf_loader/rdf_loader.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/rdf_loader/src/rdf_loader.cpp:38[m[K:
+/usr/include/c++/11/bits/stl_tree.h: In instantiation of ‘[01m[Kstd::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::~_Rb_tree() [with _Key = std::__cxx11::basic_string<char>; _Val = std::pair<const std::__cxx11::basic_string<char>, std::vector<double, std::allocator<double> > >; _KeyOfValue = std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, std::vector<double, std::allocator<double> > > >; _Compare = std::less<std::__cxx11::basic_string<char> >; _Alloc = std::allocator<std::pair<const std::__cxx11::basic_string<char>, std::vector<double, std::allocator<double> > > >][m[K’:
+[01m[K/usr/include/c++/11/bits/stl_map.h:302:7:[m[K   required from ‘[01m[Kconstexpr void std::_Destroy(_Tp*) [with _Tp = srdf::Model::GroupState][m[K’
+[01m[K/usr/include/c++/11/bits/stl_construct.h:163:19:[m[K   required from ‘[01m[Kstatic void std::_Destroy_aux<<anonymous> >::__destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = srdf::Model::GroupState*; bool <anonymous> = false][m[K’
+[01m[K/usr/include/c++/11/bits/stl_construct.h:196:11:[m[K   required from ‘[01m[Kvoid std::_Destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = srdf::Model::GroupState*][m[K’
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:848:15:[m[K   required from ‘[01m[Kvoid std::_Destroy(_ForwardIterator, _ForwardIterator, std::allocator<_T2>&) [with _ForwardIterator = srdf::Model::GroupState*; _Tp = srdf::Model::GroupState][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:680:15:[m[K   required from ‘[01m[Kstd::vector<_Tp, _Alloc>::~vector() [with _Tp = srdf::Model::GroupState; _Alloc = std::allocator<srdf::Model::GroupState>][m[K’
+[01m[K/opt/ros/iron/include/srdfdom/model.h:58:3:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/stl_tree.h:984:17:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  984 |       { [01;31m[K_M_erase(_M_begin())[m[K; }
+      |         [01;31m[K~~~~~~~~^~~~~~~~~~~~[m[K
+0x70293164251f ???
+	./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c:0
+0x702931629d8f __libc_start_call_main
+	../sysdeps/nptl/libc_start_call_main.h:58
+0x702931629e3f __libc_start_main_impl
+	../csu/libc-start.c:392
+Please submit a full bug report,
+with preprocessed source if appropriate.
+Please include the complete backtrace with any bug report.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [rdf_loader/CMakeFiles/moveit_rdf_loader.dir/build.make:76: rdf_loader/CMakeFiles/moveit_rdf_loader.dir/src/rdf_loader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1358: rdf_loader/CMakeFiles/moveit_rdf_loader.dir/all] Error 2
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:659[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:272[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model.h:46[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_trajectory/robot_trajectory.h:40[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/planning_interface/planning_response.h:39[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/planning_interface/planning_interface.h:41[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/planning_pipeline/test/planning_pipeline_test_plugins.cpp:38[m[K:
+/usr/include/eigen3/Eigen/src/plugins/BlockMethods.h: In instantiation of ‘[01m[KEigen::DenseBase<Derived>::RowXpr Eigen::DenseBase<Derived>::row(Eigen::Index) [with Derived = Eigen::Matrix<double, 2, 2>; Eigen::DenseBase<Derived>::RowXpr = Eigen::Block<Eigen::Matrix<double, 2, 2>, 1, 2, false>; Eigen::Index = long int][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h:297:21:[m[K   required from ‘[01m[Kvoid Eigen::MatrixBase<Derived>::applyOnTheLeft(Eigen::Index, Eigen::Index, const Eigen::JacobiRotation<OtherScalar>&) [with OtherScalar = double; Derived = Eigen::Matrix<double, 2, 2>; Eigen::Index = long int][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h:46:19:[m[K   required from ‘[01m[Kvoid Eigen::internal::real_2x2_jacobi_svd(const MatrixType&, Index, Index, Eigen::JacobiRotation<RealScalar>*, Eigen::JacobiRotation<RealScalar>*) [with MatrixType = Eigen::Matrix<double, 3, 3>; RealScalar = double; Index = long int][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h:730:42:[m[K   required from ‘[01m[KEigen::JacobiSVD<MatrixType, QRPreconditioner>& Eigen::JacobiSVD<MatrixType, QRPreconditioner>::compute(const MatrixType&, unsigned int) [with _MatrixType = Eigen::Matrix<double, 3, 3>; int QRPreconditioner = 2; Eigen::JacobiSVD<MatrixType, QRPreconditioner>::MatrixType = Eigen::Matrix<double, 3, 3>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h:549:14:[m[K   required from ‘[01m[KEigen::JacobiSVD<MatrixType, QRPreconditioner>::JacobiSVD(const MatrixType&, unsigned int) [with _MatrixType = Eigen::Matrix<double, 3, 3>; int QRPreconditioner = 2; Eigen::JacobiSVD<MatrixType, QRPreconditioner>::MatrixType = Eigen::Matrix<double, 3, 3>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:1101:31:[m[K   required from ‘[01m[Kvoid Eigen::Transform<Scalar, Dim, Mode, _Options>::computeRotationScaling(RotationMatrixType*, ScalingMatrixType*) const [with RotationMatrixType = Eigen::Matrix<double, 3, 3>; ScalingMatrixType = Eigen::Matrix<double, 3, 3>; _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0][m[K’
+[01m[K/opt/ros/iron/include/geometric_shapes/check_isometry.h:79:35:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/plugins/BlockMethods.h:1118:8:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+ 1118 | RowXpr [01;31m[Krow[m[K(Index i)
+      |        [01;31m[K^~~[m[K
+0x73eb3ac4251f ???
+	./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c:0
+0x73eb3ac29d8f __libc_start_call_main
+	../sysdeps/nptl/libc_start_call_main.h:58
+0x73eb3ac29e3f __libc_start_main_impl
+	../csu/libc-start.c:392
+Please submit a full bug report,
+with preprocessed source if appropriate.
+Please include the complete backtrace with any bug report.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [planning_pipeline/CMakeFiles/moveit_pipeline_test_plugins.dir/build.make:76: planning_pipeline/CMakeFiles/moveit_pipeline_test_plugins.dir/test/planning_pipeline_test_plugins.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:935: planning_pipeline/CMakeFiles/moveit_pipeline_test_plugins.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

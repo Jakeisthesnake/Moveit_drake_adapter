@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target pendulum_motion_planning_pipeline_tutorial[0m
+[ 33%] Built target motion_planning_pipeline_tutorial
+[ 66%] Built target move_group_interface_tutorial
+[ 83%] [32mBuilding CXX object motion_planning_pipeline/CMakeFiles/pendulum_motion_planning_pipeline_tutorial.dir/src/pendulum_motion_planning_pipeline_tutorial.cpp.o[0m
+In file included from [01m[K/usr/include/boost/function/detail/maybe_include.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/function/detail/function_iterate.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:52[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:70[m[K,
+                 from [01m[K/usr/include/boost/signals2/signal.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/signals2.hpp:19[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/current_state_monitor.h:45[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:46[m[K,
+                 from [01m[K/home/jake/moveit2_ws_main/src/moveit2_tutorials/motion_planning_pipeline/src/pendulum_motion_planning_pipeline_tutorial.cpp:44[m[K:
+[01m[K/usr/include/boost/function/function_template.hpp:791:5:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  791 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+0x7ab96a44251f ???
+	./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c:0
+0x7ab96a429d8f __libc_start_call_main
+	../sysdeps/nptl/libc_start_call_main.h:58
+0x7ab96a429e3f __libc_start_main_impl
+	../csu/libc-start.c:392
+Please submit a full bug report,
+with preprocessed source if appropriate.
+Please include the complete backtrace with any bug report.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [motion_planning_pipeline/CMakeFiles/pendulum_motion_planning_pipeline_tutorial.dir/build.make:76: motion_planning_pipeline/CMakeFiles/pendulum_motion_planning_pipeline_tutorial.dir/src/pendulum_motion_planning_pipeline_tutorial.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:224: motion_planning_pipeline/CMakeFiles/pendulum_motion_planning_pipeline_tutorial.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

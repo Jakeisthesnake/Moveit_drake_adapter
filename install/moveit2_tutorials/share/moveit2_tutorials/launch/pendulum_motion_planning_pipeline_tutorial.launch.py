@@ -187,9 +187,32 @@ def launch_setup(context, *args, **kwargs):
         arguments=["0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "world", "base_link"],
     )
 
+    # RViz
+    rviz_config_file = os.path.join(
+        get_package_share_directory("moveit_drake"),
+        "config",
+        "pendulum_moveit.rviz",
+    )
+
+    rviz_node = Node(
+        package="rviz2",
+        executable="rviz2",
+        name="rviz2",
+        output="log",
+        arguments=["-d", rviz_config_file],
+        parameters=[
+            moveit_config.robot_description,
+            moveit_config.robot_description_semantic,
+            moveit_config.robot_description_kinematics,
+            moveit_config.planning_pipelines,
+            moveit_config.joint_limits,
+        ],
+    )
+
     nodes_to_start = [
+        rviz_node,
         motion_planning_pipeline_demo, 
-        static_tf,       
+        static_tf,      
     ]
 
     return nodes_to_start

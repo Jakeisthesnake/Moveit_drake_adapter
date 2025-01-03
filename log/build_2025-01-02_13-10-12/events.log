@@ -1,0 +1,1563 @@
+[0.000000] (-) TimerEvent: {}
+[0.000103] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000127] (-) JobUnselected: {'identifier': 'cmake_generate_parameter_module_example'}
+[0.000144] (-) JobUnselected: {'identifier': 'dual_arm_panda_moveit_config'}
+[0.000160] (-) JobUnselected: {'identifier': 'generate_parameter_library'}
+[0.000174] (-) JobUnselected: {'identifier': 'generate_parameter_library_example'}
+[0.000189] (-) JobUnselected: {'identifier': 'generate_parameter_library_py'}
+[0.000203] (-) JobUnselected: {'identifier': 'generate_parameter_module_example'}
+[0.000216] (-) JobUnselected: {'identifier': 'geometric_shapes'}
+[0.000230] (-) JobUnselected: {'identifier': 'hello_moveit'}
+[0.000244] (-) JobUnselected: {'identifier': 'jakes_pendulum_moveit_config'}
+[0.000257] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000271] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000284] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000298] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000311] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000324] (-) JobUnselected: {'identifier': 'moveit_drake'}
+[0.000338] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000351] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.000364] (-) JobUnselected: {'identifier': 'moveit_msgs'}
+[0.000378] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.000392] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.000405] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.000419] (-) JobUnselected: {'identifier': 'moveit_planners_stomp'}
+[0.000432] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.000445] (-) JobUnselected: {'identifier': 'moveit_py'}
+[0.000459] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000472] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000485] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000498] (-) JobUnselected: {'identifier': 'moveit_resources_jakes_pendulum_description'}
+[0.000512] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000525] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000538] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.000552] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.000565] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.000579] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.000592] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.000606] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.000619] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.000633] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.000646] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.000659] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.000673] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.000686] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.000699] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.000712] (-) JobUnselected: {'identifier': 'moveit_ros_tests'}
+[0.000726] (-) JobUnselected: {'identifier': 'moveit_ros_trajectory_cache'}
+[0.000739] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.000752] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.000766] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.000779] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.000792] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.000805] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.000819] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.000832] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.000845] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.000858] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.000872] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.000915] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.000930] (-) JobUnselected: {'identifier': 'parameter_traits'}
+[0.000948] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.001020] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.001035] (-) JobUnselected: {'identifier': 'rviz_visual_tools'}
+[0.001051] (moveit_ros_planning) JobQueued: {'identifier': 'moveit_ros_planning', 'dependencies': OrderedDict([('generate_parameter_library_py', '/home/jake/moveit2_ws_main/install/generate_parameter_library_py'), ('geometric_shapes', '/home/jake/moveit2_ws_main/install/geometric_shapes'), ('moveit_common', '/home/jake/moveit2_ws_main/install/moveit_common'), ('moveit_configs_utils', '/home/jake/moveit2_ws_main/install/moveit_configs_utils'), ('moveit_msgs', '/home/jake/moveit2_ws_main/install/moveit_msgs'), ('moveit_resources_panda_description', '/home/jake/moveit2_ws_main/install/moveit_resources_panda_description'), ('moveit_resources_pr2_description', '/home/jake/moveit2_ws_main/install/moveit_resources_pr2_description'), ('parameter_traits', '/home/jake/moveit2_ws_main/install/parameter_traits'), ('generate_parameter_library', '/home/jake/moveit2_ws_main/install/generate_parameter_library'), ('moveit_resources_panda_moveit_config', '/home/jake/moveit2_ws_main/install/moveit_resources_panda_moveit_config'), ('moveit_core', '/home/jake/moveit2_ws_main/install/moveit_core'), ('moveit_ros_occupancy_map_monitor', '/home/jake/moveit2_ws_main/install/moveit_ros_occupancy_map_monitor')])}
+[0.001087] (moveit_ros_planning) JobStarted: {'identifier': 'moveit_ros_planning'}
+[0.099341] (-) TimerEvent: {}
+[0.142414] (moveit_ros_planning) JobProgress: {'identifier': 'moveit_ros_planning', 'progress': 'cmake'}
+[0.144166] (moveit_ros_planning) JobProgress: {'identifier': 'moveit_ros_planning', 'progress': 'build'}
+[0.144213] (moveit_ros_planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jake/moveit2_ws_main/build/moveit_ros_planning', '--', '-j12', '-l12'], 'cwd': '/home/jake/moveit2_ws_main/build/moveit_ros_planning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jake'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jake/moveit2_ws_main/install/moveit_ros_occupancy_map_monitor/lib:/home/jake/moveit2_ws_main/install/moveit_core/lib:/home/jake/moveit2_ws_main/install/parameter_traits/lib:/home/jake/moveit2_ws_main/install/moveit_msgs/lib:/home/jake/moveit2_ws_main/install/geometric_shapes/lib:/home/jake/ros2_iron/install/rosbag2_storage_mcap/lib:/home/jake/ros2_iron/install/rosbag2_compression_zstd/lib:/home/jake/ros2_iron/install/mcap_vendor/lib:/home/jake/ros2_iron/install/rviz_default_plugins/lib:/home/jake/ros2_iron/install/rviz_common/lib:/home/jake/ros2_iron/install/rosbag2_transport/lib:/home/jake/ros2_iron/install/rosbag2_storage_sqlite3/lib:/home/jake/ros2_iron/install/rosbag2_compression/lib:/home/jake/ros2_iron/install/rosbag2_cpp/lib:/home/jake/ros2_iron/install/rosbag2_storage/lib:/home/jake/ros2_iron/install/camera_info_manager/lib:/home/jake/ros2_iron/install/camera_calibration_parsers/lib:/home/jake/ros2_iron/install/interactive_markers/lib:/home/jake/ros2_iron/install/visualization_msgs/lib:/home/jake/ros2_iron/install/robot_state_publisher/lib:/home/jake/ros2_iron/install/kdl_parser/lib:/home/jake/ros2_iron/install/urdf/lib:/home/jake/ros2_iron/install/urdfdom/lib:/home/jake/ros2_iron/install/turtlesim/lib:/home/jake/ros2_iron/install/trajectory_msgs/lib:/home/jake/ros2_iron/install/tf2_ros/lib:/home/jake/ros2_iron/install/tf2_msgs/lib:/home/jake/ros2_iron/install/tf2_eigen_kdl/lib:/home/jake/ros2_iron/install/laser_geometry/lib:/home/jake/ros2_iron/install/tf2/lib:/home/jake/ros2_iron/install/test_msgs/lib:/home/jake/ros2_iron/install/stereo_msgs/lib:/home/jake/ros2_iron/install/std_srvs/lib:/home/jake/ros2_iron/install/shape_msgs/lib:/home/jake/ros2_iron/install/quality_of_service_demo_cpp/lib:/home/jake/ros2_iron/install/map_msgs/lib:/home/jake/ros2_iron/install/image_transport/lib:/home/jake/ros2_iron/install/image_tools/lib:/home/jake/ros2_iron/install/sensor_msgs/lib:/home/jake/ros2_iron/install/nav_msgs/lib:/home/jake/ros2_iron/install/logging_demo/lib:/home/jake/ros2_iron/install/diagnostic_msgs/lib:/home/jake/ros2_iron/install/geometry_msgs/lib:/home/jake/ros2_iron/install/examples_rclcpp_wait_set/lib:/home/jake/ros2_iron/install/examples_rclcpp_minimal_subscriber/lib:/home/jake/ros2_iron/install/examples_rclcpp_minimal_composition/lib:/home/jake/ros2_iron/install/demo_nodes_cpp_native/lib:/home/jake/ros2_iron/install/demo_nodes_cpp/lib:/home/jake/ros2_iron/install/composition/lib:/home/jake/ros2_iron/install/actionlib_msgs/lib:/home/jake/ros2_iron/install/std_msgs/lib:/home/jake/ros2_iron/install/rqt_gui_cpp/lib:/home/jake/ros2_iron/install/rclcpp_lifecycle/lib:/home/jake/ros2_iron/install/action_tutorials_cpp/lib:/home/jake/ros2_iron/install/rclcpp_components/lib:/home/jake/ros2_iron/install/rclcpp_action/lib:/home/jake/ros2_iron/install/message_filters/lib:/home/jake/ros2_iron/install/rclcpp/lib:/home/jake/ros2_iron/install/libstatistics_collector/lib:/home/jake/ros2_iron/install/statistics_msgs/lib:/home/jake/ros2_iron/install/rclpy/lib:/home/jake/ros2_iron/install/rosgraph_msgs/lib:/home/jake/ros2_iron/install/rosbag2_interfaces/lib:/home/jake/ros2_iron/install/ros2cli_test_interfaces/lib:/home/jake/ros2_iron/install/rcl_lifecycle/lib:/home/jake/ros2_iron/install/rcl_action/lib:/home/jake/ros2_iron/install/rcl/lib:/home/jake/ros2_iron/install/rmw_implementation/lib:/home/jake/ros2_iron/install/rmw_fastrtps_dynamic_cpp/lib:/home/jake/ros2_iron/install/rmw_fastrtps_cpp/lib:/home/jake/ros2_iron/install/rmw_fastrtps_shared_cpp/lib:/home/jake/ros2_iron/install/rmw_cyclonedds_cpp/lib:/home/jake/ros2_iron/install/rmw_dds_common/lib:/home/jake/ros2_iron/install/composition_interfaces/lib:/home/jake/ros2_iron/install/rcl_interfaces/lib:/home/jake/ros2_iron/install/pendulum_msgs/lib:/home/jake/ros2_iron/install/lifecycle_msgs/lib:/home/jake/ros2_iron/install/example_interfaces/lib:/home/jake/ros2_iron/install/action_tutorials_interfaces/lib:/home/jake/ros2_iron/install/action_msgs/lib:/home/jake/ros2_iron/install/unique_identifier_msgs/lib:/home/jake/ros2_iron/install/type_description_interfaces/lib:/home/jake/ros2_iron/install/tracetools/lib:/home/jake/ros2_iron/install/qt_gui_cpp/lib:/home/jake/ros2_iron/install/rcl_logging_spdlog/lib:/home/jake/ros2_iron/install/service_msgs/lib:/home/jake/ros2_iron/install/rviz_rendering/lib:/home/jake/ros2_iron/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/jake/ros2_iron/install/rttest/lib:/home/jake/ros2_iron/install/builtin_interfaces/lib:/home/jake/ros2_iron/install/rosidl_typesupport_cpp/lib:/home/jake/ros2_iron/install/rosidl_typesupport_introspection_cpp/lib:/home/jake/ros2_iron/install/rosidl_typesupport_c/lib:/home/jake/ros2_iron/install/rosidl_typesupport_introspection_c/lib:/home/jake/ros2_iron/install/rosidl_typesupport_fastrtps_c/lib:/home/jake/ros2_iron/install/rosidl_typesupport_fastrtps_cpp/lib:/home/jake/ros2_iron/install/rosidl_dynamic_typesupport_fastrtps/lib:/home/jake/ros2_iron/install/rcl_yaml_param_parser/lib:/home/jake/ros2_iron/install/rmw/lib:/home/jake/ros2_iron/install/rosidl_dynamic_typesupport/lib:/home/jake/ros2_iron/install/rosidl_runtime_c/lib:/home/jake/ros2_iron/install/rosbag2_test_msgdefs/lib:/home/jake/ros2_iron/install/resource_retriever/lib:/home/jake/ros2_iron/install/class_loader/lib:/home/jake/ros2_iron/install/rcpputils/lib:/home/jake/ros2_iron/install/rcl_logging_noop/lib:/home/jake/ros2_iron/install/rcl_logging_interface/lib:/home/jake/ros2_iron/install/rcutils/lib:/home/jake/ros2_iron/install/performance_test_fixture/lib:/home/jake/ros2_iron/install/osrf_testing_tools_cpp/lib:/home/jake/ros2_iron/install/mimick_vendor/lib:/home/jake/ros2_iron/install/libyaml_vendor/lib:/home/jake/ros2_iron/install/keyboard_handler/lib:/home/jake/ros2_iron/install/iceoryx_introspection/lib:/home/jake/ros2_iron/install/cyclonedds/lib:/home/jake/ros2_iron/install/iceoryx_posh/lib:/home/jake/ros2_iron/install/iceoryx_hoofs/lib:/home/jake/ros2_iron/install/iceoryx_binding_c/lib:/home/jake/ros2_iron/install/google_benchmark_vendor/lib:/home/jake/ros2_iron/install/fastrtps/lib:/home/jake/ros2_iron/install/fastcdr/lib:/home/jake/ros2_iron/install/ament_index_cpp/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/jake'), ('OLDPWD', '/home/jake'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2106'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jake/ros2_iron/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'jake'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jake/ros2_iron/install/urdfdom/lib/x86_64-linux-gnu/pkgconfig:/home/jake/ros2_iron/install/urdfdom/lib/pkgconfig:/home/jake/ros2_iron/install/urdfdom_headers/lib/pkgconfig:/home/jake/ros2_iron/install/test_osrf_testing_tools_cpp/lib/x86_64-linux-gnu/pkgconfig:/home/jake/ros2_iron/install/test_osrf_testing_tools_cpp/lib/pkgconfig:/home/jake/ros2_iron/install/osrf_testing_tools_cpp/lib/x86_64-linux-gnu/pkgconfig:/home/jake/ros2_iron/install/osrf_testing_tools_cpp/lib/pkgconfig:/home/jake/ros2_iron/install/ignition_math6_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/jake/ros2_iron/install/ignition_math6_vendor/lib/pkgconfig:/home/jake/ros2_iron/install/ignition_cmake2_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/jake/ros2_iron/install/ignition_cmake2_vendor/lib/pkgconfig:/home/jake/ros2_iron/install/iceoryx_introspection/lib/x86_64-linux-gnu/pkgconfig:/home/jake/ros2_iron/install/iceoryx_introspection/lib/pkgconfig:/home/jake/ros2_iron/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/jake/ros2_iron/install/cyclonedds/lib/pkgconfig:/home/jake/ros2_iron/install/iceoryx_posh/lib/x86_64-linux-gnu/pkgconfig:/home/jake/ros2_iron/install/iceoryx_posh/lib/pkgconfig:/home/jake/ros2_iron/install/iceoryx_hoofs/lib/x86_64-linux-gnu/pkgconfig:/home/jake/ros2_iron/install/iceoryx_hoofs/lib/pkgconfig:/home/jake/ros2_iron/install/iceoryx_binding_c/lib/x86_64-linux-gnu/pkgconfig:/home/jake/ros2_iron/install/iceoryx_binding_c/lib/pkgconfig:/home/jake/ros2_iron/install/gmock_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/jake/ros2_iron/install/gmock_vendor/lib/pkgconfig:/home/jake/ros2_iron/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/jake/ros2_iron/install/gtest_vendor/lib/pkgconfig:/home/jake/ros2_iron/install/google_benchmark_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/jake/ros2_iron/install/google_benchmark_vendor/lib/pkgconfig:/home/jake/ros2_iron/install/foonathan_memory_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/jake/ros2_iron/install/foonathan_memory_vendor/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jake'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/jake/moveit2_ws_main/install/moveit_core/bin:/home/jake/moveit2_ws_main/install/generate_parameter_library_py/bin:/home/jake/ros2_iron/install/rviz2/bin:/home/jake/ros2_iron/install/rqt_bag/bin:/home/jake/ros2_iron/install/urdfdom/bin:/home/jake/ros2_iron/install/pendulum_control/bin:/home/jake/ros2_iron/install/rqt_graph/bin:/home/jake/ros2_iron/install/rqt_gui/bin:/home/jake/ros2_iron/install/ros2cli/bin:/home/jake/ros2_iron/install/ament_uncrustify/bin:/home/jake/ros2_iron/install/rosidl_cli/bin:/home/jake/ros2_iron/install/launch_testing/bin:/home/jake/ros2_iron/install/iceoryx_introspection/bin:/home/jake/ros2_iron/install/cyclonedds/bin:/home/jake/ros2_iron/install/iceoryx_posh/bin:/home/jake/ros2_iron/install/fastrtps/bin:/home/jake/ros2_iron/install/foonathan_memory_vendor/bin:/home/jake/ros2_iron/install/ament_xmllint/bin:/home/jake/ros2_iron/install/ament_pyflakes/bin:/home/jake/ros2_iron/install/ament_pycodestyle/bin:/home/jake/ros2_iron/install/ament_pep257/bin:/home/jake/ros2_iron/install/ament_pclint/bin:/home/jake/ros2_iron/install/ament_mypy/bin:/home/jake/ros2_iron/install/ament_lint_cmake/bin:/home/jake/ros2_iron/install/ament_flake8/bin:/home/jake/ros2_iron/install/ament_copyright/bin:/home/jake/ros2_iron/install/ament_index_python/bin:/home/jake/ros2_iron/install/ament_cpplint/bin:/home/jake/ros2_iron/install/ament_cppcheck/bin:/home/jake/ros2_iron/install/ament_clang_tidy/bin:/home/jake/ros2_iron/install/ament_clang_format/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jake-Blade:@/tmp/.ICE-unix/1896,unix/jake-Blade:/tmp/.ICE-unix/1896'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/adeaeb19_469a_48b7_9b3e_144db8bade34'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.U0YIZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '17'), ('AMENT_PREFIX_PATH', '/home/jake/moveit2_ws_main/install/moveit_ros_occupancy_map_monitor:/home/jake/moveit2_ws_main/install/moveit_core:/home/jake/moveit2_ws_main/install/moveit_resources_panda_moveit_config:/home/jake/moveit2_ws_main/install/generate_parameter_library:/home/jake/moveit2_ws_main/install/parameter_traits:/home/jake/moveit2_ws_main/install/moveit_resources_pr2_description:/home/jake/moveit2_ws_main/install/moveit_resources_panda_description:/home/jake/moveit2_ws_main/install/moveit_msgs:/home/jake/moveit2_ws_main/install/moveit_configs_utils:/home/jake/moveit2_ws_main/install/moveit_common:/home/jake/moveit2_ws_main/install/geometric_shapes:/home/jake/moveit2_ws_main/install/generate_parameter_library_py:/home/jake/ros2_iron/install/rqt_bag_plugins:/home/jake/ros2_iron/install/rosbag2:/home/jake/ros2_iron/install/rosbag2_storage_default_plugins:/home/jake/ros2_iron/install/rosbag2_storage_mcap:/home/jake/ros2_iron/install/rosbag2_compression_zstd:/home/jake/ros2_iron/install/mcap_vendor:/home/jake/ros2_iron/install/zstd_vendor:/home/jake/ros2_iron/install/rviz_visual_testing_framework:/home/jake/ros2_iron/install/rviz2:/home/jake/ros2_iron/install/rviz_default_plugins:/home/jake/ros2_iron/install/rviz_common:/home/jake/ros2_iron/install/rqt_bag:/home/jake/ros2_iron/install/rosbag2_examples_py:/home/jake/ros2_iron/install/launch_testing_examples:/home/jake/ros2_iron/install/ros2bag:/home/jake/ros2_iron/install/rosbag2_py:/home/jake/ros2_iron/install/rosbag2_transport:/home/jake/ros2_iron/install/rosbag2_storage_sqlite3:/home/jake/ros2_iron/install/rosbag2_examples_cpp:/home/jake/ros2_iron/install/rosbag2_compression:/home/jake/ros2_iron/install/rosbag2_cpp:/home/jake/ros2_iron/install/rosbag2_storage:/home/jake/ros2_iron/install/image_common:/home/jake/ros2_iron/install/camera_info_manager:/home/jake/ros2_iron/install/camera_calibration_parsers:/home/jake/ros2_iron/install/yaml_cpp_vendor:/home/jake/ros2_iron/install/interactive_markers:/home/jake/ros2_iron/install/common_interfaces:/home/jake/ros2_iron/install/visualization_msgs:/home/jake/ros2_iron/install/dummy_robot_bringup:/home/jake/ros2_iron/install/robot_state_publisher:/home/jake/ros2_iron/install/kdl_parser:/home/jake/ros2_iron/install/urdf:/home/jake/ros2_iron/install/urdf_parser_plugin:/home/jake/ros2_iron/install/turtlesim:/home/jake/ros2_iron/install/trajectory_msgs:/home/jake/ros2_iron/install/tracetools_test:/home/jake/ros2_iron/install/tracetools_launch:/home/jake/ros2_iron/install/topic_statistics_demo:/home/jake/ros2_iron/install/topic_monitor:/home/jake/ros2_iron/install/pendulum_control:/home/jake/ros2_iron/install/tlsf_cpp:/home/jake/ros2_iron/install/geometry2:/home/jake/ros2_iron/install/tf2_tools:/home/jake/ros2_iron/install/tf2_sensor_msgs:/home/jake/ros2_iron/install/test_tf2:/home/jake/ros2_iron/install/tf2_kdl:/home/jake/ros2_iron/install/tf2_geometry_msgs:/home/jake/ros2_iron/install/examples_tf2_py:/home/jake/ros2_iron/install/tf2_ros_py:/home/jake/ros2_iron/install/tf2_eigen:/home/jake/ros2_iron/install/tf2_bullet:/home/jake/ros2_iron/install/tf2_ros:/home/jake/ros2_iron/install/tf2_py:/home/jake/ros2_iron/install/tf2_msgs:/home/jake/ros2_iron/install/tf2_eigen_kdl:/home/jake/ros2_iron/install/laser_geometry:/home/jake/ros2_iron/install/tf2:/home/jake/ros2_iron/install/test_tracetools:/home/jake/ros2_iron/install/test_msgs:/home/jake/ros2_iron/install/test_communication:/home/jake/ros2_iron/install/stereo_msgs:/home/jake/ros2_iron/install/std_srvs:/home/jake/ros2_iron/install/shape_msgs:/home/jake/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/jake/ros2_iron/install/sensor_msgs_py:/home/jake/ros2_iron/install/quality_of_service_demo_py:/home/jake/ros2_iron/install/quality_of_service_demo_cpp:/home/jake/ros2_iron/install/map_msgs:/home/jake/ros2_iron/install/intra_process_demo:/home/jake/ros2_iron/install/image_transport:/home/jake/ros2_iron/install/image_tools:/home/jake/ros2_iron/install/dummy_sensors:/home/jake/ros2_iron/install/sensor_msgs:/home/jake/ros2_iron/install/rqt_plot:/home/jake/ros2_iron/install/ros2cli_common_extensions:/home/jake/ros2_iron/install/ros2doctor:/home/jake/ros2_iron/install/dummy_map_server:/home/jake/ros2_iron/install/nav_msgs:/home/jake/ros2_iron/install/logging_demo:/home/jake/ros2_iron/install/lifecycle_py:/home/jake/ros2_iron/install/lifecycle:/home/jake/ros2_iron/install/diagnostic_msgs:/home/jake/ros2_iron/install/geometry_msgs:/home/jake/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/jake/ros2_iron/install/examples_rclpy_minimal_service:/home/jake/ros2_iron/install/examples_rclpy_minimal_publisher:/home/jake/ros2_iron/install/examples_rclpy_minimal_client:/home/jake/ros2_iron/install/examples_rclpy_executors:/home/jake/ros2_iron/install/examples_rclcpp_wait_set:/home/jake/ros2_iron/install/examples_rclcpp_multithreaded_executor:/home/jake/ros2_iron/install/examples_rclcpp_minimal_subscriber:/home/jake/ros2_iron/install/examples_rclcpp_minimal_publisher:/home/jake/ros2_iron/install/examples_rclcpp_minimal_composition:/home/jake/ros2_iron/install/examples_rclcpp_cbg_executor:/home/jake/ros2_iron/install/demo_nodes_py:/home/jake/ros2_iron/install/demo_nodes_cpp_native:/home/jake/ros2_iron/install/demo_nodes_cpp:/home/jake/ros2_iron/install/composition:/home/jake/ros2_iron/install/actionlib_msgs:/home/jake/ros2_iron/install/std_msgs:/home/jake/ros2_iron/install/rqt:/home/jake/ros2_iron/install/rqt_gui_cpp:/home/jake/ros2_iron/install/rosbag2_test_common:/home/jake/ros2_iron/install/ros2lifecycle_test_fixtures:/home/jake/ros2_iron/install/ros2component:/home/jake/ros2_iron/install/rclcpp_lifecycle:/home/jake/ros2_iron/install/action_tutorials_cpp:/home/jake/ros2_iron/install/rclcpp_components:/home/jake/ros2_iron/install/examples_rclcpp_minimal_action_server:/home/jake/ros2_iron/install/examples_rclcpp_minimal_action_client:/home/jake/ros2_iron/install/rclcpp_action:/home/jake/ros2_iron/install/message_filters:/home/jake/ros2_iron/install/examples_rclcpp_minimal_timer:/home/jake/ros2_iron/install/examples_rclcpp_minimal_service:/home/jake/ros2_iron/install/examples_rclcpp_minimal_client:/home/jake/ros2_iron/install/examples_rclcpp_async_client:/home/jake/ros2_iron/install/rclcpp:/home/jake/ros2_iron/install/libstatistics_collector:/home/jake/ros2_iron/install/statistics_msgs:/home/jake/ros2_iron/install/sros2_cmake:/home/jake/ros2_iron/install/sros2:/home/jake/ros2_iron/install/rqt_topic:/home/jake/ros2_iron/install/rqt_srv:/home/jake/ros2_iron/install/rqt_shell:/home/jake/ros2_iron/install/rqt_service_caller:/home/jake/ros2_iron/install/rqt_reconfigure:/home/jake/ros2_iron/install/rqt_py_console:/home/jake/ros2_iron/install/rqt_publisher:/home/jake/ros2_iron/install/rqt_action:/home/jake/ros2_iron/install/rqt_msg:/home/jake/ros2_iron/install/rqt_console:/home/jake/ros2_iron/install/rqt_py_common:/home/jake/ros2_iron/install/rqt_graph:/home/jake/ros2_iron/install/rqt_gui_py:/home/jake/ros2_iron/install/rqt_gui:/home/jake/ros2_iron/install/ros_testing:/home/jake/ros2_iron/install/ros2trace:/home/jake/ros2_iron/install/ros2topic:/home/jake/ros2_iron/install/ros2test:/home/jake/ros2_iron/install/ros2param:/home/jake/ros2_iron/install/ros2lifecycle:/home/jake/ros2_iron/install/ros2service:/home/jake/ros2_iron/install/ros2run:/home/jake/ros2_iron/install/ros2launch:/home/jake/ros2_iron/install/ros2pkg:/home/jake/ros2_iron/install/ros2node:/home/jake/ros2_iron/install/ros2multicast:/home/jake/ros2_iron/install/ros2interface:/home/jake/ros2_iron/install/ros2action:/home/jake/ros2_iron/install/ros2cli:/home/jake/ros2_iron/install/launch_testing_ros:/home/jake/ros2_iron/install/launch_ros:/home/jake/ros2_iron/install/examples_rclpy_minimal_action_server:/home/jake/ros2_iron/install/examples_rclpy_minimal_action_client:/home/jake/ros2_iron/install/examples_rclpy_guard_conditions:/home/jake/ros2_iron/install/action_tutorials_py:/home/jake/ros2_iron/install/rclpy:/home/jake/ros2_iron/install/rosgraph_msgs:/home/jake/ros2_iron/install/rosbag2_interfaces:/home/jake/ros2_iron/install/ros2cli_test_interfaces:/home/jake/ros2_iron/install/rcl_lifecycle:/home/jake/ros2_iron/install/rcl_action:/home/jake/ros2_iron/install/rcl:/home/jake/ros2_iron/install/rmw_implementation:/home/jake/ros2_iron/install/rmw_fastrtps_dynamic_cpp:/home/jake/ros2_iron/install/rmw_fastrtps_cpp:/home/jake/ros2_iron/install/rmw_fastrtps_shared_cpp:/home/jake/ros2_iron/install/rmw_cyclonedds_cpp:/home/jake/ros2_iron/install/rmw_connextddsmicro:/home/jake/ros2_iron/install/rmw_connextdds:/home/jake/ros2_iron/install/rmw_connextdds_common:/home/jake/ros2_iron/install/rmw_dds_common:/home/jake/ros2_iron/install/composition_interfaces:/home/jake/ros2_iron/install/rcl_interfaces:/home/jake/ros2_iron/install/pendulum_msgs:/home/jake/ros2_iron/install/lifecycle_msgs:/home/jake/ros2_iron/install/example_interfaces:/home/jake/ros2_iron/install/action_tutorials_interfaces:/home/jake/ros2_iron/install/rosidl_default_runtime:/home/jake/ros2_iron/install/rosidl_default_generators:/home/jake/ros2_iron/install/action_msgs:/home/jake/ros2_iron/install/unique_identifier_msgs:/home/jake/ros2_iron/install/ament_lint_common:/home/jake/ros2_iron/install/ament_cmake_uncrustify:/home/jake/ros2_iron/install/ament_uncrustify:/home/jake/ros2_iron/install/uncrustify_vendor:/home/jake/ros2_iron/install/type_description_interfaces:/home/jake/ros2_iron/install/tracetools_trace:/home/jake/ros2_iron/install/tracetools_read:/home/jake/ros2_iron/install/tracetools:/home/jake/ros2_iron/install/tlsf:/home/jake/ros2_iron/install/tinyxml_vendor:/home/jake/ros2_iron/install/qt_gui_core:/home/jake/ros2_iron/install/qt_gui_cpp:/home/jake/ros2_iron/install/pluginlib:/home/jake/ros2_iron/install/tinyxml2_vendor:/home/jake/ros2_iron/install/test_tracetools_launch:/home/jake/ros2_iron/install/test_security:/home/jake/ros2_iron/install/test_ros2trace:/home/jake/ros2_iron/install/test_rmw_implementation:/home/jake/ros2_iron/install/test_rclcpp:/home/jake/ros2_iron/install/test_quality_of_service:/home/jake/ros2_iron/install/test_launch_testing:/home/jake/ros2_iron/install/test_launch_ros:/home/jake/ros2_iron/install/test_interface_files:/home/jake/ros2_iron/install/test_cli_remapping:/home/jake/ros2_iron/install/test_cli:/home/jake/ros2_iron/install/qt_gui_app:/home/jake/ros2_iron/install/qt_gui:/home/jake/ros2_iron/install/tango_icons_vendor:/home/jake/ros2_iron/install/sqlite3_vendor:/home/jake/ros2_iron/install/rcl_logging_spdlog:/home/jake/ros2_iron/install/spdlog_vendor:/home/jake/ros2_iron/install/shared_queues_vendor:/home/jake/ros2_iron/install/service_msgs:/home/jake/ros2_iron/install/rviz_rendering_tests:/home/jake/ros2_iron/install/rviz_rendering:/home/jake/ros2_iron/install/rviz_ogre_vendor:/home/jake/ros2_iron/install/rviz_assimp_vendor:/home/jake/ros2_iron/install/rttest:/home/jake/ros2_iron/install/rti_connext_dds_cmake_module:/home/jake/ros2_iron/install/builtin_interfaces:/home/jake/ros2_iron/install/rosidl_core_runtime:/home/jake/ros2_iron/install/rosidl_core_generators:/home/jake/ros2_iron/install/rosidl_generator_py:/home/jake/ros2_iron/install/rpyutils:/home/jake/ros2_iron/install/rosidl_typesupport_tests:/home/jake/ros2_iron/install/rosidl_typesupport_introspection_tests:/home/jake/ros2_iron/install/rosidl_typesupport_cpp:/home/jake/ros2_iron/install/rosidl_typesupport_introspection_cpp:/home/jake/ros2_iron/install/rosidl_typesupport_c:/home/jake/ros2_iron/install/rosidl_typesupport_introspection_c:/home/jake/ros2_iron/install/rosidl_typesupport_fastrtps_c:/home/jake/ros2_iron/install/rosidl_typesupport_fastrtps_cpp:/home/jake/ros2_iron/install/rosidl_generator_cpp:/home/jake/ros2_iron/install/rosidl_runtime_cpp:/home/jake/ros2_iron/install/rosidl_dynamic_typesupport_fastrtps:/home/jake/ros2_iron/install/rcl_yaml_param_parser:/home/jake/ros2_iron/install/rmw:/home/jake/ros2_iron/install/rosidl_dynamic_typesupport:/home/jake/ros2_iron/install/rosidl_runtime_c:/home/jake/ros2_iron/install/rosidl_generator_c:/home/jake/ros2_iron/install/rosidl_typesupport_interface:/home/jake/ros2_iron/install/rosidl_runtime_py:/home/jake/ros2_iron/install/rosidl_generator_dds_idl:/home/jake/ros2_iron/install/rosidl_cmake:/home/jake/ros2_iron/install/rosidl_pycommon:/home/jake/ros2_iron/install/rosidl_generator_type_description:/home/jake/ros2_iron/install/rosidl_parser:/home/jake/ros2_iron/install/rosidl_generator_tests:/home/jake/ros2_iron/install/rosidl_adapter:/home/jake/ros2_iron/install/rosidl_cli:/home/jake/ros2_iron/install/rosbag2_tests:/home/jake/ros2_iron/install/rosbag2_test_msgdefs:/home/jake/ros2_iron/install/ros_environment:/home/jake/ros2_iron/install/rmw_implementation_cmake:/home/jake/ros2_iron/install/resource_retriever:/home/jake/ros2_iron/install/class_loader:/home/jake/ros2_iron/install/rcpputils:/home/jake/ros2_iron/install/rcl_logging_noop:/home/jake/ros2_iron/install/rcl_logging_interface:/home/jake/ros2_iron/install/rcutils:/home/jake/ros2_iron/install/qt_gui_py_common:/home/jake/ros2_iron/install/qt_dotgraph:/home/jake/ros2_iron/install/python_qt_binding:/home/jake/ros2_iron/install/python_orocos_kdl_vendor:/home/jake/ros2_iron/install/launch_testing_ament_cmake:/home/jake/ros2_iron/install/python_cmake_module:/home/jake/ros2_iron/install/pybind11_vendor:/home/jake/ros2_iron/install/performance_test_fixture:/home/jake/ros2_iron/install/launch_pytest:/home/jake/ros2_iron/install/launch_testing:/home/jake/ros2_iron/install/launch_yaml:/home/jake/ros2_iron/install/launch_xml:/home/jake/ros2_iron/install/launch:/home/jake/ros2_iron/install/osrf_pycommon:/home/jake/ros2_iron/install/orocos_kdl_vendor:/home/jake/ros2_iron/install/mimick_vendor:/home/jake/ros2_iron/install/libyaml_vendor:/home/jake/ros2_iron/install/libcurl_vendor:/home/jake/ros2_iron/install/keyboard_handler:/home/jake/ros2_iron/install/ament_cmake_ros:/home/jake/ros2_iron/install/ament_cmake_gmock:/home/jake/ros2_iron/install/ament_cmake_auto:/home/jake/ros2_iron/install/ament_cmake_gtest:/home/jake/ros2_iron/install/ament_cmake_google_benchmark:/home/jake/ros2_iron/install/fastrtps_cmake_module:/home/jake/ros2_iron/install/eigen3_cmake_module:/home/jake/ros2_iron/install/domain_coordinator:/home/jake/ros2_iron/install/console_bridge_vendor:/home/jake/ros2_iron/install/ament_cmake_xmllint:/home/jake/ros2_iron/install/ament_xmllint:/home/jake/ros2_iron/install/ament_cmake_pyflakes:/home/jake/ros2_iron/install/ament_pyflakes:/home/jake/ros2_iron/install/ament_cmake_pycodestyle:/home/jake/ros2_iron/install/ament_pycodestyle:/home/jake/ros2_iron/install/ament_cmake_pep257:/home/jake/ros2_iron/install/ament_pep257:/home/jake/ros2_iron/install/ament_cmake_pclint:/home/jake/ros2_iron/install/ament_pclint:/home/jake/ros2_iron/install/ament_lint_auto:/home/jake/ros2_iron/install/ament_cmake:/home/jake/ros2_iron/install/ament_cmake_version:/home/jake/ros2_iron/install/ament_cmake_vendor_package:/home/jake/ros2_iron/install/ament_cmake_pytest:/home/jake/ros2_iron/install/ament_cmake_mypy:/home/jake/ros2_iron/install/ament_cmake_lint_cmake:/home/jake/ros2_iron/install/ament_cmake_flake8:/home/jake/ros2_iron/install/ament_cmake_cpplint:/home/jake/ros2_iron/install/ament_cmake_cppcheck:/home/jake/ros2_iron/install/ament_cmake_copyright:/home/jake/ros2_iron/install/ament_cmake_clang_tidy:/home/jake/ros2_iron/install/ament_cmake_clang_format:/home/jake/ros2_iron/install/ament_cmake_test:/home/jake/ros2_iron/install/ament_cmake_target_dependencies:/home/jake/ros2_iron/install/ament_cmake_python:/home/jake/ros2_iron/install/ament_cmake_export_dependencies:/home/jake/ros2_iron/install/ament_cmake_libraries:/home/jake/ros2_iron/install/ament_cmake_include_directories:/home/jake/ros2_iron/install/ament_cmake_gen_version_h:/home/jake/ros2_iron/install/ament_cmake_export_targets:/home/jake/ros2_iron/install/ament_cmake_export_link_flags:/home/jake/ros2_iron/install/ament_cmake_export_interfaces:/home/jake/ros2_iron/install/ament_cmake_export_libraries:/home/jake/ros2_iron/install/ament_cmake_export_include_directories:/home/jake/ros2_iron/install/ament_cmake_export_definitions:/home/jake/ros2_iron/install/ament_cmake_core:/home/jake/ros2_iron/install/ament_package:/home/jake/ros2_iron/install/ament_mypy:/home/jake/ros2_iron/install/ament_lint_cmake:/home/jake/ros2_iron/install/ament_flake8:/home/jake/ros2_iron/install/ament_copyright:/home/jake/ros2_iron/install/ament_lint:/home/jake/ros2_iron/install/ament_index_python:/home/jake/ros2_iron/install/ament_index_cpp:/home/jake/ros2_iron/install/ament_cpplint:/home/jake/ros2_iron/install/ament_cppcheck:/home/jake/ros2_iron/install/ament_clang_tidy:/home/jake/ros2_iron/install/ament_clang_format:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jake/moveit2_ws_main/build/moveit_ros_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jake/moveit2_ws_main/install/moveit_msgs/lib/python3.10/site-packages:/home/jake/moveit2_ws_main/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jake/moveit2_ws_main/install/generate_parameter_library_py/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt_bag_plugins/src:/home/jake/ros2_iron/install/rqt_bag_plugins/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosbag2_storage_mcap/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt_bag/src:/home/jake/ros2_iron/install/rqt_bag/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rosbag2_examples_py:/home/jake/ros2_iron/install/rosbag2_examples_py/lib/python3.10/site-packages:/home/jake/ros2_iron/build/launch_testing_examples:/home/jake/ros2_iron/install/launch_testing_examples/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2bag:/home/jake/ros2_iron/install/ros2bag/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosbag2_py/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosbag2_storage_sqlite3/lib/python3.10/site-packages:/home/jake/ros2_iron/install/interactive_markers/lib/python3.10/site-packages:/home/jake/ros2_iron/install/visualization_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/install/turtlesim/lib/python3.10/site-packages:/home/jake/ros2_iron/install/trajectory_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/build/tracetools_test:/home/jake/ros2_iron/install/tracetools_test/lib/python3.10/site-packages:/home/jake/ros2_iron/build/tracetools_launch:/home/jake/ros2_iron/install/tracetools_launch/lib/python3.10/site-packages:/home/jake/ros2_iron/build/topic_monitor:/home/jake/ros2_iron/install/topic_monitor/lib/python3.10/site-packages:/home/jake/ros2_iron/build/tf2_tools:/home/jake/ros2_iron/install/tf2_tools/lib/python3.10/site-packages:/home/jake/ros2_iron/install/tf2_sensor_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/install/tf2_kdl/lib/python3.10/site-packages:/home/jake/ros2_iron/install/tf2_geometry_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/build/examples_tf2_py:/home/jake/ros2_iron/install/examples_tf2_py/lib/python3.10/site-packages:/home/jake/ros2_iron/build/tf2_ros_py:/home/jake/ros2_iron/install/tf2_ros_py/lib/python3.10/site-packages:/home/jake/ros2_iron/install/tf2_py/lib/python3.10/site-packages:/home/jake/ros2_iron/install/tf2_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/install/laser_geometry/lib/python3.10/site-packages:/home/jake/ros2_iron/install/test_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/install/stereo_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/install/std_srvs/lib/python3.10/site-packages:/home/jake/ros2_iron/install/shape_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/build/examples_rclpy_pointcloud_publisher:/home/jake/ros2_iron/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/jake/ros2_iron/build/sensor_msgs_py:/home/jake/ros2_iron/install/sensor_msgs_py/lib/python3.10/site-packages:/home/jake/ros2_iron/build/quality_of_service_demo_py:/home/jake/ros2_iron/install/quality_of_service_demo_py/lib/python3.10/site-packages:/home/jake/ros2_iron/install/map_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/install/sensor_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt_plot/src:/home/jake/ros2_iron/install/rqt_plot/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2doctor:/home/jake/ros2_iron/install/ros2doctor/lib/python3.10/site-packages:/home/jake/ros2_iron/install/nav_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/install/logging_demo/lib/python3.10/site-packages:/home/jake/ros2_iron/build/lifecycle_py:/home/jake/ros2_iron/install/lifecycle_py/lib/python3.10/site-packages:/home/jake/ros2_iron/install/diagnostic_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/install/geometry_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/build/examples_rclpy_minimal_subscriber:/home/jake/ros2_iron/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/jake/ros2_iron/build/examples_rclpy_minimal_service:/home/jake/ros2_iron/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/jake/ros2_iron/build/examples_rclpy_minimal_publisher:/home/jake/ros2_iron/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/jake/ros2_iron/build/examples_rclpy_minimal_client:/home/jake/ros2_iron/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/jake/ros2_iron/build/examples_rclpy_executors:/home/jake/ros2_iron/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/jake/ros2_iron/build/demo_nodes_py:/home/jake/ros2_iron/install/demo_nodes_py/lib/python3.10/site-packages:/home/jake/ros2_iron/install/actionlib_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/install/std_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt:/home/jake/ros2_iron/install/rqt/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosbag2_test_common/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2component:/home/jake/ros2_iron/install/ros2component/lib/python3.10/site-packages:/home/jake/ros2_iron/install/message_filters/lib/python3.10/site-packages:/home/jake/ros2_iron/install/statistics_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/build/sros2:/home/jake/ros2_iron/install/sros2/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt_topic/src:/home/jake/ros2_iron/install/rqt_topic/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt_srv/src:/home/jake/ros2_iron/install/rqt_srv/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt_shell/src:/home/jake/ros2_iron/install/rqt_shell/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt_service_caller/src:/home/jake/ros2_iron/install/rqt_service_caller/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt_reconfigure/src:/home/jake/ros2_iron/install/rqt_reconfigure/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt_py_console/src:/home/jake/ros2_iron/install/rqt_py_console/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt_publisher/src:/home/jake/ros2_iron/install/rqt_publisher/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt_action/src:/home/jake/ros2_iron/install/rqt_action/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt_msg/src:/home/jake/ros2_iron/install/rqt_msg/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt_console/src:/home/jake/ros2_iron/install/rqt_console/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rqt_py_common/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt_graph/src:/home/jake/ros2_iron/install/rqt_graph/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt_gui_py/src:/home/jake/ros2_iron/install/rqt_gui_py/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rqt_gui/src:/home/jake/ros2_iron/install/rqt_gui/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2trace:/home/jake/ros2_iron/install/ros2trace/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2topic:/home/jake/ros2_iron/install/ros2topic/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2test:/home/jake/ros2_iron/install/ros2test/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2param:/home/jake/ros2_iron/install/ros2param/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2lifecycle:/home/jake/ros2_iron/install/ros2lifecycle/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2service:/home/jake/ros2_iron/install/ros2service/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2run:/home/jake/ros2_iron/install/ros2run/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2launch:/home/jake/ros2_iron/install/ros2launch/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2pkg:/home/jake/ros2_iron/install/ros2pkg/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2node:/home/jake/ros2_iron/install/ros2node/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2multicast:/home/jake/ros2_iron/install/ros2multicast/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2interface:/home/jake/ros2_iron/install/ros2interface/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2action:/home/jake/ros2_iron/install/ros2action/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ros2cli:/home/jake/ros2_iron/install/ros2cli/lib/python3.10/site-packages:/home/jake/ros2_iron/build/launch_testing_ros:/home/jake/ros2_iron/install/launch_testing_ros/lib/python3.10/site-packages:/home/jake/ros2_iron/build/launch_ros:/home/jake/ros2_iron/install/launch_ros/lib/python3.10/site-packages:/home/jake/ros2_iron/build/examples_rclpy_minimal_action_server:/home/jake/ros2_iron/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/jake/ros2_iron/build/examples_rclpy_minimal_action_client:/home/jake/ros2_iron/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/jake/ros2_iron/build/examples_rclpy_guard_conditions:/home/jake/ros2_iron/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/jake/ros2_iron/build/action_tutorials_py:/home/jake/ros2_iron/install/action_tutorials_py/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rclpy/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosgraph_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosbag2_interfaces/lib/python3.10/site-packages:/home/jake/ros2_iron/install/ros2cli_test_interfaces/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rmw_dds_common/lib/python3.10/site-packages:/home/jake/ros2_iron/install/composition_interfaces/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rcl_interfaces/lib/python3.10/site-packages:/home/jake/ros2_iron/install/pendulum_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/install/lifecycle_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/install/example_interfaces/lib/python3.10/site-packages:/home/jake/ros2_iron/install/action_tutorials_interfaces/lib/python3.10/site-packages:/home/jake/ros2_iron/install/action_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/install/unique_identifier_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_uncrustify:/home/jake/ros2_iron/install/ament_uncrustify/lib/python3.10/site-packages:/home/jake/ros2_iron/install/type_description_interfaces/lib/python3.10/site-packages:/home/jake/ros2_iron/build/tracetools_trace:/home/jake/ros2_iron/install/tracetools_trace/lib/python3.10/site-packages:/home/jake/ros2_iron/build/tracetools_read:/home/jake/ros2_iron/install/tracetools_read/lib/python3.10/site-packages:/home/jake/ros2_iron/install/qt_gui_cpp/lib/python3.10/site-packages:/home/jake/ros2_iron/build/test_tracetools_launch:/home/jake/ros2_iron/install/test_tracetools_launch/lib/python3.10/site-packages:/home/jake/ros2_iron/build/test_ros2trace:/home/jake/ros2_iron/install/test_ros2trace/lib/python3.10/site-packages:/home/jake/ros2_iron/build/test_launch_ros:/home/jake/ros2_iron/install/test_launch_ros/lib/python3.10/site-packages:/home/jake/ros2_iron/install/qt_gui/lib/python3.10/site-packages:/home/jake/ros2_iron/install/service_msgs/lib/python3.10/site-packages:/home/jake/ros2_iron/install/builtin_interfaces/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosidl_generator_py/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rpyutils:/home/jake/ros2_iron/install/rpyutils/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosidl_typesupport_cpp/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosidl_typesupport_introspection_cpp/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosidl_typesupport_c/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosidl_typesupport_introspection_c/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosidl_typesupport_fastrtps_c/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosidl_typesupport_fastrtps_cpp/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosidl_generator_cpp/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosidl_generator_c/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rosidl_runtime_py:/home/jake/ros2_iron/install/rosidl_runtime_py/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosidl_generator_dds_idl/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosidl_cmake/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rosidl_pycommon:/home/jake/ros2_iron/install/rosidl_pycommon/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosidl_generator_type_description/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosidl_parser/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosidl_adapter/lib/python3.10/site-packages:/home/jake/ros2_iron/build/rosidl_cli:/home/jake/ros2_iron/install/rosidl_cli/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rosbag2_test_msgdefs/lib/python3.10/site-packages:/home/jake/ros2_iron/install/resource_retriever/lib/python3.10/site-packages:/home/jake/ros2_iron/install/rcutils/lib/python3.10/site-packages:/home/jake/ros2_iron/install/qt_gui_py_common/lib/python3.10/site-packages:/home/jake/ros2_iron/install/qt_dotgraph/lib/python3.10/site-packages:/home/jake/ros2_iron/install/python_qt_binding/lib/python3.10/site-packages:/home/jake/ros2_iron/build/launch_pytest:/home/jake/ros2_iron/install/launch_pytest/lib/python3.10/site-packages:/home/jake/ros2_iron/build/launch_testing:/home/jake/ros2_iron/install/launch_testing/lib/python3.10/site-packages:/home/jake/ros2_iron/build/launch_yaml:/home/jake/ros2_iron/install/launch_yaml/lib/python3.10/site-packages:/home/jake/ros2_iron/build/launch_xml:/home/jake/ros2_iron/install/launch_xml/lib/python3.10/site-packages:/home/jake/ros2_iron/build/launch:/home/jake/ros2_iron/install/launch/lib/python3.10/site-packages:/home/jake/ros2_iron/build/osrf_pycommon:/home/jake/ros2_iron/install/osrf_pycommon/lib/python3.10/site-packages:/home/jake/ros2_iron/install/ament_cmake_google_benchmark/lib/python3.10/site-packages:/home/jake/ros2_iron/build/domain_coordinator:/home/jake/ros2_iron/install/domain_coordinator/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_xmllint:/home/jake/ros2_iron/install/ament_xmllint/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_pyflakes:/home/jake/ros2_iron/install/ament_pyflakes/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_pycodestyle:/home/jake/ros2_iron/install/ament_pycodestyle/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_pep257:/home/jake/ros2_iron/install/ament_pep257/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_pclint:/home/jake/ros2_iron/install/ament_pclint/lib/python3.10/site-packages:/home/jake/ros2_iron/install/ament_cmake_test/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_package:/home/jake/ros2_iron/install/ament_package/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_mypy:/home/jake/ros2_iron/install/ament_mypy/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_lint_cmake:/home/jake/ros2_iron/install/ament_lint_cmake/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_flake8:/home/jake/ros2_iron/install/ament_flake8/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_copyright:/home/jake/ros2_iron/install/ament_copyright/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_lint:/home/jake/ros2_iron/install/ament_lint/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_index_python:/home/jake/ros2_iron/install/ament_index_python/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_cpplint:/home/jake/ros2_iron/install/ament_cpplint/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_cppcheck:/home/jake/ros2_iron/install/ament_cppcheck/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_clang_tidy:/home/jake/ros2_iron/install/ament_clang_tidy/lib/python3.10/site-packages:/home/jake/ros2_iron/build/ament_clang_format:/home/jake/ros2_iron/install/ament_clang_format/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jake/moveit2_ws_main/install/moveit_ros_occupancy_map_monitor:/home/jake/moveit2_ws_main/install/moveit_core:/home/jake/moveit2_ws_main/install/moveit_resources_panda_moveit_config:/home/jake/moveit2_ws_main/install/generate_parameter_library:/home/jake/moveit2_ws_main/install/parameter_traits:/home/jake/moveit2_ws_main/install/moveit_resources_pr2_description:/home/jake/moveit2_ws_main/install/moveit_resources_panda_description:/home/jake/moveit2_ws_main/install/moveit_msgs:/home/jake/moveit2_ws_main/install/moveit_common:/home/jake/moveit2_ws_main/install/geometric_shapes:/home/jake/ros2_iron/install/rosbag2:/home/jake/ros2_iron/install/rosbag2_storage_default_plugins:/home/jake/ros2_iron/install/rosbag2_storage_mcap:/home/jake/ros2_iron/install/rosbag2_compression_zstd:/home/jake/ros2_iron/install/mcap_vendor:/home/jake/ros2_iron/install/zstd_vendor:/home/jake/ros2_iron/install/rviz_visual_testing_framework:/home/jake/ros2_iron/install/rviz2:/home/jake/ros2_iron/install/rviz_default_plugins:/home/jake/ros2_iron/install/rviz_common:/home/jake/ros2_iron/install/rosbag2_py:/home/jake/ros2_iron/install/rosbag2_transport:/home/jake/ros2_iron/install/rosbag2_storage_sqlite3:/home/jake/ros2_iron/install/rosbag2_examples_cpp:/home/jake/ros2_iron/install/rosbag2_compression:/home/jake/ros2_iron/install/rosbag2_cpp:/home/jake/ros2_iron/install/rosbag2_storage:/home/jake/ros2_iron/install/image_common:/home/jake/ros2_iron/install/camera_info_manager:/home/jake/ros2_iron/install/camera_calibration_parsers:/home/jake/ros2_iron/install/yaml_cpp_vendor:/home/jake/ros2_iron/install/interactive_markers:/home/jake/ros2_iron/install/common_interfaces:/home/jake/ros2_iron/install/visualization_msgs:/home/jake/ros2_iron/install/dummy_robot_bringup:/home/jake/ros2_iron/install/robot_state_publisher:/home/jake/ros2_iron/install/kdl_parser:/home/jake/ros2_iron/install/urdf:/home/jake/ros2_iron/install/urdfdom:/home/jake/ros2_iron/install/urdf_parser_plugin:/home/jake/ros2_iron/install/urdfdom_headers:/home/jake/ros2_iron/install/turtlesim:/home/jake/ros2_iron/install/trajectory_msgs:/home/jake/ros2_iron/install/topic_statistics_demo:/home/jake/ros2_iron/install/pendulum_control:/home/jake/ros2_iron/install/tlsf_cpp:/home/jake/ros2_iron/install/geometry2:/home/jake/ros2_iron/install/tf2_sensor_msgs:/home/jake/ros2_iron/install/test_tf2:/home/jake/ros2_iron/install/tf2_kdl:/home/jake/ros2_iron/install/tf2_geometry_msgs:/home/jake/ros2_iron/install/tf2_eigen:/home/jake/ros2_iron/install/tf2_bullet:/home/jake/ros2_iron/install/tf2_ros:/home/jake/ros2_iron/install/tf2_py:/home/jake/ros2_iron/install/tf2_msgs:/home/jake/ros2_iron/install/tf2_eigen_kdl:/home/jake/ros2_iron/install/laser_geometry:/home/jake/ros2_iron/install/tf2:/home/jake/ros2_iron/install/test_tracetools:/home/jake/ros2_iron/install/test_msgs:/home/jake/ros2_iron/install/test_communication:/home/jake/ros2_iron/install/stereo_msgs:/home/jake/ros2_iron/install/std_srvs:/home/jake/ros2_iron/install/shape_msgs:/home/jake/ros2_iron/install/quality_of_service_demo_cpp:/home/jake/ros2_iron/install/map_msgs:/home/jake/ros2_iron/install/intra_process_demo:/home/jake/ros2_iron/install/image_transport:/home/jake/ros2_iron/install/image_tools:/home/jake/ros2_iron/install/dummy_sensors:/home/jake/ros2_iron/install/sensor_msgs:/home/jake/ros2_iron/install/ros2cli_common_extensions:/home/jake/ros2_iron/install/dummy_map_server:/home/jake/ros2_iron/install/nav_msgs:/home/jake/ros2_iron/install/logging_demo:/home/jake/ros2_iron/install/lifecycle:/home/jake/ros2_iron/install/diagnostic_msgs:/home/jake/ros2_iron/install/geometry_msgs:/home/jake/ros2_iron/install/examples_rclcpp_wait_set:/home/jake/ros2_iron/install/examples_rclcpp_multithreaded_executor:/home/jake/ros2_iron/install/examples_rclcpp_minimal_subscriber:/home/jake/ros2_iron/install/examples_rclcpp_minimal_publisher:/home/jake/ros2_iron/install/examples_rclcpp_minimal_composition:/home/jake/ros2_iron/install/examples_rclcpp_cbg_executor:/home/jake/ros2_iron/install/demo_nodes_cpp_native:/home/jake/ros2_iron/install/demo_nodes_cpp:/home/jake/ros2_iron/install/composition:/home/jake/ros2_iron/install/actionlib_msgs:/home/jake/ros2_iron/install/std_msgs:/home/jake/ros2_iron/install/rqt_gui_cpp:/home/jake/ros2_iron/install/rosbag2_test_common:/home/jake/ros2_iron/install/ros2lifecycle_test_fixtures:/home/jake/ros2_iron/install/rclcpp_lifecycle:/home/jake/ros2_iron/install/action_tutorials_cpp:/home/jake/ros2_iron/install/rclcpp_components:/home/jake/ros2_iron/install/examples_rclcpp_minimal_action_server:/home/jake/ros2_iron/install/examples_rclcpp_minimal_action_client:/home/jake/ros2_iron/install/rclcpp_action:/home/jake/ros2_iron/install/message_filters:/home/jake/ros2_iron/install/examples_rclcpp_minimal_timer:/home/jake/ros2_iron/install/examples_rclcpp_minimal_service:/home/jake/ros2_iron/install/examples_rclcpp_minimal_client:/home/jake/ros2_iron/install/examples_rclcpp_async_client:/home/jake/ros2_iron/install/rclcpp:/home/jake/ros2_iron/install/libstatistics_collector:/home/jake/ros2_iron/install/statistics_msgs:/home/jake/ros2_iron/install/sros2_cmake:/home/jake/ros2_iron/install/rqt_py_common:/home/jake/ros2_iron/install/ros_testing:/home/jake/ros2_iron/install/rclpy:/home/jake/ros2_iron/install/rosgraph_msgs:/home/jake/ros2_iron/install/rosbag2_interfaces:/home/jake/ros2_iron/install/ros2cli_test_interfaces:/home/jake/ros2_iron/install/rcl_lifecycle:/home/jake/ros2_iron/install/rcl_action:/home/jake/ros2_iron/install/rcl:/home/jake/ros2_iron/install/rmw_implementation:/home/jake/ros2_iron/install/rmw_fastrtps_dynamic_cpp:/home/jake/ros2_iron/install/rmw_fastrtps_cpp:/home/jake/ros2_iron/install/rmw_fastrtps_shared_cpp:/home/jake/ros2_iron/install/rmw_cyclonedds_cpp:/home/jake/ros2_iron/install/rmw_connextddsmicro:/home/jake/ros2_iron/install/rmw_connextdds:/home/jake/ros2_iron/install/rmw_connextdds_common:/home/jake/ros2_iron/install/rmw_dds_common:/home/jake/ros2_iron/install/composition_interfaces:/home/jake/ros2_iron/install/rcl_interfaces:/home/jake/ros2_iron/install/pendulum_msgs:/home/jake/ros2_iron/install/lifecycle_msgs:/home/jake/ros2_iron/install/example_interfaces:/home/jake/ros2_iron/install/action_tutorials_interfaces:/home/jake/ros2_iron/install/rosidl_default_runtime:/home/jake/ros2_iron/install/rosidl_default_generators:/home/jake/ros2_iron/install/action_msgs:/home/jake/ros2_iron/install/unique_identifier_msgs:/home/jake/ros2_iron/install/ament_lint_common:/home/jake/ros2_iron/install/ament_cmake_uncrustify:/home/jake/ros2_iron/install/uncrustify_vendor:/home/jake/ros2_iron/install/type_description_interfaces:/home/jake/ros2_iron/install/tracetools:/home/jake/ros2_iron/install/tlsf:/home/jake/ros2_iron/install/tinyxml_vendor:/home/jake/ros2_iron/install/qt_gui_core:/home/jake/ros2_iron/install/qt_gui_cpp:/home/jake/ros2_iron/install/pluginlib:/home/jake/ros2_iron/install/tinyxml2_vendor:/home/jake/ros2_iron/install/test_security:/home/jake/ros2_iron/install/test_rmw_implementation:/home/jake/ros2_iron/install/test_rclcpp:/home/jake/ros2_iron/install/test_quality_of_service:/home/jake/ros2_iron/install/test_launch_testing:/home/jake/ros2_iron/install/test_interface_files:/home/jake/ros2_iron/install/test_cli_remapping:/home/jake/ros2_iron/install/test_cli:/home/jake/ros2_iron/install/qt_gui_app:/home/jake/ros2_iron/install/qt_gui:/home/jake/ros2_iron/install/tango_icons_vendor:/home/jake/ros2_iron/install/sqlite3_vendor:/home/jake/ros2_iron/install/rcl_logging_spdlog:/home/jake/ros2_iron/install/spdlog_vendor:/home/jake/ros2_iron/install/shared_queues_vendor:/home/jake/ros2_iron/install/service_msgs:/home/jake/ros2_iron/install/rviz_rendering_tests:/home/jake/ros2_iron/install/rviz_rendering:/home/jake/ros2_iron/install/rviz_ogre_vendor:/home/jake/ros2_iron/install/rviz_assimp_vendor:/home/jake/ros2_iron/install/rttest:/home/jake/ros2_iron/install/rti_connext_dds_cmake_module:/home/jake/ros2_iron/install/builtin_interfaces:/home/jake/ros2_iron/install/rosidl_core_runtime:/home/jake/ros2_iron/install/rosidl_core_generators:/home/jake/ros2_iron/install/rosidl_generator_py:/home/jake/ros2_iron/install/rosidl_typesupport_tests:/home/jake/ros2_iron/install/rosidl_typesupport_introspection_tests:/home/jake/ros2_iron/install/rosidl_typesupport_cpp:/home/jake/ros2_iron/install/rosidl_typesupport_introspection_cpp:/home/jake/ros2_iron/install/rosidl_typesupport_c:/home/jake/ros2_iron/install/rosidl_typesupport_introspection_c:/home/jake/ros2_iron/install/rosidl_typesupport_fastrtps_c:/home/jake/ros2_iron/install/rosidl_typesupport_fastrtps_cpp:/home/jake/ros2_iron/install/rosidl_generator_cpp:/home/jake/ros2_iron/install/rosidl_runtime_cpp:/home/jake/ros2_iron/install/rosidl_dynamic_typesupport_fastrtps:/home/jake/ros2_iron/install/rcl_yaml_param_parser:/home/jake/ros2_iron/install/rmw:/home/jake/ros2_iron/install/rosidl_dynamic_typesupport:/home/jake/ros2_iron/install/rosidl_runtime_c:/home/jake/ros2_iron/install/rosidl_generator_c:/home/jake/ros2_iron/install/rosidl_typesupport_interface:/home/jake/ros2_iron/install/rosidl_generator_dds_idl:/home/jake/ros2_iron/install/rosidl_cmake:/home/jake/ros2_iron/install/rosidl_generator_type_description:/home/jake/ros2_iron/install/rosidl_parser:/home/jake/ros2_iron/install/rosidl_generator_tests:/home/jake/ros2_iron/install/rosidl_adapter:/home/jake/ros2_iron/install/rosbag2_tests:/home/jake/ros2_iron/install/rosbag2_test_msgdefs:/home/jake/ros2_iron/install/ros_environment:/home/jake/ros2_iron/install/rmw_implementation_cmake:/home/jake/ros2_iron/install/resource_retriever:/home/jake/ros2_iron/install/class_loader:/home/jake/ros2_iron/install/rcpputils:/home/jake/ros2_iron/install/rcl_logging_noop:/home/jake/ros2_iron/install/rcl_logging_interface:/home/jake/ros2_iron/install/rcutils:/home/jake/ros2_iron/install/qt_gui_py_common:/home/jake/ros2_iron/install/qt_dotgraph:/home/jake/ros2_iron/install/python_qt_binding:/home/jake/ros2_iron/install/python_orocos_kdl_vendor:/home/jake/ros2_iron/install/launch_testing_ament_cmake:/home/jake/ros2_iron/install/python_cmake_module:/home/jake/ros2_iron/install/pybind11_vendor:/home/jake/ros2_iron/install/performance_test_fixture:/home/jake/ros2_iron/install/osrf_testing_tools_cpp:/home/jake/ros2_iron/install/orocos_kdl_vendor:/home/jake/ros2_iron/install/mimick_vendor:/home/jake/ros2_iron/install/libyaml_vendor:/home/jake/ros2_iron/install/libcurl_vendor:/home/jake/ros2_iron/install/keyboard_handler:/home/jake/ros2_iron/install/iceoryx_introspection:/home/jake/ros2_iron/install/cyclonedds:/home/jake/ros2_iron/install/iceoryx_posh:/home/jake/ros2_iron/install/iceoryx_hoofs:/home/jake/ros2_iron/install/iceoryx_binding_c:/home/jake/ros2_iron/install/ament_cmake_ros:/home/jake/ros2_iron/install/ament_cmake_gmock:/home/jake/ros2_iron/install/gmock_vendor:/home/jake/ros2_iron/install/ament_cmake_auto:/home/jake/ros2_iron/install/ament_cmake_gtest:/home/jake/ros2_iron/install/gtest_vendor:/home/jake/ros2_iron/install/ament_cmake_google_benchmark:/home/jake/ros2_iron/install/google_benchmark_vendor:/home/jake/ros2_iron/install/fastrtps:/home/jake/ros2_iron/install/foonathan_memory_vendor:/home/jake/ros2_iron/install/fastrtps_cmake_module:/home/jake/ros2_iron/install/fastcdr:/home/jake/ros2_iron/install/eigen3_cmake_module:/home/jake/ros2_iron/install/console_bridge_vendor:/home/jake/ros2_iron/install/ament_cmake_xmllint:/home/jake/ros2_iron/install/ament_cmake_pyflakes:/home/jake/ros2_iron/install/ament_cmake_pycodestyle:/home/jake/ros2_iron/install/ament_cmake_pep257:/home/jake/ros2_iron/install/ament_cmake_pclint:/home/jake/ros2_iron/install/ament_lint_auto:/home/jake/ros2_iron/install/ament_cmake:/home/jake/ros2_iron/install/ament_cmake_version:/home/jake/ros2_iron/install/ament_cmake_vendor_package:/home/jake/ros2_iron/install/ament_cmake_pytest:/home/jake/ros2_iron/install/ament_cmake_mypy:/home/jake/ros2_iron/install/ament_cmake_lint_cmake:/home/jake/ros2_iron/install/ament_cmake_flake8:/home/jake/ros2_iron/install/ament_cmake_cpplint:/home/jake/ros2_iron/install/ament_cmake_cppcheck:/home/jake/ros2_iron/install/ament_cmake_copyright:/home/jake/ros2_iron/install/ament_cmake_clang_tidy:/home/jake/ros2_iron/install/ament_cmake_clang_format:/home/jake/ros2_iron/install/ament_cmake_test:/home/jake/ros2_iron/install/ament_cmake_target_dependencies:/home/jake/ros2_iron/install/ament_cmake_python:/home/jake/ros2_iron/install/ament_cmake_export_dependencies:/home/jake/ros2_iron/install/ament_cmake_libraries:/home/jake/ros2_iron/install/ament_cmake_include_directories:/home/jake/ros2_iron/install/ament_cmake_gen_version_h:/home/jake/ros2_iron/install/ament_cmake_export_targets:/home/jake/ros2_iron/install/ament_cmake_export_link_flags:/home/jake/ros2_iron/install/ament_cmake_export_interfaces:/home/jake/ros2_iron/install/ament_cmake_export_libraries:/home/jake/ros2_iron/install/ament_cmake_export_include_directories:/home/jake/ros2_iron/install/ament_cmake_export_definitions:/home/jake/ros2_iron/install/ament_cmake_core:/home/jake/ros2_iron/install/ament_index_cpp:/home/jake/ros2_iron/install/rqt_bag_plugins:/home/jake/ros2_iron/install/rqt_bag:/home/jake/ros2_iron/install/rosbag2_examples_py:/home/jake/ros2_iron/install/launch_testing_examples:/home/jake/ros2_iron/install/ros2bag:/home/jake/ros2_iron/install/tracetools_test:/home/jake/ros2_iron/install/tracetools_launch:/home/jake/ros2_iron/install/topic_monitor:/home/jake/ros2_iron/install/tf2_tools:/home/jake/ros2_iron/install/examples_tf2_py:/home/jake/ros2_iron/install/tf2_ros_py:/home/jake/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/jake/ros2_iron/install/sensor_msgs_py:/home/jake/ros2_iron/install/quality_of_service_demo_py:/home/jake/ros2_iron/install/rqt_plot:/home/jake/ros2_iron/install/ros2doctor:/home/jake/ros2_iron/install/lifecycle_py:/home/jake/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/jake/ros2_iron/install/examples_rclpy_minimal_service:/home/jake/ros2_iron/install/examples_rclpy_minimal_publisher:/home/jake/ros2_iron/install/examples_rclpy_minimal_client:/home/jake/ros2_iron/install/examples_rclpy_executors:/home/jake/ros2_iron/install/demo_nodes_py:/home/jake/ros2_iron/install/rqt:/home/jake/ros2_iron/install/ros2component:/home/jake/ros2_iron/install/sros2:/home/jake/ros2_iron/install/rqt_topic:/home/jake/ros2_iron/install/rqt_srv:/home/jake/ros2_iron/install/rqt_shell:/home/jake/ros2_iron/install/rqt_service_caller:/home/jake/ros2_iron/install/rqt_reconfigure:/home/jake/ros2_iron/install/rqt_py_console:/home/jake/ros2_iron/install/rqt_publisher:/home/jake/ros2_iron/install/rqt_action:/home/jake/ros2_iron/install/rqt_msg:/home/jake/ros2_iron/install/rqt_console:/home/jake/ros2_iron/install/rqt_graph:/home/jake/ros2_iron/install/rqt_gui_py:/home/jake/ros2_iron/install/rqt_gui:/home/jake/ros2_iron/install/ros2trace:/home/jake/ros2_iron/install/ros2topic:/home/jake/ros2_iron/install/ros2test:/home/jake/ros2_iron/install/ros2param:/home/jake/ros2_iron/install/ros2lifecycle:/home/jake/ros2_iron/install/ros2service:/home/jake/ros2_iron/install/ros2run:/home/jake/ros2_iron/install/ros2launch:/home/jake/ros2_iron/install/ros2pkg:/home/jake/ros2_iron/install/ros2node:/home/jake/ros2_iron/install/ros2multicast:/home/jake/ros2_iron/install/ros2interface:/home/jake/ros2_iron/install/ros2action:/home/jake/ros2_iron/install/ros2cli:/home/jake/ros2_iron/install/launch_testing_ros:/home/jake/ros2_iron/install/launch_ros:/home/jake/ros2_iron/install/examples_rclpy_minimal_action_server:/home/jake/ros2_iron/install/examples_rclpy_minimal_action_client:/home/jake/ros2_iron/install/examples_rclpy_guard_conditions:/home/jake/ros2_iron/install/action_tutorials_py:/home/jake/ros2_iron/install/ament_uncrustify:/home/jake/ros2_iron/install/tracetools_trace:/home/jake/ros2_iron/install/tracetools_read:/home/jake/ros2_iron/install/test_tracetools_launch:/home/jake/ros2_iron/install/test_ros2trace:/home/jake/ros2_iron/install/test_launch_ros:/home/jake/ros2_iron/install/rpyutils:/home/jake/ros2_iron/install/rosidl_runtime_py:/home/jake/ros2_iron/install/rosidl_pycommon:/home/jake/ros2_iron/install/rosidl_cli:/home/jake/ros2_iron/install/launch_pytest:/home/jake/ros2_iron/install/launch_testing:/home/jake/ros2_iron/install/launch_yaml:/home/jake/ros2_iron/install/launch_xml:/home/jake/ros2_iron/install/launch:/home/jake/ros2_iron/install/osrf_pycommon:/home/jake/ros2_iron/install/domain_coordinator:/home/jake/ros2_iron/install/ament_xmllint:/home/jake/ros2_iron/install/ament_pyflakes:/home/jake/ros2_iron/install/ament_pycodestyle:/home/jake/ros2_iron/install/ament_pep257:/home/jake/ros2_iron/install/ament_pclint:/home/jake/ros2_iron/install/ament_package:/home/jake/ros2_iron/install/ament_mypy:/home/jake/ros2_iron/install/ament_lint_cmake:/home/jake/ros2_iron/install/ament_flake8:/home/jake/ros2_iron/install/ament_copyright:/home/jake/ros2_iron/install/ament_lint:/home/jake/ros2_iron/install/ament_index_python:/home/jake/ros2_iron/install/ament_cpplint:/home/jake/ros2_iron/install/ament_cppcheck:/home/jake/ros2_iron/install/ament_clang_tidy:/home/jake/ros2_iron/install/ament_clang_format:/opt/ros/iron')]), 'shell': False}
+[0.199467] (-) TimerEvent: {}
+[0.299725] (-) TimerEvent: {}
+[0.400050] (-) TimerEvent: {}
+[0.463830] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gmock\x1b[0m\n'}
+[0.500137] (-) TimerEvent: {}
+[0.509051] (moveit_ros_planning) StdoutLine: {'line': b'[  1%] Built target default_request_adapter_parameters\n'}
+[0.511039] (moveit_ros_planning) StdoutLine: {'line': b'[  2%] Built target planning_pipeline_parameters\n'}
+[0.514285] (moveit_ros_planning) StdoutLine: {'line': b'[  3%] Built target kinematics_parameters\n'}
+[0.517143] (moveit_ros_planning) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o\x1b[0m\n'}
+[0.523542] (moveit_ros_planning) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/home/jake/ros2_iron/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc.o\x1b[0m\n'}
+[0.523870] (moveit_ros_planning) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[0.524255] (moveit_ros_planning) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.524507] (moveit_ros_planning) StdoutLine: {'line': b'[  9%] Built target default_response_adapter_parameters\n'}
+[0.565036] (moveit_ros_planning) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/srdf_publisher.dir/rclcpp_components/node_main_srdf_publisher.cpp.o\x1b[0m\n'}
+[0.565408] (moveit_ros_planning) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object rdf_loader/CMakeFiles/moveit_rdf_loader.dir/src/rdf_loader.cpp.o\x1b[0m\n'}
+[0.566729] (moveit_ros_planning) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object collision_plugin_loader/CMakeFiles/moveit_collision_plugin_loader.dir/src/collision_plugin_loader.cpp.o\x1b[0m\n'}
+[0.570520] (moveit_ros_planning) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object planning_pipeline/CMakeFiles/moveit_pipeline_test_plugins.dir/test/planning_pipeline_test_plugins.cpp.o\x1b[0m\n'}
+[0.587388] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_default_planning_request_adapter_plugins\x1b[0m\n'}
+[0.597586] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_default_planning_response_adapter_plugins\x1b[0m\n'}
+[0.600245] (-) TimerEvent: {}
+[0.628689] (moveit_ros_planning) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object srdf_publisher_node/CMakeFiles/srdf_publisher_node.dir/src/srdf_publisher_node.cpp.o\x1b[0m\n'}
+[0.655289] (moveit_ros_planning) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object planning_pipeline/CMakeFiles/moveit_planning_pipeline.dir/src/planning_pipeline.cpp.o\x1b[0m\n'}
+[0.700432] (-) TimerEvent: {}
+[0.709734] (moveit_ros_planning) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/check_for_stacked_constraints.cpp.o\x1b[0m\n'}
+[0.718079] (moveit_ros_planning) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object planning_response_adapter_plugins/CMakeFiles/moveit_default_planning_response_adapter_plugins.dir/src/add_ruckig_traj_smoothing.cpp.o\x1b[0m\n'}
+[0.800811] (-) TimerEvent: {}
+[0.903312] (-) TimerEvent: {}
+[1.003698] (-) TimerEvent: {}
+[1.104079] (-) TimerEvent: {}
+[1.204396] (-) TimerEvent: {}
+[1.304764] (-) TimerEvent: {}
+[1.405174] (-) TimerEvent: {}
+[1.505511] (-) TimerEvent: {}
+[1.607074] (-) TimerEvent: {}
+[1.707659] (-) TimerEvent: {}
+[1.808008] (-) TimerEvent: {}
+[1.910229] (-) TimerEvent: {}
+[2.010893] (-) TimerEvent: {}
+[2.111272] (-) TimerEvent: {}
+[2.211705] (-) TimerEvent: {}
+[2.312017] (-) TimerEvent: {}
+[2.416107] (-) TimerEvent: {}
+[2.516963] (-) TimerEvent: {}
+[2.617319] (-) TimerEvent: {}
+[2.729015] (-) TimerEvent: {}
+[2.836008] (-) TimerEvent: {}
+[2.901631] (moveit_ros_planning) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[2.940005] (-) TimerEvent: {}
+[3.040335] (-) TimerEvent: {}
+[3.140680] (-) TimerEvent: {}
+[3.241007] (-) TimerEvent: {}
+[3.341365] (-) TimerEvent: {}
+[3.436045] (moveit_ros_planning) StdoutLine: {'line': b'[ 20%] Built target gtest_main\n'}
+[3.441478] (-) TimerEvent: {}
+[3.524022] (moveit_ros_planning) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object planning_response_adapter_plugins/CMakeFiles/moveit_default_planning_response_adapter_plugins.dir/src/add_time_optimal_parameterization.cpp.o\x1b[0m\n'}
+[3.541603] (-) TimerEvent: {}
+[3.642112] (-) TimerEvent: {}
+[3.742411] (-) TimerEvent: {}
+[3.817563] (moveit_ros_planning) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX static library libgmock_main.a\x1b[0m\n'}
+[3.842539] (-) TimerEvent: {}
+[3.943021] (-) TimerEvent: {}
+[4.043387] (-) TimerEvent: {}
+[4.137798] (moveit_ros_planning) StdoutLine: {'line': b'[ 22%] Built target gmock_main\n'}
+[4.143496] (-) TimerEvent: {}
+[4.230013] (moveit_ros_planning) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object planning_response_adapter_plugins/CMakeFiles/moveit_default_planning_response_adapter_plugins.dir/src/display_motion_path.cpp.o\x1b[0m\n'}
+[4.243611] (-) TimerEvent: {}
+[4.343989] (-) TimerEvent: {}
+[4.444340] (-) TimerEvent: {}
+[4.544882] (-) TimerEvent: {}
+[4.645252] (-) TimerEvent: {}
+[4.748157] (-) TimerEvent: {}
+[4.848469] (-) TimerEvent: {}
+[4.948795] (-) TimerEvent: {}
+[5.049139] (-) TimerEvent: {}
+[5.149442] (-) TimerEvent: {}
+[5.249817] (-) TimerEvent: {}
+[5.350149] (-) TimerEvent: {}
+[5.450466] (-) TimerEvent: {}
+[5.550768] (-) TimerEvent: {}
+[5.655013] (-) TimerEvent: {}
+[5.755339] (-) TimerEvent: {}
+[5.855668] (-) TimerEvent: {}
+[5.956034] (-) TimerEvent: {}
+[6.056435] (-) TimerEvent: {}
+[6.156805] (-) TimerEvent: {}
+[6.257137] (-) TimerEvent: {}
+[6.357454] (-) TimerEvent: {}
+[6.457777] (-) TimerEvent: {}
+[6.558122] (-) TimerEvent: {}
+[6.658459] (-) TimerEvent: {}
+[6.758840] (-) TimerEvent: {}
+[6.859229] (-) TimerEvent: {}
+[6.963007] (-) TimerEvent: {}
+[7.063333] (-) TimerEvent: {}
+[7.163747] (-) TimerEvent: {}
+[7.264088] (-) TimerEvent: {}
+[7.364412] (-) TimerEvent: {}
+[7.464773] (-) TimerEvent: {}
+[7.565088] (-) TimerEvent: {}
+[7.665412] (-) TimerEvent: {}
+[7.765725] (-) TimerEvent: {}
+[7.866071] (-) TimerEvent: {}
+[7.966412] (-) TimerEvent: {}
+[8.066771] (-) TimerEvent: {}
+[8.122027] (moveit_ros_planning) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX static library libgmock.a\x1b[0m\n'}
+[8.139984] (moveit_ros_planning) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[8.166886] (-) TimerEvent: {}
+[8.267250] (-) TimerEvent: {}
+[8.367589] (-) TimerEvent: {}
+[8.449811] (moveit_ros_planning) StdoutLine: {'line': b'[ 26%] Built target gtest\n'}
+[8.458105] (moveit_ros_planning) StdoutLine: {'line': b'[ 27%] Built target gmock\n'}
+[8.467705] (-) TimerEvent: {}
+[8.497617] (moveit_ros_planning) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object planning_response_adapter_plugins/CMakeFiles/moveit_default_planning_response_adapter_plugins.dir/src/validate_path.cpp.o\x1b[0m\n'}
+[8.502568] (moveit_ros_planning) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/check_start_state_bounds.cpp.o\x1b[0m\n'}
+[8.567823] (-) TimerEvent: {}
+[8.668150] (-) TimerEvent: {}
+[8.771225] (-) TimerEvent: {}
+[8.871619] (-) TimerEvent: {}
+[8.971959] (-) TimerEvent: {}
+[9.072399] (-) TimerEvent: {}
+[9.172847] (-) TimerEvent: {}
+[9.273214] (-) TimerEvent: {}
+[9.376012] (-) TimerEvent: {}
+[9.476369] (-) TimerEvent: {}
+[9.576714] (-) TimerEvent: {}
+[9.677016] (-) TimerEvent: {}
+[9.777378] (-) TimerEvent: {}
+[9.877751] (-) TimerEvent: {}
+[9.978119] (-) TimerEvent: {}
+[10.060062] (moveit_ros_planning) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX executable srdf_publisher\x1b[0m\n'}
+[10.078233] (-) TimerEvent: {}
+[10.178580] (-) TimerEvent: {}
+[10.278931] (-) TimerEvent: {}
+[10.379294] (-) TimerEvent: {}
+[10.479648] (-) TimerEvent: {}
+[10.580029] (-) TimerEvent: {}
+[10.683011] (-) TimerEvent: {}
+[10.783351] (-) TimerEvent: {}
+[10.883697] (-) TimerEvent: {}
+[10.967558] (moveit_ros_planning) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object rdf_loader/CMakeFiles/moveit_rdf_loader.dir/src/synchronized_string_parameter.cpp.o\x1b[0m\n'}
+[10.983819] (-) TimerEvent: {}
+[11.084212] (-) TimerEvent: {}
+[11.184580] (-) TimerEvent: {}
+[11.285061] (-) TimerEvent: {}
+[11.385438] (-) TimerEvent: {}
+[11.474968] (moveit_ros_planning) StdoutLine: {'line': b'[ 32%] Built target srdf_publisher\n'}
+[11.485543] (-) TimerEvent: {}
+[11.519088] (moveit_ros_planning) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/check_start_state_collision.cpp.o\x1b[0m\n'}
+[11.588004] (-) TimerEvent: {}
+[11.688329] (-) TimerEvent: {}
+[11.772301] (moveit_ros_planning) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libsrdf_publisher_node.so\x1b[0m\n'}
+[11.788457] (-) TimerEvent: {}
+[11.888893] (-) TimerEvent: {}
+[11.989290] (-) TimerEvent: {}
+[12.089747] (-) TimerEvent: {}
+[12.190167] (-) TimerEvent: {}
+[12.293211] (-) TimerEvent: {}
+[12.393568] (-) TimerEvent: {}
+[12.493961] (-) TimerEvent: {}
+[12.594321] (-) TimerEvent: {}
+[12.694712] (-) TimerEvent: {}
+[12.795115] (-) TimerEvent: {}
+[12.895478] (-) TimerEvent: {}
+[12.995869] (-) TimerEvent: {}
+[13.098013] (-) TimerEvent: {}
+[13.198374] (-) TimerEvent: {}
+[13.222297] (moveit_ros_planning) StdoutLine: {'line': b'[ 34%] Built target srdf_publisher_node\n'}
+[13.266437] (moveit_ros_planning) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/validate_workspace_bounds.cpp.o\x1b[0m\n'}
+[13.298573] (-) TimerEvent: {}
+[13.399015] (-) TimerEvent: {}
+[13.503017] (-) TimerEvent: {}
+[13.603412] (-) TimerEvent: {}
+[13.703803] (-) TimerEvent: {}
+[13.804217] (-) TimerEvent: {}
+[13.904621] (-) TimerEvent: {}
+[14.005023] (-) TimerEvent: {}
+[14.105405] (-) TimerEvent: {}
+[14.205821] (-) TimerEvent: {}
+[14.306249] (-) TimerEvent: {}
+[14.406638] (-) TimerEvent: {}
+[14.507027] (-) TimerEvent: {}
+[14.610020] (-) TimerEvent: {}
+[14.710400] (-) TimerEvent: {}
+[14.810773] (-) TimerEvent: {}
+[14.911187] (-) TimerEvent: {}
+[15.011602] (-) TimerEvent: {}
+[15.112014] (-) TimerEvent: {}
+[15.212416] (-) TimerEvent: {}
+[15.312809] (-) TimerEvent: {}
+[15.416020] (-) TimerEvent: {}
+[15.516410] (-) TimerEvent: {}
+[15.616797] (-) TimerEvent: {}
+[15.717220] (-) TimerEvent: {}
+[15.817629] (-) TimerEvent: {}
+[15.918017] (-) TimerEvent: {}
+[16.018381] (-) TimerEvent: {}
+[16.118750] (-) TimerEvent: {}
+[16.223016] (-) TimerEvent: {}
+[16.323401] (-) TimerEvent: {}
+[16.423786] (-) TimerEvent: {}
+[16.524175] (-) TimerEvent: {}
+[16.624551] (-) TimerEvent: {}
+[16.724922] (-) TimerEvent: {}
+[16.825300] (-) TimerEvent: {}
+[16.925668] (-) TimerEvent: {}
+[17.026023] (-) TimerEvent: {}
+[17.126396] (-) TimerEvent: {}
+[17.226771] (-) TimerEvent: {}
+[17.327170] (-) TimerEvent: {}
+[17.431011] (-) TimerEvent: {}
+[17.531389] (-) TimerEvent: {}
+[17.631780] (-) TimerEvent: {}
+[17.732203] (-) TimerEvent: {}
+[17.832615] (-) TimerEvent: {}
+[17.933020] (-) TimerEvent: {}
+[18.033396] (-) TimerEvent: {}
+[18.133776] (-) TimerEvent: {}
+[18.234159] (-) TimerEvent: {}
+[18.334548] (-) TimerEvent: {}
+[18.436016] (-) TimerEvent: {}
+[18.536394] (-) TimerEvent: {}
+[18.636769] (-) TimerEvent: {}
+[18.737166] (-) TimerEvent: {}
+[18.841018] (-) TimerEvent: {}
+[18.941389] (-) TimerEvent: {}
+[19.041799] (-) TimerEvent: {}
+[19.142204] (-) TimerEvent: {}
+[19.242595] (-) TimerEvent: {}
+[19.343014] (-) TimerEvent: {}
+[19.443429] (-) TimerEvent: {}
+[19.543839] (-) TimerEvent: {}
+[19.644249] (-) TimerEvent: {}
+[19.744651] (-) TimerEvent: {}
+[19.848197] (-) TimerEvent: {}
+[19.948582] (-) TimerEvent: {}
+[19.986066] (moveit_ros_planning) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_collision_plugin_loader.so\x1b[0m\n'}
+[20.048707] (-) TimerEvent: {}
+[20.149118] (-) TimerEvent: {}
+[20.249498] (-) TimerEvent: {}
+[20.349883] (-) TimerEvent: {}
+[20.450282] (-) TimerEvent: {}
+[20.550675] (-) TimerEvent: {}
+[20.651029] (-) TimerEvent: {}
+[20.751409] (-) TimerEvent: {}
+[20.851806] (-) TimerEvent: {}
+[20.954054] (-) TimerEvent: {}
+[20.959856] (moveit_ros_planning) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/resolve_constraint_frames.cpp.o\x1b[0m\n'}
+[21.057016] (-) TimerEvent: {}
+[21.157401] (-) TimerEvent: {}
+[21.257811] (-) TimerEvent: {}
+[21.358206] (-) TimerEvent: {}
+[21.458613] (-) TimerEvent: {}
+[21.499107] (moveit_ros_planning) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_pipeline_test_plugins.so\x1b[0m\n'}
+[21.558742] (-) TimerEvent: {}
+[21.659157] (-) TimerEvent: {}
+[21.762035] (-) TimerEvent: {}
+[21.862453] (-) TimerEvent: {}
+[21.962847] (-) TimerEvent: {}
+[22.063234] (-) TimerEvent: {}
+[22.163736] (-) TimerEvent: {}
+[22.189608] (moveit_ros_planning) StdoutLine: {'line': b'[ 39%] Built target moveit_collision_plugin_loader\n'}
+[22.263855] (-) TimerEvent: {}
+[22.364232] (-) TimerEvent: {}
+[22.391088] (moveit_ros_planning) StdoutLine: {'line': b'[ 39%] Built target moveit_pipeline_test_plugins\n'}
+[22.464360] (-) TimerEvent: {}
+[22.564737] (-) TimerEvent: {}
+[22.665107] (-) TimerEvent: {}
+[22.765462] (-) TimerEvent: {}
+[22.865814] (-) TimerEvent: {}
+[22.966171] (-) TimerEvent: {}
+[23.066513] (-) TimerEvent: {}
+[23.166874] (-) TimerEvent: {}
+[23.267245] (-) TimerEvent: {}
+[23.367602] (-) TimerEvent: {}
+[23.467960] (-) TimerEvent: {}
+[23.568347] (-) TimerEvent: {}
+[23.668760] (-) TimerEvent: {}
+[23.769176] (-) TimerEvent: {}
+[23.869565] (-) TimerEvent: {}
+[23.969985] (-) TimerEvent: {}
+[24.070343] (-) TimerEvent: {}
+[24.170721] (-) TimerEvent: {}
+[24.271148] (-) TimerEvent: {}
+[24.371486] (-) TimerEvent: {}
+[24.471872] (-) TimerEvent: {}
+[24.572280] (-) TimerEvent: {}
+[24.672662] (-) TimerEvent: {}
+[24.773057] (-) TimerEvent: {}
+[24.873448] (-) TimerEvent: {}
+[24.973849] (-) TimerEvent: {}
+[25.074224] (-) TimerEvent: {}
+[25.174590] (-) TimerEvent: {}
+[25.274957] (-) TimerEvent: {}
+[25.375301] (-) TimerEvent: {}
+[25.475661] (-) TimerEvent: {}
+[25.576020] (-) TimerEvent: {}
+[25.676361] (-) TimerEvent: {}
+[25.776716] (-) TimerEvent: {}
+[25.877085] (-) TimerEvent: {}
+[25.977434] (-) TimerEvent: {}
+[26.077801] (-) TimerEvent: {}
+[26.178195] (-) TimerEvent: {}
+[26.278586] (-) TimerEvent: {}
+[26.378997] (-) TimerEvent: {}
+[26.479374] (-) TimerEvent: {}
+[26.579754] (-) TimerEvent: {}
+[26.680153] (-) TimerEvent: {}
+[26.780540] (-) TimerEvent: {}
+[26.880926] (-) TimerEvent: {}
+[26.981325] (-) TimerEvent: {}
+[27.081695] (-) TimerEvent: {}
+[27.182024] (-) TimerEvent: {}
+[27.282395] (-) TimerEvent: {}
+[27.382786] (-) TimerEvent: {}
+[27.483157] (-) TimerEvent: {}
+[27.583528] (-) TimerEvent: {}
+[27.683884] (-) TimerEvent: {}
+[27.784250] (-) TimerEvent: {}
+[27.884635] (-) TimerEvent: {}
+[27.985005] (-) TimerEvent: {}
+[28.085363] (-) TimerEvent: {}
+[28.185735] (-) TimerEvent: {}
+[28.286125] (-) TimerEvent: {}
+[28.386519] (-) TimerEvent: {}
+[28.486858] (-) TimerEvent: {}
+[28.587239] (-) TimerEvent: {}
+[28.687609] (-) TimerEvent: {}
+[28.788015] (-) TimerEvent: {}
+[28.888390] (-) TimerEvent: {}
+[28.988752] (-) TimerEvent: {}
+[29.089091] (-) TimerEvent: {}
+[29.189476] (-) TimerEvent: {}
+[29.289844] (-) TimerEvent: {}
+[29.390226] (-) TimerEvent: {}
+[29.490565] (-) TimerEvent: {}
+[29.590933] (-) TimerEvent: {}
+[29.691323] (-) TimerEvent: {}
+[29.791705] (-) TimerEvent: {}
+[29.892145] (-) TimerEvent: {}
+[29.992580] (moveit_ros_planning) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_planning_pipeline.so\x1b[0m\n'}
+[29.992838] (-) TimerEvent: {}
+[30.093150] (-) TimerEvent: {}
+[30.127086] (moveit_ros_planning) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_rdf_loader.so\x1b[0m\n'}
+[30.193274] (-) TimerEvent: {}
+[30.293713] (-) TimerEvent: {}
+[30.394112] (-) TimerEvent: {}
+[30.494485] (-) TimerEvent: {}
+[30.594889] (-) TimerEvent: {}
+[30.695287] (-) TimerEvent: {}
+[30.795759] (-) TimerEvent: {}
+[30.896194] (-) TimerEvent: {}
+[30.996570] (-) TimerEvent: {}
+[31.097014] (-) TimerEvent: {}
+[31.197458] (-) TimerEvent: {}
+[31.297885] (-) TimerEvent: {}
+[31.398346] (-) TimerEvent: {}
+[31.498781] (-) TimerEvent: {}
+[31.599210] (-) TimerEvent: {}
+[31.699588] (-) TimerEvent: {}
+[31.799958] (-) TimerEvent: {}
+[31.900356] (-) TimerEvent: {}
+[32.000763] (-) TimerEvent: {}
+[32.049556] (moveit_ros_planning) StdoutLine: {'line': b'[ 42%] Built target moveit_planning_pipeline\n'}
+[32.093305] (moveit_ros_planning) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_default_planning_response_adapter_plugins.so\x1b[0m\n'}
+[32.095699] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_planning_pipeline_test\x1b[0m\n'}
+[32.098231] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_planning_pipeline_interfaces\x1b[0m\n'}
+[32.100889] (-) TimerEvent: {}
+[32.163260] (moveit_ros_planning) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object planning_pipeline/CMakeFiles/moveit_planning_pipeline_test.dir/test/planning_pipeline_tests.cpp.o\x1b[0m\n'}
+[32.182130] (moveit_ros_planning) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object planning_pipeline_interfaces/CMakeFiles/moveit_planning_pipeline_interfaces.dir/src/stopping_criterion_function.cpp.o\x1b[0m\n'}
+[32.187144] (moveit_ros_planning) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object planning_pipeline_interfaces/CMakeFiles/moveit_planning_pipeline_interfaces.dir/src/planning_pipeline_interfaces.cpp.o\x1b[0m\n'}
+[32.187838] (moveit_ros_planning) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object planning_pipeline_interfaces/CMakeFiles/moveit_planning_pipeline_interfaces.dir/src/solution_selection_functions.cpp.o\x1b[0m\n'}
+[32.189134] (moveit_ros_planning) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object planning_pipeline_interfaces/CMakeFiles/moveit_planning_pipeline_interfaces.dir/src/plan_responses_container.cpp.o\x1b[0m\n'}
+[32.201002] (-) TimerEvent: {}
+[32.301391] (-) TimerEvent: {}
+[32.401762] (-) TimerEvent: {}
+[32.502117] (-) TimerEvent: {}
+[32.507309] (moveit_ros_planning) StdoutLine: {'line': b'[ 49%] Built target moveit_rdf_loader\n'}
+[32.573648] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_kinematics_plugin_loader\x1b[0m\n'}
+[32.574317] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_constraint_sampler_manager_loader\x1b[0m\n'}
+[32.602239] (-) TimerEvent: {}
+[32.666128] (moveit_ros_planning) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object kinematics_plugin_loader/CMakeFiles/moveit_kinematics_plugin_loader.dir/src/kinematics_plugin_loader.cpp.o\x1b[0m\n'}
+[32.672161] (moveit_ros_planning) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object constraint_sampler_manager_loader/CMakeFiles/moveit_constraint_sampler_manager_loader.dir/src/constraint_sampler_manager_loader.cpp.o\x1b[0m\n'}
+[32.702372] (-) TimerEvent: {}
+[32.802776] (-) TimerEvent: {}
+[32.903193] (-) TimerEvent: {}
+[33.003731] (-) TimerEvent: {}
+[33.104267] (-) TimerEvent: {}
+[33.204646] (-) TimerEvent: {}
+[33.305110] (-) TimerEvent: {}
+[33.405453] (-) TimerEvent: {}
+[33.505842] (-) TimerEvent: {}
+[33.606315] (-) TimerEvent: {}
+[33.706667] (-) TimerEvent: {}
+[33.807022] (-) TimerEvent: {}
+[33.907467] (-) TimerEvent: {}
+[34.007913] (-) TimerEvent: {}
+[34.076329] (moveit_ros_planning) StdoutLine: {'line': b'[ 51%] Built target moveit_default_planning_response_adapter_plugins\n'}
+[34.108050] (-) TimerEvent: {}
+[34.208424] (-) TimerEvent: {}
+[34.308788] (-) TimerEvent: {}
+[34.409180] (-) TimerEvent: {}
+[34.509535] (-) TimerEvent: {}
+[34.609927] (-) TimerEvent: {}
+[34.710326] (-) TimerEvent: {}
+[34.810678] (-) TimerEvent: {}
+[34.911049] (-) TimerEvent: {}
+[35.011409] (-) TimerEvent: {}
+[35.111826] (-) TimerEvent: {}
+[35.212211] (-) TimerEvent: {}
+[35.312573] (-) TimerEvent: {}
+[35.412970] (-) TimerEvent: {}
+[35.513322] (-) TimerEvent: {}
+[35.613687] (-) TimerEvent: {}
+[35.714020] (-) TimerEvent: {}
+[35.814358] (-) TimerEvent: {}
+[35.914713] (-) TimerEvent: {}
+[35.934691] (moveit_ros_planning) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_default_planning_request_adapter_plugins.so\x1b[0m\n'}
+[36.014834] (-) TimerEvent: {}
+[36.115214] (-) TimerEvent: {}
+[36.215598] (-) TimerEvent: {}
+[36.315993] (-) TimerEvent: {}
+[36.416372] (-) TimerEvent: {}
+[36.516808] (-) TimerEvent: {}
+[36.617251] (-) TimerEvent: {}
+[36.717673] (-) TimerEvent: {}
+[36.818119] (-) TimerEvent: {}
+[36.918544] (-) TimerEvent: {}
+[37.018961] (-) TimerEvent: {}
+[37.119340] (-) TimerEvent: {}
+[37.219731] (-) TimerEvent: {}
+[37.320113] (-) TimerEvent: {}
+[37.420490] (-) TimerEvent: {}
+[37.520846] (-) TimerEvent: {}
+[37.621197] (-) TimerEvent: {}
+[37.653799] (moveit_ros_planning) StdoutLine: {'line': b'[ 53%] Built target moveit_default_planning_request_adapter_plugins\n'}
+[37.721342] (-) TimerEvent: {}
+[37.821707] (-) TimerEvent: {}
+[37.922089] (-) TimerEvent: {}
+[38.022471] (-) TimerEvent: {}
+[38.122857] (-) TimerEvent: {}
+[38.223259] (-) TimerEvent: {}
+[38.323617] (-) TimerEvent: {}
+[38.424007] (-) TimerEvent: {}
+[38.524374] (-) TimerEvent: {}
+[38.624757] (-) TimerEvent: {}
+[38.725154] (-) TimerEvent: {}
+[38.825519] (-) TimerEvent: {}
+[38.925900] (-) TimerEvent: {}
+[39.026294] (-) TimerEvent: {}
+[39.126706] (-) TimerEvent: {}
+[39.227094] (-) TimerEvent: {}
+[39.327463] (-) TimerEvent: {}
+[39.427847] (-) TimerEvent: {}
+[39.528237] (-) TimerEvent: {}
+[39.628617] (-) TimerEvent: {}
+[39.728979] (-) TimerEvent: {}
+[39.829343] (-) TimerEvent: {}
+[39.929698] (-) TimerEvent: {}
+[40.030079] (-) TimerEvent: {}
+[40.130447] (-) TimerEvent: {}
+[40.230814] (-) TimerEvent: {}
+[40.331217] (-) TimerEvent: {}
+[40.431604] (-) TimerEvent: {}
+[40.531989] (-) TimerEvent: {}
+[40.632348] (-) TimerEvent: {}
+[40.732696] (-) TimerEvent: {}
+[40.833019] (-) TimerEvent: {}
+[40.933363] (-) TimerEvent: {}
+[41.033711] (-) TimerEvent: {}
+[41.134073] (-) TimerEvent: {}
+[41.234412] (-) TimerEvent: {}
+[41.334773] (-) TimerEvent: {}
+[41.435160] (-) TimerEvent: {}
+[41.535551] (-) TimerEvent: {}
+[41.635932] (-) TimerEvent: {}
+[41.736303] (-) TimerEvent: {}
+[41.836659] (-) TimerEvent: {}
+[41.937037] (-) TimerEvent: {}
+[42.037411] (-) TimerEvent: {}
+[42.141012] (-) TimerEvent: {}
+[42.241390] (-) TimerEvent: {}
+[42.341774] (-) TimerEvent: {}
+[42.442149] (-) TimerEvent: {}
+[42.542519] (-) TimerEvent: {}
+[42.642889] (-) TimerEvent: {}
+[42.743270] (-) TimerEvent: {}
+[42.843655] (-) TimerEvent: {}
+[42.944018] (-) TimerEvent: {}
+[43.044382] (-) TimerEvent: {}
+[43.144737] (-) TimerEvent: {}
+[43.245116] (-) TimerEvent: {}
+[43.345491] (-) TimerEvent: {}
+[43.445862] (-) TimerEvent: {}
+[43.546244] (-) TimerEvent: {}
+[43.646621] (-) TimerEvent: {}
+[43.747006] (-) TimerEvent: {}
+[43.847355] (-) TimerEvent: {}
+[43.947737] (-) TimerEvent: {}
+[44.048109] (-) TimerEvent: {}
+[44.148477] (-) TimerEvent: {}
+[44.248850] (-) TimerEvent: {}
+[44.349246] (-) TimerEvent: {}
+[44.449639] (-) TimerEvent: {}
+[44.550020] (-) TimerEvent: {}
+[44.650403] (-) TimerEvent: {}
+[44.750754] (-) TimerEvent: {}
+[44.851133] (-) TimerEvent: {}
+[44.951509] (-) TimerEvent: {}
+[45.051893] (-) TimerEvent: {}
+[45.152298] (-) TimerEvent: {}
+[45.252673] (-) TimerEvent: {}
+[45.353036] (-) TimerEvent: {}
+[45.453385] (-) TimerEvent: {}
+[45.553742] (-) TimerEvent: {}
+[45.654107] (-) TimerEvent: {}
+[45.754463] (-) TimerEvent: {}
+[45.854819] (-) TimerEvent: {}
+[45.955195] (-) TimerEvent: {}
+[46.055550] (-) TimerEvent: {}
+[46.155895] (-) TimerEvent: {}
+[46.256512] (-) TimerEvent: {}
+[46.356859] (-) TimerEvent: {}
+[46.457218] (-) TimerEvent: {}
+[46.557554] (-) TimerEvent: {}
+[46.657873] (-) TimerEvent: {}
+[46.758227] (-) TimerEvent: {}
+[46.858541] (-) TimerEvent: {}
+[46.958856] (-) TimerEvent: {}
+[47.059190] (-) TimerEvent: {}
+[47.159522] (-) TimerEvent: {}
+[47.259828] (-) TimerEvent: {}
+[47.360158] (-) TimerEvent: {}
+[47.460491] (-) TimerEvent: {}
+[47.560808] (-) TimerEvent: {}
+[47.661144] (-) TimerEvent: {}
+[47.761484] (-) TimerEvent: {}
+[47.861811] (-) TimerEvent: {}
+[47.962148] (-) TimerEvent: {}
+[48.062475] (-) TimerEvent: {}
+[48.162845] (-) TimerEvent: {}
+[48.263183] (-) TimerEvent: {}
+[48.363507] (-) TimerEvent: {}
+[48.463839] (-) TimerEvent: {}
+[48.564190] (-) TimerEvent: {}
+[48.664514] (-) TimerEvent: {}
+[48.764827] (-) TimerEvent: {}
+[48.865157] (-) TimerEvent: {}
+[48.965471] (-) TimerEvent: {}
+[49.065779] (-) TimerEvent: {}
+[49.166096] (-) TimerEvent: {}
+[49.266384] (-) TimerEvent: {}
+[49.366688] (-) TimerEvent: {}
+[49.467001] (-) TimerEvent: {}
+[49.567305] (-) TimerEvent: {}
+[49.667644] (-) TimerEvent: {}
+[49.767954] (-) TimerEvent: {}
+[49.868232] (-) TimerEvent: {}
+[49.968530] (-) TimerEvent: {}
+[50.068831] (-) TimerEvent: {}
+[50.169147] (-) TimerEvent: {}
+[50.269448] (-) TimerEvent: {}
+[50.369744] (-) TimerEvent: {}
+[50.400615] (moveit_ros_planning) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_constraint_sampler_manager_loader.so\x1b[0m\n'}
+[50.469865] (-) TimerEvent: {}
+[50.570150] (-) TimerEvent: {}
+[50.670438] (-) TimerEvent: {}
+[50.770679] (-) TimerEvent: {}
+[50.870981] (-) TimerEvent: {}
+[50.971251] (-) TimerEvent: {}
+[51.071551] (-) TimerEvent: {}
+[51.171871] (-) TimerEvent: {}
+[51.272147] (-) TimerEvent: {}
+[51.372433] (-) TimerEvent: {}
+[51.472740] (-) TimerEvent: {}
+[51.570520] (moveit_ros_planning) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX executable moveit_planning_pipeline_test\x1b[0m\n'}
+[51.572839] (-) TimerEvent: {}
+[51.632884] (moveit_ros_planning) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_planning_pipeline_interfaces.so\x1b[0m\n'}
+[51.664891] (moveit_ros_planning) StdoutLine: {'line': b'[ 56%] Built target moveit_constraint_sampler_manager_loader\n'}
+[51.672970] (-) TimerEvent: {}
+[51.773303] (-) TimerEvent: {}
+[51.873626] (-) TimerEvent: {}
+[51.973991] (-) TimerEvent: {}
+[52.074261] (-) TimerEvent: {}
+[52.174609] (-) TimerEvent: {}
+[52.274952] (-) TimerEvent: {}
+[52.375307] (-) TimerEvent: {}
+[52.475622] (-) TimerEvent: {}
+[52.575947] (-) TimerEvent: {}
+[52.676250] (-) TimerEvent: {}
+[52.776539] (-) TimerEvent: {}
+[52.876848] (-) TimerEvent: {}
+[52.977206] (-) TimerEvent: {}
+[53.001421] (moveit_ros_planning) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_kinematics_plugin_loader.so\x1b[0m\n'}
+[53.045763] (moveit_ros_planning) StdoutLine: {'line': b'[ 57%] Built target moveit_planning_pipeline_interfaces\n'}
+[53.077312] (-) TimerEvent: {}
+[53.177629] (-) TimerEvent: {}
+[53.192214] (moveit_ros_planning) StdoutLine: {'line': b'[ 57%] Built target moveit_planning_pipeline_test\n'}
+[53.277771] (-) TimerEvent: {}
+[53.378063] (-) TimerEvent: {}
+[53.478340] (-) TimerEvent: {}
+[53.578619] (-) TimerEvent: {}
+[53.678889] (-) TimerEvent: {}
+[53.779156] (-) TimerEvent: {}
+[53.879417] (-) TimerEvent: {}
+[53.967146] (moveit_ros_planning) StdoutLine: {'line': b'[ 57%] Built target moveit_kinematics_plugin_loader\n'}
+[53.979518] (-) TimerEvent: {}
+[53.999306] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_robot_model_loader\x1b[0m\n'}
+[54.040647] (moveit_ros_planning) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object robot_model_loader/CMakeFiles/moveit_robot_model_loader.dir/src/robot_model_loader.cpp.o\x1b[0m\n'}
+[54.079638] (-) TimerEvent: {}
+[54.179888] (-) TimerEvent: {}
+[54.280112] (-) TimerEvent: {}
+[54.380381] (-) TimerEvent: {}
+[54.480640] (-) TimerEvent: {}
+[54.580890] (-) TimerEvent: {}
+[54.681149] (-) TimerEvent: {}
+[54.781402] (-) TimerEvent: {}
+[54.881659] (-) TimerEvent: {}
+[54.981918] (-) TimerEvent: {}
+[55.082184] (-) TimerEvent: {}
+[55.182435] (-) TimerEvent: {}
+[55.282700] (-) TimerEvent: {}
+[55.382974] (-) TimerEvent: {}
+[55.483229] (-) TimerEvent: {}
+[55.583493] (-) TimerEvent: {}
+[55.683740] (-) TimerEvent: {}
+[55.783999] (-) TimerEvent: {}
+[55.884242] (-) TimerEvent: {}
+[55.984537] (-) TimerEvent: {}
+[56.084807] (-) TimerEvent: {}
+[56.185102] (-) TimerEvent: {}
+[56.285372] (-) TimerEvent: {}
+[56.385649] (-) TimerEvent: {}
+[56.485910] (-) TimerEvent: {}
+[56.586227] (-) TimerEvent: {}
+[56.686489] (-) TimerEvent: {}
+[56.786759] (-) TimerEvent: {}
+[56.887069] (-) TimerEvent: {}
+[56.987336] (-) TimerEvent: {}
+[57.087593] (-) TimerEvent: {}
+[57.187839] (-) TimerEvent: {}
+[57.288089] (-) TimerEvent: {}
+[57.388410] (-) TimerEvent: {}
+[57.488739] (-) TimerEvent: {}
+[57.589063] (-) TimerEvent: {}
+[57.689344] (-) TimerEvent: {}
+[57.789627] (-) TimerEvent: {}
+[57.889905] (-) TimerEvent: {}
+[57.990229] (-) TimerEvent: {}
+[58.090511] (-) TimerEvent: {}
+[58.190796] (-) TimerEvent: {}
+[58.291082] (-) TimerEvent: {}
+[58.391367] (-) TimerEvent: {}
+[58.491648] (-) TimerEvent: {}
+[58.591933] (-) TimerEvent: {}
+[58.692258] (-) TimerEvent: {}
+[58.792545] (-) TimerEvent: {}
+[58.892824] (-) TimerEvent: {}
+[58.993118] (-) TimerEvent: {}
+[59.093399] (-) TimerEvent: {}
+[59.193689] (-) TimerEvent: {}
+[59.294012] (-) TimerEvent: {}
+[59.394299] (-) TimerEvent: {}
+[59.494637] (-) TimerEvent: {}
+[59.594929] (-) TimerEvent: {}
+[59.695251] (-) TimerEvent: {}
+[59.795592] (-) TimerEvent: {}
+[59.895924] (-) TimerEvent: {}
+[59.996297] (-) TimerEvent: {}
+[60.096628] (-) TimerEvent: {}
+[60.197008] (-) TimerEvent: {}
+[60.297293] (-) TimerEvent: {}
+[60.397583] (-) TimerEvent: {}
+[60.497894] (-) TimerEvent: {}
+[60.598227] (-) TimerEvent: {}
+[60.698506] (-) TimerEvent: {}
+[60.798790] (-) TimerEvent: {}
+[60.899066] (-) TimerEvent: {}
+[60.999342] (-) TimerEvent: {}
+[61.099614] (-) TimerEvent: {}
+[61.199894] (-) TimerEvent: {}
+[61.300259] (-) TimerEvent: {}
+[61.400543] (-) TimerEvent: {}
+[61.500823] (-) TimerEvent: {}
+[61.536435] (moveit_ros_planning) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_robot_model_loader.so\x1b[0m\n'}
+[61.600975] (-) TimerEvent: {}
+[61.701243] (-) TimerEvent: {}
+[61.801542] (-) TimerEvent: {}
+[61.901839] (-) TimerEvent: {}
+[62.002180] (-) TimerEvent: {}
+[62.102487] (-) TimerEvent: {}
+[62.202793] (-) TimerEvent: {}
+[62.303113] (-) TimerEvent: {}
+[62.403399] (-) TimerEvent: {}
+[62.410907] (moveit_ros_planning) StdoutLine: {'line': b'[ 60%] Built target moveit_robot_model_loader\n'}
+[62.443101] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_print_planning_model_info\x1b[0m\n'}
+[62.450484] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_planning_scene_monitor\x1b[0m\n'}
+[62.483994] (moveit_ros_planning) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_print_planning_model_info.dir/src/print_planning_model_info.cpp.o\x1b[0m\n'}
+[62.503530] (-) TimerEvent: {}
+[62.537308] (moveit_ros_planning) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/planning_scene_monitor.cpp.o\x1b[0m\n'}
+[62.537900] (moveit_ros_planning) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_state_monitor.cpp.o\x1b[0m\n'}
+[62.541745] (moveit_ros_planning) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_state_monitor_middleware_handle.cpp.o\x1b[0m\n'}
+[62.542363] (moveit_ros_planning) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/trajectory_monitor.cpp.o\x1b[0m\n'}
+[62.545414] (moveit_ros_planning) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/trajectory_monitor_middleware_handle.cpp.o\x1b[0m\n'}
+[62.603642] (-) TimerEvent: {}
+[62.703929] (-) TimerEvent: {}
+[62.804255] (-) TimerEvent: {}
+[62.904591] (-) TimerEvent: {}
+[63.004991] (-) TimerEvent: {}
+[63.105262] (-) TimerEvent: {}
+[63.205585] (-) TimerEvent: {}
+[63.305887] (-) TimerEvent: {}
+[63.406272] (-) TimerEvent: {}
+[63.506611] (-) TimerEvent: {}
+[63.607016] (-) TimerEvent: {}
+[63.707302] (-) TimerEvent: {}
+[63.807639] (-) TimerEvent: {}
+[63.907952] (-) TimerEvent: {}
+[64.008269] (-) TimerEvent: {}
+[64.108654] (-) TimerEvent: {}
+[64.208985] (-) TimerEvent: {}
+[64.309339] (-) TimerEvent: {}
+[64.409753] (-) TimerEvent: {}
+[64.510073] (-) TimerEvent: {}
+[64.610425] (-) TimerEvent: {}
+[64.710744] (-) TimerEvent: {}
+[64.811099] (-) TimerEvent: {}
+[64.911424] (-) TimerEvent: {}
+[65.011779] (-) TimerEvent: {}
+[65.112147] (-) TimerEvent: {}
+[65.212501] (-) TimerEvent: {}
+[65.312858] (-) TimerEvent: {}
+[65.413234] (-) TimerEvent: {}
+[65.513609] (-) TimerEvent: {}
+[65.613991] (-) TimerEvent: {}
+[65.714352] (-) TimerEvent: {}
+[65.814689] (-) TimerEvent: {}
+[65.915046] (-) TimerEvent: {}
+[66.015404] (-) TimerEvent: {}
+[66.115761] (-) TimerEvent: {}
+[66.216144] (-) TimerEvent: {}
+[66.316499] (-) TimerEvent: {}
+[66.416850] (-) TimerEvent: {}
+[66.517231] (-) TimerEvent: {}
+[66.617594] (-) TimerEvent: {}
+[66.717966] (-) TimerEvent: {}
+[66.818328] (-) TimerEvent: {}
+[66.918685] (-) TimerEvent: {}
+[67.019041] (-) TimerEvent: {}
+[67.119409] (-) TimerEvent: {}
+[67.219768] (-) TimerEvent: {}
+[67.320145] (-) TimerEvent: {}
+[67.420511] (-) TimerEvent: {}
+[67.520878] (-) TimerEvent: {}
+[67.621253] (-) TimerEvent: {}
+[67.721601] (-) TimerEvent: {}
+[67.821957] (-) TimerEvent: {}
+[67.922302] (-) TimerEvent: {}
+[68.022652] (-) TimerEvent: {}
+[68.123015] (-) TimerEvent: {}
+[68.223373] (-) TimerEvent: {}
+[68.323735] (-) TimerEvent: {}
+[68.424113] (-) TimerEvent: {}
+[68.524470] (-) TimerEvent: {}
+[68.624834] (-) TimerEvent: {}
+[68.725221] (-) TimerEvent: {}
+[68.825595] (-) TimerEvent: {}
+[68.925974] (-) TimerEvent: {}
+[69.026329] (-) TimerEvent: {}
+[69.126692] (-) TimerEvent: {}
+[69.227062] (-) TimerEvent: {}
+[69.327423] (-) TimerEvent: {}
+[69.427794] (-) TimerEvent: {}
+[69.528157] (-) TimerEvent: {}
+[69.628527] (-) TimerEvent: {}
+[69.728912] (-) TimerEvent: {}
+[69.829284] (-) TimerEvent: {}
+[69.929646] (-) TimerEvent: {}
+[70.030020] (-) TimerEvent: {}
+[70.130370] (-) TimerEvent: {}
+[70.230717] (-) TimerEvent: {}
+[70.331088] (-) TimerEvent: {}
+[70.431444] (-) TimerEvent: {}
+[70.531803] (-) TimerEvent: {}
+[70.632189] (-) TimerEvent: {}
+[70.732551] (-) TimerEvent: {}
+[70.832918] (-) TimerEvent: {}
+[70.933285] (-) TimerEvent: {}
+[71.033626] (-) TimerEvent: {}
+[71.133984] (-) TimerEvent: {}
+[71.234321] (-) TimerEvent: {}
+[71.334664] (-) TimerEvent: {}
+[71.435008] (-) TimerEvent: {}
+[71.535335] (-) TimerEvent: {}
+[71.635700] (-) TimerEvent: {}
+[71.736055] (-) TimerEvent: {}
+[71.836412] (-) TimerEvent: {}
+[71.936755] (-) TimerEvent: {}
+[72.037127] (-) TimerEvent: {}
+[72.137480] (-) TimerEvent: {}
+[72.237836] (-) TimerEvent: {}
+[72.338194] (-) TimerEvent: {}
+[72.438552] (-) TimerEvent: {}
+[72.538900] (-) TimerEvent: {}
+[72.639264] (-) TimerEvent: {}
+[72.661333] (moveit_ros_planning) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable moveit_print_planning_model_info\x1b[0m\n'}
+[72.739392] (-) TimerEvent: {}
+[72.839752] (-) TimerEvent: {}
+[72.940144] (-) TimerEvent: {}
+[73.040537] (-) TimerEvent: {}
+[73.140920] (-) TimerEvent: {}
+[73.241333] (-) TimerEvent: {}
+[73.341730] (-) TimerEvent: {}
+[73.442104] (-) TimerEvent: {}
+[73.542461] (-) TimerEvent: {}
+[73.642816] (-) TimerEvent: {}
+[73.743193] (-) TimerEvent: {}
+[73.831745] (moveit_ros_planning) StdoutLine: {'line': b'[ 68%] Built target moveit_print_planning_model_info\n'}
+[73.843312] (-) TimerEvent: {}
+[73.943665] (-) TimerEvent: {}
+[74.044007] (-) TimerEvent: {}
+[74.144353] (-) TimerEvent: {}
+[74.244689] (-) TimerEvent: {}
+[74.345020] (-) TimerEvent: {}
+[74.445355] (-) TimerEvent: {}
+[74.545687] (-) TimerEvent: {}
+[74.646023] (-) TimerEvent: {}
+[74.746359] (-) TimerEvent: {}
+[74.846698] (-) TimerEvent: {}
+[74.947041] (-) TimerEvent: {}
+[75.047366] (-) TimerEvent: {}
+[75.147696] (-) TimerEvent: {}
+[75.248012] (-) TimerEvent: {}
+[75.348328] (-) TimerEvent: {}
+[75.448665] (-) TimerEvent: {}
+[75.549007] (-) TimerEvent: {}
+[75.649337] (-) TimerEvent: {}
+[75.749655] (-) TimerEvent: {}
+[75.849952] (-) TimerEvent: {}
+[75.950250] (-) TimerEvent: {}
+[76.050541] (-) TimerEvent: {}
+[76.150828] (-) TimerEvent: {}
+[76.251121] (-) TimerEvent: {}
+[76.351398] (-) TimerEvent: {}
+[76.451682] (-) TimerEvent: {}
+[76.551972] (-) TimerEvent: {}
+[76.652257] (-) TimerEvent: {}
+[76.752547] (-) TimerEvent: {}
+[76.852833] (-) TimerEvent: {}
+[76.953114] (-) TimerEvent: {}
+[77.053395] (-) TimerEvent: {}
+[77.153673] (-) TimerEvent: {}
+[77.253967] (-) TimerEvent: {}
+[77.354244] (-) TimerEvent: {}
+[77.454528] (-) TimerEvent: {}
+[77.554803] (-) TimerEvent: {}
+[77.655092] (-) TimerEvent: {}
+[77.755368] (-) TimerEvent: {}
+[77.855643] (-) TimerEvent: {}
+[77.955929] (-) TimerEvent: {}
+[78.056222] (-) TimerEvent: {}
+[78.156515] (-) TimerEvent: {}
+[78.256810] (-) TimerEvent: {}
+[78.357114] (-) TimerEvent: {}
+[78.457385] (-) TimerEvent: {}
+[78.557644] (-) TimerEvent: {}
+[78.657911] (-) TimerEvent: {}
+[78.758183] (-) TimerEvent: {}
+[78.858444] (-) TimerEvent: {}
+[78.958708] (-) TimerEvent: {}
+[79.058979] (-) TimerEvent: {}
+[79.159239] (-) TimerEvent: {}
+[79.259504] (-) TimerEvent: {}
+[79.359763] (-) TimerEvent: {}
+[79.460026] (-) TimerEvent: {}
+[79.560293] (-) TimerEvent: {}
+[79.660556] (-) TimerEvent: {}
+[79.760823] (-) TimerEvent: {}
+[79.861096] (-) TimerEvent: {}
+[79.961356] (-) TimerEvent: {}
+[80.061617] (-) TimerEvent: {}
+[80.161882] (-) TimerEvent: {}
+[80.262151] (-) TimerEvent: {}
+[80.362414] (-) TimerEvent: {}
+[80.462679] (-) TimerEvent: {}
+[80.562949] (-) TimerEvent: {}
+[80.663212] (-) TimerEvent: {}
+[80.763410] (-) TimerEvent: {}
+[80.863691] (-) TimerEvent: {}
+[80.963966] (-) TimerEvent: {}
+[81.064228] (-) TimerEvent: {}
+[81.164497] (-) TimerEvent: {}
+[81.264762] (-) TimerEvent: {}
+[81.365041] (-) TimerEvent: {}
+[81.465329] (-) TimerEvent: {}
+[81.565603] (-) TimerEvent: {}
+[81.665875] (-) TimerEvent: {}
+[81.766159] (-) TimerEvent: {}
+[81.866429] (-) TimerEvent: {}
+[81.966700] (-) TimerEvent: {}
+[82.066976] (-) TimerEvent: {}
+[82.167203] (-) TimerEvent: {}
+[82.267468] (-) TimerEvent: {}
+[82.367736] (-) TimerEvent: {}
+[82.468010] (-) TimerEvent: {}
+[82.568287] (-) TimerEvent: {}
+[82.668576] (-) TimerEvent: {}
+[82.768853] (-) TimerEvent: {}
+[82.869132] (-) TimerEvent: {}
+[82.969398] (-) TimerEvent: {}
+[83.069662] (-) TimerEvent: {}
+[83.169975] (-) TimerEvent: {}
+[83.270273] (-) TimerEvent: {}
+[83.370612] (-) TimerEvent: {}
+[83.470905] (-) TimerEvent: {}
+[83.571238] (-) TimerEvent: {}
+[83.671574] (-) TimerEvent: {}
+[83.771855] (-) TimerEvent: {}
+[83.872178] (-) TimerEvent: {}
+[83.972507] (-) TimerEvent: {}
+[84.072790] (-) TimerEvent: {}
+[84.173067] (-) TimerEvent: {}
+[84.273399] (-) TimerEvent: {}
+[84.373692] (-) TimerEvent: {}
+[84.474023] (-) TimerEvent: {}
+[84.574310] (-) TimerEvent: {}
+[84.674599] (-) TimerEvent: {}
+[84.774885] (-) TimerEvent: {}
+[84.875215] (-) TimerEvent: {}
+[84.975551] (-) TimerEvent: {}
+[85.075887] (-) TimerEvent: {}
+[85.176220] (-) TimerEvent: {}
+[85.276502] (-) TimerEvent: {}
+[85.376776] (-) TimerEvent: {}
+[85.477066] (-) TimerEvent: {}
+[85.577342] (-) TimerEvent: {}
+[85.677613] (-) TimerEvent: {}
+[85.777883] (-) TimerEvent: {}
+[85.878197] (-) TimerEvent: {}
+[85.978461] (-) TimerEvent: {}
+[86.078715] (-) TimerEvent: {}
+[86.179040] (-) TimerEvent: {}
+[86.279325] (-) TimerEvent: {}
+[86.379603] (-) TimerEvent: {}
+[86.479884] (-) TimerEvent: {}
+[86.580201] (-) TimerEvent: {}
+[86.680475] (-) TimerEvent: {}
+[86.780747] (-) TimerEvent: {}
+[86.881065] (-) TimerEvent: {}
+[86.981357] (-) TimerEvent: {}
+[87.081670] (-) TimerEvent: {}
+[87.181999] (-) TimerEvent: {}
+[87.282305] (-) TimerEvent: {}
+[87.382599] (-) TimerEvent: {}
+[87.482919] (-) TimerEvent: {}
+[87.583276] (-) TimerEvent: {}
+[87.683578] (-) TimerEvent: {}
+[87.783882] (-) TimerEvent: {}
+[87.884152] (-) TimerEvent: {}
+[87.984457] (-) TimerEvent: {}
+[88.084764] (-) TimerEvent: {}
+[88.185073] (-) TimerEvent: {}
+[88.285380] (-) TimerEvent: {}
+[88.385650] (-) TimerEvent: {}
+[88.485980] (-) TimerEvent: {}
+[88.586301] (-) TimerEvent: {}
+[88.686605] (-) TimerEvent: {}
+[88.786906] (-) TimerEvent: {}
+[88.887224] (-) TimerEvent: {}
+[88.987528] (-) TimerEvent: {}
+[89.087831] (-) TimerEvent: {}
+[89.188143] (-) TimerEvent: {}
+[89.288445] (-) TimerEvent: {}
+[89.388729] (-) TimerEvent: {}
+[89.489066] (-) TimerEvent: {}
+[89.589377] (-) TimerEvent: {}
+[89.689680] (-) TimerEvent: {}
+[89.789975] (-) TimerEvent: {}
+[89.890274] (-) TimerEvent: {}
+[89.990589] (-) TimerEvent: {}
+[90.090929] (-) TimerEvent: {}
+[90.191244] (-) TimerEvent: {}
+[90.291544] (-) TimerEvent: {}
+[90.391847] (-) TimerEvent: {}
+[90.492161] (-) TimerEvent: {}
+[90.592468] (-) TimerEvent: {}
+[90.692774] (-) TimerEvent: {}
+[90.793077] (-) TimerEvent: {}
+[90.893382] (-) TimerEvent: {}
+[90.993687] (-) TimerEvent: {}
+[91.094022] (-) TimerEvent: {}
+[91.194324] (-) TimerEvent: {}
+[91.294625] (-) TimerEvent: {}
+[91.394914] (-) TimerEvent: {}
+[91.495259] (-) TimerEvent: {}
+[91.595533] (-) TimerEvent: {}
+[91.695836] (-) TimerEvent: {}
+[91.796126] (-) TimerEvent: {}
+[91.896427] (-) TimerEvent: {}
+[91.996729] (-) TimerEvent: {}
+[92.097032] (-) TimerEvent: {}
+[92.197339] (-) TimerEvent: {}
+[92.297660] (-) TimerEvent: {}
+[92.397996] (-) TimerEvent: {}
+[92.498300] (-) TimerEvent: {}
+[92.598609] (-) TimerEvent: {}
+[92.698918] (-) TimerEvent: {}
+[92.799221] (-) TimerEvent: {}
+[92.899572] (-) TimerEvent: {}
+[92.999880] (-) TimerEvent: {}
+[93.100232] (-) TimerEvent: {}
+[93.200542] (-) TimerEvent: {}
+[93.300849] (-) TimerEvent: {}
+[93.401202] (-) TimerEvent: {}
+[93.501512] (-) TimerEvent: {}
+[93.601825] (-) TimerEvent: {}
+[93.702143] (-) TimerEvent: {}
+[93.802452] (-) TimerEvent: {}
+[93.902758] (-) TimerEvent: {}
+[94.003062] (-) TimerEvent: {}
+[94.103368] (-) TimerEvent: {}
+[94.203675] (-) TimerEvent: {}
+[94.304009] (-) TimerEvent: {}
+[94.404314] (-) TimerEvent: {}
+[94.504622] (-) TimerEvent: {}
+[94.605020] (-) TimerEvent: {}
+[94.705345] (-) TimerEvent: {}
+[94.805657] (-) TimerEvent: {}
+[94.906047] (-) TimerEvent: {}
+[95.006404] (-) TimerEvent: {}
+[95.106778] (-) TimerEvent: {}
+[95.207120] (-) TimerEvent: {}
+[95.307428] (-) TimerEvent: {}
+[95.339605] (moveit_ros_planning) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_planning_scene_monitor.so\x1b[0m\n'}
+[95.407576] (-) TimerEvent: {}
+[95.508046] (-) TimerEvent: {}
+[95.608334] (-) TimerEvent: {}
+[95.708615] (-) TimerEvent: {}
+[95.808928] (-) TimerEvent: {}
+[95.909282] (-) TimerEvent: {}
+[96.009581] (-) TimerEvent: {}
+[96.109880] (-) TimerEvent: {}
+[96.210242] (-) TimerEvent: {}
+[96.310585] (-) TimerEvent: {}
+[96.410886] (-) TimerEvent: {}
+[96.511254] (-) TimerEvent: {}
+[96.611573] (-) TimerEvent: {}
+[96.711900] (-) TimerEvent: {}
+[96.812229] (-) TimerEvent: {}
+[96.912542] (-) TimerEvent: {}
+[97.012819] (-) TimerEvent: {}
+[97.113146] (-) TimerEvent: {}
+[97.213455] (-) TimerEvent: {}
+[97.313735] (-) TimerEvent: {}
+[97.414062] (-) TimerEvent: {}
+[97.514335] (-) TimerEvent: {}
+[97.614632] (-) TimerEvent: {}
+[97.714929] (-) TimerEvent: {}
+[97.815260] (-) TimerEvent: {}
+[97.915531] (-) TimerEvent: {}
+[98.015831] (-) TimerEvent: {}
+[98.116129] (-) TimerEvent: {}
+[98.216414] (-) TimerEvent: {}
+[98.316696] (-) TimerEvent: {}
+[98.417062] (-) TimerEvent: {}
+[98.517369] (-) TimerEvent: {}
+[98.593377] (moveit_ros_planning) StdoutLine: {'line': b'[ 69%] Built target moveit_planning_scene_monitor\n'}
+[98.617499] (-) TimerEvent: {}
+[98.634950] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_visualize_robot_collision_volume\x1b[0m\n'}
+[98.639503] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target planning_scene_monitor_test\x1b[0m\n'}
+[98.647905] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_print_planning_scene_info\x1b[0m\n'}
+[98.649082] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_trajectory_execution_manager\x1b[0m\n'}
+[98.649684] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target current_state_monitor_tests\x1b[0m\n'}
+[98.649839] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_display_random_state\x1b[0m\n'}
+[98.650599] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_publish_scene_from_text\x1b[0m\n'}
+[98.651494] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_evaluate_collision_checking_speed\x1b[0m\n'}
+[98.651676] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo_scene\x1b[0m\n'}
+[98.651878] (moveit_ros_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target trajectory_monitor_tests\x1b[0m\n'}
+[98.695310] (moveit_ros_planning) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_visualize_robot_collision_volume.dir/src/visualize_robot_collision_volume.cpp.o\x1b[0m\n'}
+[98.715698] (moveit_ros_planning) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object planning_scene_monitor/CMakeFiles/planning_scene_monitor_test.dir/test/planning_scene_monitor_test.cpp.o\x1b[0m\n'}
+[98.717578] (-) TimerEvent: {}
+[98.720021] (moveit_ros_planning) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object planning_scene_monitor/CMakeFiles/current_state_monitor_tests.dir/test/current_state_monitor_tests.cpp.o\x1b[0m\n'}
+[98.733528] (moveit_ros_planning) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object planning_scene_monitor/CMakeFiles/demo_scene.dir/demos/demo_scene.cpp.o\x1b[0m\n'}
+[98.733955] (moveit_ros_planning) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object trajectory_execution_manager/CMakeFiles/moveit_trajectory_execution_manager.dir/src/trajectory_execution_manager.cpp.o\x1b[0m\n'}
+[98.734040] (moveit_ros_planning) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object planning_scene_monitor/CMakeFiles/trajectory_monitor_tests.dir/test/trajectory_monitor_tests.cpp.o\x1b[0m\n'}
+[98.736122] (moveit_ros_planning) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_display_random_state.dir/src/display_random_state.cpp.o\x1b[0m\n'}
+[98.736617] (moveit_ros_planning) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_print_planning_scene_info.dir/src/print_planning_scene_info.cpp.o\x1b[0m\n'}
+[98.739276] (moveit_ros_planning) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_publish_scene_from_text.dir/src/publish_scene_from_text.cpp.o\x1b[0m\n'}
+[98.751223] (moveit_ros_planning) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_evaluate_collision_checking_speed.dir/src/evaluate_collision_checking_speed.cpp.o\x1b[0m\n'}
+[98.817712] (-) TimerEvent: {}
+[98.918167] (-) TimerEvent: {}
+[99.018546] (-) TimerEvent: {}
+[99.118977] (-) TimerEvent: {}
+[99.219325] (-) TimerEvent: {}
+[99.319636] (-) TimerEvent: {}
+[99.420025] (-) TimerEvent: {}
+[99.520530] (-) TimerEvent: {}
+[99.620913] (-) TimerEvent: {}
+[99.721301] (-) TimerEvent: {}
+[99.821657] (-) TimerEvent: {}
+[99.921995] (-) TimerEvent: {}
+[100.022390] (-) TimerEvent: {}
+[100.122819] (-) TimerEvent: {}
+[100.223269] (-) TimerEvent: {}
+[100.323698] (-) TimerEvent: {}
+[100.424144] (-) TimerEvent: {}
+[100.524476] (-) TimerEvent: {}
+[100.624951] (-) TimerEvent: {}
+[100.725359] (-) TimerEvent: {}
+[100.825845] (-) TimerEvent: {}
+[100.926235] (-) TimerEvent: {}
+[101.026594] (-) TimerEvent: {}
+[101.126918] (-) TimerEvent: {}
+[101.227317] (-) TimerEvent: {}
+[101.327631] (-) TimerEvent: {}
+[101.427960] (-) TimerEvent: {}
+[101.528339] (-) TimerEvent: {}
+[101.628769] (-) TimerEvent: {}
+[101.729112] (-) TimerEvent: {}
+[101.829503] (-) TimerEvent: {}
+[101.929910] (-) TimerEvent: {}
+[102.030322] (-) TimerEvent: {}
+[102.130761] (-) TimerEvent: {}
+[102.231177] (-) TimerEvent: {}
+[102.331503] (-) TimerEvent: {}
+[102.431853] (-) TimerEvent: {}
+[102.532258] (-) TimerEvent: {}
+[102.632687] (-) TimerEvent: {}
+[102.733116] (-) TimerEvent: {}
+[102.833524] (-) TimerEvent: {}
+[102.933842] (-) TimerEvent: {}
+[103.034195] (-) TimerEvent: {}
+[103.134648] (-) TimerEvent: {}
+[103.235106] (-) TimerEvent: {}
+[103.335466] (-) TimerEvent: {}
+[103.435934] (-) TimerEvent: {}
+[103.536312] (-) TimerEvent: {}
+[103.636777] (-) TimerEvent: {}
+[103.737261] (-) TimerEvent: {}
+[103.837738] (-) TimerEvent: {}
+[103.938217] (-) TimerEvent: {}
+[104.038600] (-) TimerEvent: {}
+[104.138990] (-) TimerEvent: {}
+[104.239457] (-) TimerEvent: {}
+[104.339933] (-) TimerEvent: {}
+[104.440421] (-) TimerEvent: {}
+[104.540903] (-) TimerEvent: {}
+[104.641377] (-) TimerEvent: {}
+[104.741729] (-) TimerEvent: {}
+[104.842182] (-) TimerEvent: {}
+[104.942630] (-) TimerEvent: {}
+[105.043104] (-) TimerEvent: {}
+[105.143549] (-) TimerEvent: {}
+[105.243920] (-) TimerEvent: {}
+[105.344289] (-) TimerEvent: {}
+[105.444763] (-) TimerEvent: {}
+[105.545137] (-) TimerEvent: {}
+[105.645611] (-) TimerEvent: {}
+[105.745995] (-) TimerEvent: {}
+[105.846470] (-) TimerEvent: {}
+[105.946836] (-) TimerEvent: {}
+[106.047318] (-) TimerEvent: {}
+[106.147791] (-) TimerEvent: {}
+[106.248255] (-) TimerEvent: {}
+[106.348699] (-) TimerEvent: {}
+[106.449027] (-) TimerEvent: {}
+[106.549387] (-) TimerEvent: {}
+[106.649854] (-) TimerEvent: {}
+[106.750232] (-) TimerEvent: {}
+[106.850687] (-) TimerEvent: {}
+[106.951150] (-) TimerEvent: {}
+[107.051522] (-) TimerEvent: {}
+[107.151882] (-) TimerEvent: {}
+[107.252347] (-) TimerEvent: {}
+[107.352820] (-) TimerEvent: {}
+[107.453200] (-) TimerEvent: {}
+[107.553569] (-) TimerEvent: {}
+[107.653950] (-) TimerEvent: {}
+[107.754324] (-) TimerEvent: {}
+[107.854706] (-) TimerEvent: {}
+[107.955087] (-) TimerEvent: {}
+[108.055460] (-) TimerEvent: {}
+[108.155837] (-) TimerEvent: {}
+[108.256220] (-) TimerEvent: {}
+[108.356589] (-) TimerEvent: {}
+[108.456981] (-) TimerEvent: {}
+[108.557338] (-) TimerEvent: {}
+[108.657708] (-) TimerEvent: {}
+[108.758077] (-) TimerEvent: {}
+[108.858449] (-) TimerEvent: {}
+[108.958822] (-) TimerEvent: {}
+[109.059203] (-) TimerEvent: {}
+[109.159587] (-) TimerEvent: {}
+[109.259967] (-) TimerEvent: {}
+[109.360324] (-) TimerEvent: {}
+[109.460675] (-) TimerEvent: {}
+[109.561022] (-) TimerEvent: {}
+[109.661374] (-) TimerEvent: {}
+[109.761723] (-) TimerEvent: {}
+[109.862029] (-) TimerEvent: {}
+[109.962369] (-) TimerEvent: {}
+[110.062727] (-) TimerEvent: {}
+[110.163096] (-) TimerEvent: {}
+[110.263455] (-) TimerEvent: {}
+[110.363819] (-) TimerEvent: {}
+[110.464194] (-) TimerEvent: {}
+[110.564542] (-) TimerEvent: {}
+[110.664886] (-) TimerEvent: {}
+[110.765252] (-) TimerEvent: {}
+[110.865616] (-) TimerEvent: {}
+[110.965995] (-) TimerEvent: {}
+[111.066372] (-) TimerEvent: {}
+[111.166741] (-) TimerEvent: {}
+[111.267118] (-) TimerEvent: {}
+[111.367490] (-) TimerEvent: {}
+[111.467860] (-) TimerEvent: {}
+[111.568244] (-) TimerEvent: {}
+[111.668615] (-) TimerEvent: {}
+[111.769004] (-) TimerEvent: {}
+[111.869370] (-) TimerEvent: {}
+[111.969744] (-) TimerEvent: {}
+[112.070153] (-) TimerEvent: {}
+[112.170538] (-) TimerEvent: {}
+[112.270907] (-) TimerEvent: {}
+[112.371283] (-) TimerEvent: {}
+[112.471654] (-) TimerEvent: {}
+[112.572024] (-) TimerEvent: {}
+[112.672390] (-) TimerEvent: {}
+[112.772758] (-) TimerEvent: {}
+[112.873137] (-) TimerEvent: {}
+[112.973513] (-) TimerEvent: {}
+[113.073881] (-) TimerEvent: {}
+[113.174273] (-) TimerEvent: {}
+[113.274634] (-) TimerEvent: {}
+[113.374997] (-) TimerEvent: {}
+[113.475337] (-) TimerEvent: {}
+[113.575701] (-) TimerEvent: {}
+[113.676089] (-) TimerEvent: {}
+[113.776460] (-) TimerEvent: {}
+[113.876833] (-) TimerEvent: {}
+[113.977219] (-) TimerEvent: {}
+[114.077577] (-) TimerEvent: {}
+[114.177957] (-) TimerEvent: {}
+[114.278329] (-) TimerEvent: {}
+[114.378715] (-) TimerEvent: {}
+[114.479105] (-) TimerEvent: {}
+[114.579459] (-) TimerEvent: {}
+[114.679822] (-) TimerEvent: {}
+[114.780196] (-) TimerEvent: {}
+[114.880560] (-) TimerEvent: {}
+[114.980932] (-) TimerEvent: {}
+[115.081298] (-) TimerEvent: {}
+[115.181662] (-) TimerEvent: {}
+[115.282023] (-) TimerEvent: {}
+[115.382383] (-) TimerEvent: {}
+[115.482742] (-) TimerEvent: {}
+[115.583098] (-) TimerEvent: {}
+[115.683451] (-) TimerEvent: {}
+[115.783799] (-) TimerEvent: {}
+[115.884157] (-) TimerEvent: {}
+[115.984519] (-) TimerEvent: {}
+[116.084893] (-) TimerEvent: {}
+[116.185378] (-) TimerEvent: {}
+[116.285724] (-) TimerEvent: {}
+[116.386101] (-) TimerEvent: {}
+[116.486463] (-) TimerEvent: {}
+[116.586843] (-) TimerEvent: {}
+[116.624502] (moveit_ros_planning) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable current_state_monitor_tests\x1b[0m\n'}
+[116.686977] (-) TimerEvent: {}
+[116.787439] (-) TimerEvent: {}
+[116.887824] (-) TimerEvent: {}
+[116.988259] (-) TimerEvent: {}
+[117.088668] (-) TimerEvent: {}
+[117.189059] (-) TimerEvent: {}
+[117.289496] (-) TimerEvent: {}
+[117.389903] (-) TimerEvent: {}
+[117.490306] (-) TimerEvent: {}
+[117.590736] (-) TimerEvent: {}
+[117.691150] (-) TimerEvent: {}
+[117.791553] (-) TimerEvent: {}
+[117.891961] (-) TimerEvent: {}
+[117.992346] (-) TimerEvent: {}
+[118.092714] (-) TimerEvent: {}
+[118.193036] (-) TimerEvent: {}
+[118.293387] (-) TimerEvent: {}
+[118.393835] (-) TimerEvent: {}
+[118.494245] (-) TimerEvent: {}
+[118.594664] (-) TimerEvent: {}
+[118.695041] (-) TimerEvent: {}
+[118.795557] (-) TimerEvent: {}
+[118.895954] (-) TimerEvent: {}
+[118.996461] (-) TimerEvent: {}
+[119.096867] (-) TimerEvent: {}
+[119.193612] (moveit_ros_planning) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX executable moveit_display_random_state\x1b[0m\n'}
+[119.197023] (-) TimerEvent: {}
+[119.297428] (-) TimerEvent: {}
+[119.398047] (-) TimerEvent: {}
+[119.498549] (-) TimerEvent: {}
+[119.599043] (-) TimerEvent: {}
+[119.699530] (-) TimerEvent: {}
+[119.799906] (-) TimerEvent: {}
+[119.900390] (-) TimerEvent: {}
+[120.000892] (-) TimerEvent: {}
+[120.101473] (-) TimerEvent: {}
+[120.176366] (moveit_ros_planning) StdoutLine: {'line': b'[ 84%] Built target current_state_monitor_tests\n'}
+[120.201587] (-) TimerEvent: {}
+[120.301952] (-) TimerEvent: {}
+[120.402347] (-) TimerEvent: {}
+[120.502738] (-) TimerEvent: {}
+[120.603140] (-) TimerEvent: {}
+[120.703535] (-) TimerEvent: {}
+[120.803911] (-) TimerEvent: {}
+[120.904309] (-) TimerEvent: {}
+[121.004694] (-) TimerEvent: {}
+[121.105104] (-) TimerEvent: {}
+[121.205543] (-) TimerEvent: {}
+[121.305934] (-) TimerEvent: {}
+[121.406343] (-) TimerEvent: {}
+[121.506709] (-) TimerEvent: {}
+[121.607118] (-) TimerEvent: {}
+[121.707483] (-) TimerEvent: {}
+[121.807838] (-) TimerEvent: {}
+[121.908243] (-) TimerEvent: {}
+[122.008610] (-) TimerEvent: {}
+[122.108960] (-) TimerEvent: {}
+[122.139852] (moveit_ros_planning) StdoutLine: {'line': b'[ 84%] Built target moveit_display_random_state\n'}
+[122.209080] (-) TimerEvent: {}
+[122.309446] (-) TimerEvent: {}
+[122.409805] (-) TimerEvent: {}
+[122.510201] (-) TimerEvent: {}
+[122.610565] (-) TimerEvent: {}
+[122.710935] (-) TimerEvent: {}
+[122.811310] (-) TimerEvent: {}
+[122.911662] (-) TimerEvent: {}
+[123.012011] (-) TimerEvent: {}
+[123.112369] (-) TimerEvent: {}
+[123.212735] (-) TimerEvent: {}
+[123.253257] (moveit_ros_planning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[123.253456] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[123.253585] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[123.253665] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[123.253739] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[123.253811] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[123.253906] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[123.253999] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/planning_scene_monitor/include/moveit/planning_scene_monitor/planning_scene_monitor.h:39\x1b[m\x1b[K,\n'}
+[123.254076] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/planning_components_tools/src/visualize_robot_collision_volume.cpp:37\x1b[m\x1b[K:\n'}
+[123.254149] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_Alloc_hider::_Alloc_hider(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::pointer, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[123.254226] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:164:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kinternal compiler error: \x1b[m\x1b[KSegmentation fault\n'}
+[123.254308] (moveit_ros_planning) StderrLine: {'line': b'  164 |         \x1b[01;31m\x1b[K_Alloc_hider\x1b[m\x1b[K(pointer __dat, const _Alloc& __a)\n'}
+[123.254377] (moveit_ros_planning) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[123.263348] (moveit_ros_planning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ext/alloc_traits.h:34\x1b[m\x1b[K,\n'}
+[123.263516] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_uninitialized.h:64\x1b[m\x1b[K,\n'}
+[123.263595] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:66\x1b[m\x1b[K,\n'}
+[123.263675] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:165\x1b[m\x1b[K,\n'}
+[123.263743] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/planning_scene_monitor/include/moveit/planning_scene_monitor/planning_scene_monitor.h:39\x1b[m\x1b[K,\n'}
+[123.263810] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/planning_scene_monitor/demos/demo_scene.cpp:37\x1b[m\x1b[K:\n'}
+[123.263874] (moveit_ros_planning) StderrLine: {'line': b'/usr/include/c++/11/bits/alloc_traits.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = std::allocator<void>; _Args = {}; _Tp = std::allocator<void>; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[123.263957] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = std::allocator<void>; _Alloc = std::allocator<std::allocator<void> >; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[123.264036] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = std::allocator<void>; _Alloc = std::allocator<std::allocator<void> >; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[123.264111] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<std::allocator<void> >; _Args = {}; _Tp = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[123.264179] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<std::allocator<void> >; _Args = {}; _Tp = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[123.264245] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = std::allocator<void>; _Alloc = std::allocator<std::allocator<void> >; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[123.264318] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   [ skipping 10 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]\n'}
+[123.264383] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = rclcpp::Publisher<moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >, std::allocator<void> >; _Args = {rclcpp::node_interfaces::NodeBaseInterface*&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[123.264453] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/publisher_factory.hpp:76:52:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::PublisherFactory rclcpp::create_publisher_factory(const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with MessageT = moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >, std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[123.264521] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/create_publisher.hpp:67:71:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<PublisherT> rclcpp::detail::create_publisher(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with MessageT = moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[123.264600] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/create_publisher.hpp:103:68:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<PublisherT> rclcpp::create_publisher(NodeT&&, const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with MessageT = moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node&; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[123.264673] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jake/ros2_iron/install/rclcpp/include/rclcpp/rclcpp/node_impl.hpp:78:68:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with MessageT = moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<moveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[123.264742] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/planning_scene_monitor/demos/demo_scene.cpp:58:83:\x1b[m\x1b[K   required from here\n'}
+[123.264808] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kinternal compiler error: \x1b[m\x1b[KSegmentation fault\n'}
+[123.264874] (moveit_ros_planning) StderrLine: {'line': b'  516 |           \x1b[01;31m\x1b[K__a.construct(__p, std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[123.264946] (moveit_ros_planning) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[123.312851] (-) TimerEvent: {}
+[123.357502] (moveit_ros_planning) StderrLine: {'line': b'Please submit a full bug report,\n'}
+[123.357841] (moveit_ros_planning) StderrLine: {'line': b'with preprocessed source if appropriate.\n'}
+[123.358031] (moveit_ros_planning) StderrLine: {'line': b'See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.\n'}
+[123.358196] (moveit_ros_planning) StderrLine: {'line': b'Please submit a full bug report,\n'}
+[123.358350] (moveit_ros_planning) StderrLine: {'line': b'with preprocessed source if appropriate.\n'}
+[123.358502] (moveit_ros_planning) StderrLine: {'line': b'See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.\n'}
+[123.412973] (-) TimerEvent: {}
+[123.478793] (moveit_ros_planning) StderrLine: {'line': b'gmake[2]: *** [planning_components_tools/CMakeFiles/moveit_visualize_robot_collision_volume.dir/build.make:76: planning_components_tools/CMakeFiles/moveit_visualize_robot_collision_volume.dir/src/visualize_robot_collision_volume.cpp.o] Error 1\n'}
+[123.479367] (moveit_ros_planning) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:768: planning_components_tools/CMakeFiles/moveit_visualize_robot_collision_volume.dir/all] Error 2\n'}
+[123.479512] (moveit_ros_planning) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[123.507479] (moveit_ros_planning) StderrLine: {'line': b'gmake[2]: *** [planning_scene_monitor/CMakeFiles/demo_scene.dir/build.make:76: planning_scene_monitor/CMakeFiles/demo_scene.dir/demos/demo_scene.cpp.o] Error 1\n'}
+[123.507865] (moveit_ros_planning) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:1181: planning_scene_monitor/CMakeFiles/demo_scene.dir/all] Error 2\n'}
+[123.513031] (-) TimerEvent: {}
+[123.613321] (-) TimerEvent: {}
+[123.713658] (-) TimerEvent: {}
+[123.814018] (-) TimerEvent: {}
+[123.914355] (-) TimerEvent: {}
+[124.014696] (-) TimerEvent: {}
+[124.115037] (-) TimerEvent: {}
+[124.137398] (moveit_ros_planning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:210\x1b[m\x1b[K,\n'}
+[124.137738] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:660\x1b[m\x1b[K,\n'}
+[124.137876] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:272\x1b[m\x1b[K,\n'}
+[124.138013] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Geometry:11\x1b[m\x1b[K,\n'}
+[124.138150] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model.h:46\x1b[m\x1b[K,\n'}
+[124.138267] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model_group.h:40\x1b[m\x1b[K,\n'}
+[124.138379] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[124.138492] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/trajectory_execution_manager/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40\x1b[m\x1b[K,\n'}
+[124.138616] (moveit_ros_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jake/moveit2_ws_main/src/moveit2/moveit_ros/planning/trajectory_execution_manager/src/trajectory_execution_manager.cpp:37\x1b[m\x1b[K:\n'}
+[124.138740] (moveit_ros_planning) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass Eigen::DenseBase<Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[124.138856] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass Eigen::MatrixBase<Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[124.138986] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MapBase.h:37:34:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass Eigen::MapBase<Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>, 0>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[124.139112] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Block.h:329:7:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass Eigen::internal::BlockImpl_dense<const Eigen::Matrix<double, 3, 3>, 3, 1, true, true>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[124.139229] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Block.h:154:7:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass Eigen::BlockImpl<const Eigen::Matrix<double, 3, 3>, 3, 1, true, Eigen::Dense>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[124.139343] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Block.h:103:81:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[124.139459] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:606:63:\x1b[m\x1b[K   [ skipping 10 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]\n'}
+[124.139574] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 3, 3>; Src = Eigen::Product<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, Eigen::Matrix<double, 3, 3>, 0>; Func = Eigen::internal::assign_op<double, double>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[124.139696] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:797:41:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, Eigen::Matrix<double, 3, 3>, 0>; Derived = Eigen::Matrix<double, 3, 3>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[124.139826] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:594:19:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, Eigen::Matrix<double, 3, 3>, 0>; Derived = Eigen::Matrix<double, 3, 3>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[124.139963] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:423:29:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, Eigen::Matrix<double, 3, 3>, 0>; _Scalar = double; int _Rows = 3; int _Cols = 3; int _Options = 0; int _MaxRows = 3; int _MaxCols = 3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[124.140111] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:77:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KEigen::RotationBase<Derived, _Dim>::RotationMatrixType Eigen::operator*(const Eigen::EigenBase<OtherDerived>&, const Derived&) [with OtherDerived = Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>; Derived = Eigen::Quaternion<double>; int _Dim = 3; Eigen::RotationBase<Derived, _Dim>::RotationMatrixType = Eigen::Matrix<double, 3, 3>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[124.140269] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jake/moveit2_ws_main/install/moveit_core/include/moveit_core/moveit/transforms/transforms.h:163:49:\x1b[m\x1b[K   required from here\n'}
+[124.140384] (moveit_ros_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:186:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kinternal compiler error: \x1b[m\x1b[KSegmentation fault\n'}
+[124.140498] (moveit_ros_planning) StderrLine: {'line': b'  186 | \x1b[01;31m\x1b[Koperator\x1b[m\x1b[K()(const IndicesT (&indices)[IndicesN]) EIGEN_INDEXED_VIEW_METHOD_CONST\n'}
+[124.140609] (moveit_ros_planning) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[124.212659] (moveit_ros_planning) StderrLine: {'line': b'Please submit a full bug report,\n'}
+[124.212868] (moveit_ros_planning) StderrLine: {'line': b'with preprocessed source if appropriate.\n'}
+[124.213004] (moveit_ros_planning) StderrLine: {'line': b'See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.\n'}
+[124.215129] (-) TimerEvent: {}
+[124.315436] (-) TimerEvent: {}
+[124.322582] (moveit_ros_planning) StderrLine: {'line': b'gmake[2]: *** [trajectory_execution_manager/CMakeFiles/moveit_trajectory_execution_manager.dir/build.make:76: trajectory_execution_manager/CMakeFiles/moveit_trajectory_execution_manager.dir/src/trajectory_execution_manager.cpp.o] Error 1\n'}
+[124.322893] (moveit_ros_planning) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:1443: trajectory_execution_manager/CMakeFiles/moveit_trajectory_execution_manager.dir/all] Error 2\n'}
+[124.415556] (-) TimerEvent: {}
+[124.515869] (-) TimerEvent: {}
+[124.616200] (-) TimerEvent: {}
+[124.716521] (-) TimerEvent: {}
+[124.816841] (-) TimerEvent: {}
+[124.917163] (-) TimerEvent: {}
+[125.017484] (-) TimerEvent: {}
+[125.117801] (-) TimerEvent: {}
+[125.190920] (moveit_ros_planning) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable trajectory_monitor_tests\x1b[0m\n'}
+[125.217915] (-) TimerEvent: {}
+[125.318242] (-) TimerEvent: {}
+[125.418587] (-) TimerEvent: {}
+[125.518936] (-) TimerEvent: {}
+[125.619278] (-) TimerEvent: {}
+[125.719616] (-) TimerEvent: {}
+[125.819987] (-) TimerEvent: {}
+[125.920291] (-) TimerEvent: {}
+[126.020571] (-) TimerEvent: {}
+[126.120861] (-) TimerEvent: {}
+[126.221150] (-) TimerEvent: {}
+[126.321410] (-) TimerEvent: {}
+[126.339310] (moveit_ros_planning) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX executable moveit_evaluate_collision_checking_speed\x1b[0m\n'}
+[126.421543] (-) TimerEvent: {}
+[126.467928] (moveit_ros_planning) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable moveit_publish_scene_from_text\x1b[0m\n'}
+[126.521688] (-) TimerEvent: {}
+[126.622001] (-) TimerEvent: {}
+[126.722316] (-) TimerEvent: {}
+[126.822661] (-) TimerEvent: {}
+[126.923008] (-) TimerEvent: {}
+[127.023354] (-) TimerEvent: {}
+[127.123695] (-) TimerEvent: {}
+[127.224034] (-) TimerEvent: {}
+[127.324356] (-) TimerEvent: {}
+[127.424645] (-) TimerEvent: {}
+[127.524969] (-) TimerEvent: {}
+[127.625305] (-) TimerEvent: {}
+[127.725630] (-) TimerEvent: {}
+[127.826009] (-) TimerEvent: {}
+[127.926375] (-) TimerEvent: {}
+[128.026746] (-) TimerEvent: {}
+[128.059134] (moveit_ros_planning) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable planning_scene_monitor_test\x1b[0m\n'}
+[128.126886] (-) TimerEvent: {}
+[128.227197] (-) TimerEvent: {}
+[128.327530] (-) TimerEvent: {}
+[128.427933] (-) TimerEvent: {}
+[128.528235] (-) TimerEvent: {}
+[128.628567] (-) TimerEvent: {}
+[128.728913] (-) TimerEvent: {}
+[128.829307] (-) TimerEvent: {}
+[128.894733] (moveit_ros_planning) StdoutLine: {'line': b'[ 89%] Built target moveit_evaluate_collision_checking_speed\n'}
+[128.929449] (-) TimerEvent: {}
+[129.029772] (-) TimerEvent: {}
+[129.130047] (-) TimerEvent: {}
+[129.208691] (moveit_ros_planning) StdoutLine: {'line': b'[ 89%] Built target moveit_publish_scene_from_text\n'}
+[129.230144] (-) TimerEvent: {}
+[129.330436] (-) TimerEvent: {}
+[129.430731] (-) TimerEvent: {}
+[129.531021] (-) TimerEvent: {}
+[129.631298] (-) TimerEvent: {}
+[129.731531] (-) TimerEvent: {}
+[129.831789] (-) TimerEvent: {}
+[129.932040] (-) TimerEvent: {}
+[130.032322] (-) TimerEvent: {}
+[130.132616] (-) TimerEvent: {}
+[130.232932] (-) TimerEvent: {}
+[130.241589] (moveit_ros_planning) StdoutLine: {'line': b'[ 89%] Built target planning_scene_monitor_test\n'}
+[130.245265] (moveit_ros_planning) CommandEnded: {'returncode': 2}
+[130.333035] (-) TimerEvent: {}
+[130.433282] (-) TimerEvent: {}
+[130.514720] (moveit_ros_planning) JobEnded: {'identifier': 'moveit_ros_planning', 'rc': 2}
+[130.515625] (-) EventReactorShutdown: {}
