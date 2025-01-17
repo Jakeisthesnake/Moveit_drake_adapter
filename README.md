@@ -1,5 +1,11 @@
 Running journal of issues that I am working through with this project.
 
+2/17/25
+Alrighty! So I was able to make progress by adding /joint_state_broadcaster. See this thread for that investigation:
+https://github.com/moveit/moveit2_tutorials/issues/1000
+
+So now I am running into an error that suggests MoveIt can't find my definitions for the drake pipelines. So I think I need to add moveit_drake to my CMakeList.txt file.
+
 2/2/25
 
 Working on the moveit_drake, but it seems that it would be nice to have the moveit underlay and the moveit_drake code all together so that I can keep track of all the weird debug edits that I make. Once I know what I am doing, I'll fork the moveit_drake project and continue working from there.
