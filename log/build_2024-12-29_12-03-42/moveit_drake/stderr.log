@@ -1,4 +1,0 @@
-[01m[K/home/jake/moveit2_ws_main/src/moveit_drake/src/add_toppra_time_parameterization.cpp:[m[K In member function ‘[01m[Kvirtual void moveit::drake::AddToppraTimeParameterization::adapt(const PlanningSceneConstPtr&, const MotionPlanRequest&, planning_interface::MotionPlanResponse&) const[m[K’:
-[01m[K/home/jake/moveit2_ws_main/src/moveit_drake/src/add_toppra_time_parameterization.cpp:111:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplanning_scene[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-  111 |   void adapt([01;35m[Kconst planning_scene::PlanningSceneConstPtr& planning_scene[m[K,
-      |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K

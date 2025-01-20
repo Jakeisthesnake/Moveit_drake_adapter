@@ -149,9 +149,9 @@ def launch_setup(context, *args, **kwargs):
     moveit_config = (
         MoveItConfigsBuilder("jakes_pendulum")
         .robot_description(file_path="config/jakes_pendulum.urdf.xacro")
-        .planning_scene_monitor(
-            publish_robot_description=True, publish_robot_description_semantic=True
-        )
+        # .planning_scene_monitor(
+        #     publish_robot_description=True, publish_robot_description_semantic=True
+        # )
         .planning_pipelines(pipelines=["ompl", "stomp"])
         .moveit_cpp(
             os.path.join(
@@ -194,6 +194,29 @@ def launch_setup(context, *args, **kwargs):
         "pendulum_moveit.rviz",
     )
 
+    ros2_controllers_path = os.path.join(
+        get_package_share_directory("jakes_pendulum_moveit_config"),
+        "config",
+        "ros2_controllers.yaml",
+    )
+
+    ros2_control_node = Node(
+        package="controller_manager",
+        executable="ros2_control_node",
+        parameters=[moveit_config.robot_description, ros2_controllers_path],
+        output="screen",
+    )
+
+    joint_state_broadcaster_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=[
+            "joint_state_broadcaster",
+            "--controller-manager",
+            "/controller_manager",
+        ],
+    )
+
     rviz_node = Node(
         package="rviz2",
         executable="rviz2",
@@ -210,9 +233,11 @@ def launch_setup(context, *args, **kwargs):
     )
 
     nodes_to_start = [
-        rviz_node,
+        # rviz_node,
+        ros2_control_node,
         motion_planning_pipeline_demo, 
         static_tf,      
+        joint_state_broadcaster_spawner,
     ]
 
     return nodes_to_start

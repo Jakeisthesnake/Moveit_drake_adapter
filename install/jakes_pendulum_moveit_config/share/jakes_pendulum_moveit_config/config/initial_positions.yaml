@@ -1,4 +1,0 @@
-# Default initial positions for jakes_pendulum's ros2_control fake system
-
-initial_positions:
-  shoulder_joint: 0
