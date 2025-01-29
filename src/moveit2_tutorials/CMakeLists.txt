@@ -2,6 +2,11 @@ cmake_minimum_required(VERSION 3.22)
 project(moveit2_tutorials)
 
 # Common cmake code applied to all moveit packages
+# message(STATUS "TEST!")
+
+# list(APPEND CMAKE_PREFIX_PATH /opt/drake)
+# find_package(drake CONFIG REQUIRED PATHS /opt/drake)
+# find_package(moveit_drake REQUIRED)
 find_package(moveit_common REQUIRED)
 moveit_package()
 

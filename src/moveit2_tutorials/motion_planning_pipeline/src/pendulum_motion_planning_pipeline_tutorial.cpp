@@ -34,10 +34,12 @@
 
 /* Author: Sachin Chitta, Mike Lautman*/
 
-#include <pluginlib/class_loader.hpp>
+// #include <pluginlib/class_loader.hpp>
 
 // MoveIt
 #include <moveit/robot_model_loader/robot_model_loader.h>
+
+#include <pluginlib/class_loader.hpp>
 #include <moveit/robot_state/conversions.h>
 #include <moveit/planning_pipeline/planning_pipeline.h>
 #include <moveit/planning_interface/planning_interface.h>
